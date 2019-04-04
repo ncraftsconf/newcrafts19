@@ -39,21 +39,27 @@ p {
 }
 
 .sponsor-platinium {
-    max-width: 240px;
+    max-width: 300px;
 }
 
 .sponsor-gold {
-    max-width: 240px;
-    max-height: 80px;
+    max-width: 180px;
+}
+
+.sponsor-silver {
+    max-width: 150px;
+}
+
+.sponsor-bronze {
+    max-width: 100px;
+}
+
+.sponsor-friendly {
+    max-width: 80px;
 }
 
 .sponsor-adjust-1 {
     max-height: 40px;
-}
-
-.sponsor-friendly {
-    max-width: 200px;
-    max-height: 45px;
 }
 
 .partners {
@@ -79,7 +85,7 @@ p {
     padding: 0 10px 0 10px;
 }
 
-/*
+
 .workshop:after {
     content: ' ';
     position: absolute;
@@ -90,7 +96,7 @@ p {
     background: linear-gradient( to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
     z-index: -1;
     border: 0px #0a5175 dashed;
-}*/
+}
 
 .workshop-register {
     text-align: center;

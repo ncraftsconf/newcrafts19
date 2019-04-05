@@ -7,10 +7,6 @@
     background-position: 0 top;
 }
 
-.navigation-header {
-    padding: 5px 0 0;
-}
-
 .bg4 {
     background-image: url("../img/backgrounds/paris.jpg");
 }
@@ -66,6 +62,22 @@ p {
     max-width: 80px;
 }
 
+.navigation-header {
+  padding: 10px 0 0 20px;
+}
+
+.navigation-header .logo {
+    padding: 10px 0;
+}
+
+.navigation-header .logo .img  {
+    height: 90px;
+}
+
+.navigation-container {
+  padding: 0 0 0 20px;
+}
+
 
 /* =========== WORKSHOP ========================= */
 
@@ -84,7 +96,6 @@ p {
     height: 450px;
     padding: 0 10px 0 10px;
 }
-
 
 .workshop:after {
     content: ' ';

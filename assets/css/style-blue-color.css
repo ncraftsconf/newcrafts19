@@ -2928,21 +2928,21 @@ lesshat-selector {
 @-webkit-keyframes border-pulse-1{ 0% { border-width: 26px } 33.33333% { border-width: 3px } 66.66666% { border-width: 3px } 100% { border-width: 3px }}
 @-moz-keyframes border-pulse-1{ 0% { border-width: 26px } 33.33333% { border-width: 3px } 66.66666% { border-width: 3px } 100% { border-width: 3px }}
 @-o-keyframes border-pulse-1{ 0% { border-width: 26px } 33.33333% { border-width: 3px } 66.66666% { border-width: 3px } 100% { border-width: 3px }}
-@keyframes border-pulse-1{ 0% { border-width: 26px } 33.33333% { border-width: 3px } 66.66666% { border-width: 3px } 100% { border-width: 3px }
+@keyframes border-pulse-1{ 0% { border-width: 26px } 33.33333% { border-width: 3px } 66.66666% { border-width: 3px } 100% { border-width: 3px };
 }
 lesshat-selector {
   -lh-property: 0; } 
 @-webkit-keyframes border-pulse-2{ 0% { border-width: 0 } 33.33333% { border-width: 0 } 66.66666% { border-width: 23px } 100% { border-width: 23px }}
 @-moz-keyframes border-pulse-2{ 0% { border-width: 0 } 33.33333% { border-width: 0 } 66.66666% { border-width: 23px } 100% { border-width: 23px }}
 @-o-keyframes border-pulse-2{ 0% { border-width: 0 } 33.33333% { border-width: 0 } 66.66666% { border-width: 23px } 100% { border-width: 23px }}
-@keyframes border-pulse-2{ 0% { border-width: 0 } 33.33333% { border-width: 0 } 66.66666% { border-width: 23px } 100% { border-width: 23px }
+@keyframes border-pulse-2{ 0% { border-width: 0 } 33.33333% { border-width: 0 } 66.66666% { border-width: 23px } 100% { border-width: 23px };
 }
 lesshat-selector {
   -lh-property: 0; } 
 @-webkit-keyframes border-pulse-3{ 0% { border-width: 0 } 33.33333% { border-width: 0 } 66.66666% { border-width: 0 } 100% { border-width: 23px }}
 @-moz-keyframes border-pulse-3{ 0% { border-width: 0 } 33.33333% { border-width: 0 } 66.66666% { border-width: 0 } 100% { border-width: 23px }}
 @-o-keyframes border-pulse-3{ 0% { border-width: 0 } 33.33333% { border-width: 0 } 66.66666% { border-width: 0 } 100% { border-width: 23px }}
-@keyframes border-pulse-3{ 0% { border-width: 0 } 33.33333% { border-width: 0 } 66.66666% { border-width: 0 } 100% { border-width: 23px }
+@keyframes border-pulse-3{ 0% { border-width: 0 } 33.33333% { border-width: 0 } 66.66666% { border-width: 0 } 100% { border-width: 23px };
 }
 /* ----------------------------------------------------------------------------
     Buttons
@@ -6398,7 +6398,7 @@ button[type="submit"] .loading {
     padding: 12px 0;
   }
   .navigation-container {
-    padding: 0;
+    padding: 0 0 0 20px;
     text-align: center;
   }
   .navbar-collapse {

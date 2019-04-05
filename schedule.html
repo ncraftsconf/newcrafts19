@@ -34,10 +34,7 @@
         <div class="preloader"></div>
     </div>
 
-    <section
-        id="schedule"
-        class="section align-center"
-    >
+    <section id="schedule" class="section align-center">
         <div class="container">
             <span class="icon section-icon icon-office-21"></span>
 
@@ -53,19 +50,19 @@
                     <ul class="nav nav-schedule ">
                        <li  class="active">
                           <a href='#day1' data-toggle='tab'>
-                             <h4 class='highlight'>Day 1</h4>
+                             <h4 class='highlight'>Workshops</h4>
                              <p class='text-alt'>15/05/2016</p>
                           </a>
                        </li>
                        <li >
                           <a href='#day2' data-toggle='tab'>
-                             <h4 class='highlight'>Day 2</h4>
+                             <h4 class='highlight'>Conferences</h4>
                              <p class='text-alt'>16/05/2016</p>
                           </a>
                        </li>
                        <li >
                           <a href='#day3' data-toggle='tab'>
-                             <h4 class='highlight'>Day 3</h4>
+                             <h4 class='highlight'>Conferences</h4>
                              <p class='text-alt'>17/05/2019</p>
                           </a>
                        </li>
@@ -73,64 +70,129 @@
 
                     <div class="tab-content">
                        <div id="day1" class="tab-pane fade in active">
-                          <ul class="nav nav-schedule ">
+                          <!-- <ul class="nav nav-schedule ">
                              <li  class="active"><a href='#day1_room1' data-toggle='tab'>Room 1</a></li>
                              <li ><a href='#day1_room2' data-toggle='tab'>Room 2</a></li>
                              <li ><a href='#day1_auditorium3' data-toggle='tab'>Room 3</a></li>
                              <li ><a href='#day1_auditorium4' data-toggle='tab'>Room 4</a></li>
                              <li ><a href='#day1_auditorium5' data-toggle='tab'>Room 5</a></li>
-                          </ul>
+                          </ul> -->
 
                           <div class="tab-content tab-content-schedule">
 
                              <div id='day1_room1' class='tab-pane fade in active'>
                                 <div class='panel-group' id='day1_room1_timeline'>
-                                    
+
                                    <div class="panel schedule-item">
-                                      <div class="lecture-icon-wrapper">
-                                        <span class="fa fa-coffee"></span>
-                                    </div>
-                                      <a data-toggle='collapse'
-                                         data-parent='#day0_auditorium0_timeline'
-                                         href='#day0_auditorium0_timeline_time0'
-                                         class='schedule-item-toggle '>
-                                         <strong class="time highlight"><i class="icon icon-office-24"></i>2:20 PM</strong>
-                                         <h6 class="title">Event registration & Breakfast<i class="icon icon-arrows-06"></i></h6>
+                                      <div class="lecture-icon-wrapper" style="background-image: url(http://ncrafts.io/assets/img/speakers/mverraes.jpg); background-size:cover"></div>
+                                      <a data-toggle='collapse' data-parent='#day1_room1_timeline' href='#day1_room1_timeline_time1' class='schedule-item-toggle collapsed'>
+                                         <strong class="time highlight"><i class="icon icon-office-24"></i>9:00 - 11:00</strong>
+                                         <h6 class="title">DDD Modelling vs Implementation<i class="icon icon-arrows-06"></i></h6>
                                       </a>
-                                      <div id='day0_auditorium0_timeline_time0' class='panel-collapse collapse schedule-item-body in'>
+                                      <div id='day1_room1_timeline_time1' class='panel-collapse collapse schedule-item-body '>
                                          <article>
-                                            <p class='description'>Nunc risus est nulla morbi, egestas lobortis dui maecenas lacinia qui adipiscing, eget purus morbi, pellentesque ipsum tortor ipsum. Tincidunt elit magnis nulla facilisis. Dolor sagittis maecenas. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.</p>
-                                            <strong class='highlight speaker-name'>MICHAEL LAMBERT</strong>
+                                            <p class='description'>
+                                                The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br>
+                                                <br>
+                                                Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br>
+                                                <br>
+                                                This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br>
+                                                <br>
+                                                <ul>
+                                                    <li>* Why you’re underusing Value Objects</li>
+                                                    <li>* Seeing objects as containers of lifecycles and consistency</li>
+                                                    <li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li>
+                                                    <li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li>
+                                                    <li>* How mutable software designs have distorted our perception of mutability in the domain</li>
+                                                    <li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li>
+                                                    <li>* Reducing our dependance on service classes</li>
+                                                    <li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li>
+                                                    <li>* ...</li>
+                                                </ul>
+
+                                                This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.
+                                            </p>
+                                            <strong class='highlight speaker-name'>Mathias Verraes</strong>
                                          </article>
                                       </div>
                                    </div>
 
                                    <div class="panel schedule-item">
-                                      <div class="lecture-icon-wrapper">
-                                        <span class="fa fa-microphone"></span>
+                                        <div class="lecture-icon-wrapper" style="background-image: url(http://ncrafts.io/assets/img/speakers/kennybrunothomas.jpg); background-size:cover"></div>
+                                        <a data-toggle='collapse' data-parent='#day1_room1_timeline' href='#day1_room1_timeline_time2' class='schedule-item-toggle collapsed'>
+                                           <strong class="time highlight"><i class="icon icon-office-24"></i>11:00 - 13:00</strong>
+                                           <h6 class="title">EventStorming and Example Mapping From Problem Space to Solution Space<i class="icon icon-arrows-06"></i></h6>
+                                        </a>
+                                        <div id='day1_room1_timeline_time2' class='panel-collapse collapse schedule-item-body '>
+                                           <article>
+                                              <p class='description'>
+                                                    Creating multiple models for the same problem is one of the more important lessons that Domain Driven Design teaches us. It is a lot cheaper to quickly iterate over them and throw away less useful prototypes before we even start coding. However, creating multiple models can be hard. When we begin gaining insight from our domain, we suffer a lot from cognitive biases that get in our way to gain new insights. We need these insights before we even start thinking about modelling. Tools like event storming and example mapping can help us to deliberate discover, and battle these biases. They help you quickly gain insight into the problem space. But the fallacy here is that we can get locked into the tool, and get stuck again.
+                                                    <br/><br/>
+                                                    What you will learn<br/>
+                                                    In this workshop, you will learn the essentials of event storming and how it can help you gain the necessary insights you need to deliver quality software. With our newly acquired domain knowledge, we can then start exploring the solution space. During the exploration, we begin to design and model multiple models for the same problem with Domain Driven Design patterns. This way of visualising gives us the power to quickly iterate over the different models and figure out which model will be the best to use for now. Eventually, we start our coding journey TDD style, iterating over the model to refactor towards deeper insights while discovering how hexagonal architecture may help us to protect our domain code from the technical concerns, in the long run.
+                                                    <br/><br/>
+                                                    Target Audience This workshop is for you if you are a software architect or software developer.
+                                              </p>
+                                              <strong class='highlight speaker-name'>Kenny Baas-Schwegler, Bruno Boucard & Thomas Pierrain</strong>
+                                           </article>
+                                        </div>
+                                     </div>
+
+                                     <div class="panel schedule-item">
+                                        <div class="lecture-icon-wrapper" style="background-image: url(http://ncrafts.io/assets/img/speakers/khenney.jpg); background-size:cover"></div>
+                                        <a data-toggle='collapse' data-parent='#day1_room1_timeline' href='#day1_room1_timeline_time3' class='schedule-item-toggle collapsed'>
+                                            <strong class="time highlight"><i class="icon icon-office-24"></i>14:00 - 16:00</strong>
+                                            <h6 class="title">Refactoring to Immutability<i class="icon icon-arrows-06"></i></h6>
+                                        </a>
+                                        <div id='day1_room1_timeline_time3' class='panel-collapse collapse schedule-item-body '>
+                                            <article>
+                                                <p class='description'>
+                                                    It has been said that immutability changes everything. But what does that mean in practice? What does it mean for existing code that looks more like the mutant apocalypse than an elegant application of mathematical thinking?
+                                                    <br/>
+                                                    <br/>
+                                                    Immutability can be an ideal that is hard to reach. Refactoring, on the other hand, is all about the art of the possible. In this hands-on workshop, we'll be looking at some tricks and tips to help reduce the mutability of code.
+                                                    <br/>
+                                                    <br/>
+                                                    So bring a laptop, but don't worry about IDEs, editors, compilers and all that — just browser and WiFi! We'll be running the hands-on part using cyber-dojo.org, working with unit tests, promiscuous pairing and good humour :-)
+                                                </p>
+                                                <strong class='highlight speaker-name'>Kevlin Henney</strong>
+                                            </article>
+                                        </div>
                                     </div>
-                                      <a data-toggle='collapse'
-                                         data-parent='#day0_auditorium0_timeline'
-                                         href='#day0_auditorium0_timeline_time1'
-                                         class='schedule-item-toggle collapsed'>
-                                         <strong class="time highlight"><i class="icon icon-office-24"></i>5:40 PM</strong>
-                                         <h6 class="title">Scaling into crowded space<i class="icon icon-arrows-06"></i></h6>
-                                      </a>
-                                      <div id='day0_auditorium0_timeline_time1' class='panel-collapse collapse schedule-item-body '>
-                                         <article>
-                                            <p class='description'>Maecenas nulla, proin amet nec at dolor phasellus, aliquam leo et nunc. Turpis orci velit, nullam fusce integer tortor, amet aliquam dolor a risus ipsum pellentesque. Natoque feugiat arcu enim, purus ornare at, elit lacus, eget ante vivamus, odio ut et dolor sollicitudin. Gravida vehicula dignissim, tincidunt et eget et duis ac dolor.</p>
-                                            <strong class='highlight speaker-name'>regreg</strong>
-                                         </article>
-                                      </div>
-                                   </div>
+
+                                    <div class="panel schedule-item">
+                                        <div class="lecture-icon-wrapper" style="background-image: url(http://ncrafts.io/assets/img/speakers/wzuill.jpg); background-size:cover"></div>
+                                        <a data-toggle='collapse' data-parent='#day1_room1_timeline' href='#day1_room1_timeline_time4' class='schedule-item-toggle collapsed'>
+                                            <strong class="time highlight"><i class="icon icon-office-24"></i>16:00 - 18:00</strong>
+                                            <h6 class="title">Mob Programming<i class="icon icon-arrows-06"></i></h6>
+                                        </a>
+                                        <div id='day1_room1_timeline_time4' class='panel-collapse collapse schedule-item-body '>
+                                            <article>
+                                                <p class='description'>
+                                                    Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.
+                                                    <br/>
+                                                    <br/>
+                                                    Mob Programming is a cost-effective, collaborative and fun way to get work done together. It's a whole-team approach to development, where coding, designing, testing, and working with the "customer" (partner, Product Owner, User, etc.) is all done as a team.
+                                                    <br/>
+                                                    <br/>
+                                                    Participants in this workshop experience a day of learning and doing Mob Programming. We cover the mechanics of how to work together as a Mob as well as the techniques that make this form of development so effective.
+                                                    <br>
+                                                    <br>
+                                                    We’ll learn how a Mob performs sample project work, including user stories, prioritization, test-driven development, refactoring, and retrospectives.
+                                                    <br><br>
+                                                    Designed and facilitated by Mob Programming pioneer Woody Zuill, this workshop provides a hands-on education in the art of mobbing and it's significant benefits for your teams.
+                                                </p>
+                                                <strong class='highlight speaker-name'>Woody Zuill</strong>
+                                            </article>
+                                        </div>
+                                    </div>
+
                                 </div>
                              </div>
 
                              <div id='day1_room2' class='tab-pane fade in '>
                                 <div class='panel-group' id='day1_room2_timeline'>
 
-                                  <!-- panel item here -->
-                                   
                                 </div>
                              </div>
 
@@ -175,7 +237,26 @@
                              <div id='day2_room1' class='tab-pane fade in active'>
                                 <div class='panel-group' id='day2_room1_timeline'>
                                    
-                                    <!-- panel item here -->
+                                    <div class="panel schedule-item">
+                                            <div class="lecture-icon-wrapper">
+                                                <span class="fa fa-coffee"></span>
+                                            </div>
+                                            <a class='schedule-item-toggle '>
+                                                <strong class="time highlight"><i class="icon icon-office-24"></i>8:30 - 9:00</strong>
+                                                <h6 class="title">Check-in time</h6>
+                                            </a>
+                                        </div>
+            
+                                        <div class="panel schedule-item">
+                                            <div class="lecture-icon-wrapper">
+                                            <span class="fa fa-coffee"></span>
+                                        </div>
+                                            <a class='schedule-item-toggle '>
+                                                <strong class="time highlight"><i class="icon icon-office-24"></i>9:00 - 9:10</strong>
+                                                <h6 class="title">Opening words</h6>
+                                            </a>
+                                        </div>
+                                        
 
                                 </div>
                              </div>

@@ -11,7 +11,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/mverraes.jpg",
-                            "time": "9:00 - 11h00",
+                            "time": "9:00 - 11:00",
                             "title": "DDD Modelling vs Implementation",
                             "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
                             "author": "Mathias Verraes"
@@ -55,34 +55,461 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:00 - 9h10",
+                            "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
                         },
                         {
                             "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
+                            "time": "9:00 - 9:45",
+                            "title": "The one with the compiler always wins",
+                            "description": "",
+                            "author": "Ulrika Malmgren"
+                        },
+                        {
+                            "type": "break",
                             "image": "",
-                            "time": "9:00 - 11h00",
-                            "title": "Opening words",
+                            "time": "9:45 - 10:15",
+                            "title": "Coffee break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/stalwar.jpg",
+                            "time": "10:00 - 11:00",
+                            "title": "Teaching a maching to code",
+                            "description": "",
+                            "author": "Samir Talwar"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ehost.jpg",
+                            "time": "11:00 - 13:00",
+                            "title": "Escher in Elm",
+                            "description": "",
+                            "author": "Einar Høst"
+                        },
+                        {
+                            "type": "lunch",
+                            "image": "",
+                            "time": "13:00 - 14:00",
+                            "title": "Lunch break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/jchassaing.jpg",
+                            "time": "14:00 - 15:00",
+                            "title": "Applicatives IRL",
+                            "description": "",
+                            "author": "Jérémie Chassaing"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/edamiani.jpg",
+                            "time": "15:00 - 16:00",
+                            "title": "(DESIGN)",
+                            "description": "",
+                            "author": "Emanuella Damiani"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/hleigh.jpg",
+                            "time": "16:00 - 17:00",
+                            "title": "Music Tech Making",
+                            "description": "",
+                            "author": "Helen Leigh"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "17:00 - 17:30",
+                            "title": "Coffee time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
+                            "time": "17:30 - 18:30",
+                            "title": "The gordian knot → Hatching Software Development Ecosystems",
+                            "description": "",
+                            "author": "Alberto Brandolini"
+                        }
+                    ]
+                },
+                {
+                    "room": "Room 2",
+                    "events": [
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "8:30 - 9:00",
+                            "title": "Check-in time",
                             "description": "",
                             "author": ""
                         },
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 11h00",
+                            "time": "9:00 - 9:45",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
                         },
                         {
+                            "type": "break",
+                            "image": "",
+                            "time": "9:45 - 10:15",
+                            "title": "Coffee break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/cdelagargue.jpg",
+                            "time": "10:00 - 11:00",
+                            "title": "Application design with a stack of monads",
+                            "description": "",
+                            "author": "Clément Delafargue"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/gdiagram.jpg",
+                            "time": "11:00 - 13:00",
+                            "title": "",
+                            "description": "",
+                            "author": "Gwen Diagram"
+                        },
+                        {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14h00",
+                            "time": "13:00 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/asavarin.jpg",
+                            "time": "14:00 - 15:00",
+                            "title": "Non-Euclidean Software Delivery",
+                            "description": "",
+                            "author": "Anna Savarin"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/asalmi.jpg",
+                            "time": "15:00 - 16:00",
+                            "title": "Railroad-Driven Programming",
+                            "description": "",
+                            "author": "Aki Salmi"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/hleigh.jpg",
+                            "time": "16:00 - 17:00",
+                            "title": "Music Tech Making",
+                            "description": "",
+                            "author": "Mathias Verraes"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "17:00 - 17:30",
+                            "title": "Coffee time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
+                            "time": "17:30 - 18:30",
+                            "title": "The gordian knot → Hatching Software Development Ecosystems",
+                            "description": "",
+                            "author": "Alberto Brandolini"
+                        }
+                    ]
+                },
+                {
+                    "room": "Room 3",
+                    "events": [
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "8:30 - 9:00",
+                            "title": "Check-in time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
+                            "time": "9:00 - 9:45",
+                            "title": "The one with the compiler always wins",
+                            "description": "",
+                            "author": "Ulrika Malmgren"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "9:45 - 10:15",
+                            "title": "Coffee break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/xdetant.jpg",
+                            "time": "10:00 - 11:00",
+                            "title": "Test && commit || revert",
+                            "description": "",
+                            "author": "Xavier Detant"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/pkua.jpg",
+                            "time": "11:00 - 13:00",
+                            "title": "Talkin w/ Tech Leads",
+                            "description": "",
+                            "author": "Pat Kua"
+                        },
+                        {
+                            "type": "lunch",
+                            "image": "",
+                            "time": "13:00 - 14:00",
+                            "title": "Lunch break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/khenney.jpg",
+                            "time": "14:00 - 15:00",
+                            "title": "The Passions of Programming",
+                            "description": "",
+                            "author": "Kevlin Henney"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/sleandro.jpg",
+                            "time": "15:00 - 16:00",
+                            "title": "How to rewrite, a bit at a time",
+                            "description": "",
+                            "author": "Sabrina Leandro"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ssmith.jpg",
+                            "time": "16:00 - 17:00",
+                            "title": "Continuous Delivery and the Theory of Constraints",
+                            "description": "",
+                            "author": "Steve Smith"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "17:00 - 17:30",
+                            "title": "Coffee time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
+                            "time": "17:30 - 18:30",
+                            "title": "The gordian knot → Hatching Software Development Ecosystems",
+                            "description": "",
+                            "author": "Alberto Brandolini"
+                        }
+                    ]
+                },
+                {
+                    "room": "MultiRoom",
+                    "events": [
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "8:30 - 9:00",
+                            "title": "Check-in time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
+                            "time": "9:00 - 9:45",
+                            "title": "The one with the compiler always wins",
+                            "description": "",
+                            "author": "Ulrika Malmgren"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "9:45 - 10:15",
+                            "title": "Coffee break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/tgoeschel.jpg",
+                            "time": "10:00 - 11:00",
+                            "title": "Domain Prototyping, or Design is How it Works",
+                            "description": "",
+                            "author": "Tobias Goeschel"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/mromeu.jpg",
+                            "time": "11:00 - 13:00",
+                            "title": "Bourdieu's Social Theory and our work in tech",
+                            "description": "",
+                            "author": "Moura Romeu"
+                        },
+                        {
+                            "type": "lunch",
+                            "image": "",
+                            "time": "13:00 - 14:00",
+                            "title": "Lunch break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/elefevre-ardant.jpg",
+                            "time": "14:00 - 14:30",
+                            "title": "A high-level language from the 1940s",
+                            "description": "",
+                            "author": "Eric Lefevre-Ardant - Plankalk√ol"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/elandry.jpg",
+                            "time": "14:30 - 15:00",
+                            "title": "How to lose your feature overload ?",
+                            "description": "",
+                            "author": "Estelle Landry"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/jpalies.jpg",
+                            "time": "15:00 - 15:30",
+                            "title": "How video games taught me event sourcing",
+                            "description": "",
+                            "author": "Jean Paliès"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/dbartaguiz.jpg",
+                            "time": "15:30 - 16:00",
+                            "title": "Slim Down Diet & TDD",
+                            "description": "",
+                            "author": "Dorra Bartaguiz"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ddoomen.jpg",
+                            "time": "16:00 - 17:00",
+                            "title": "Event Sourcing Done Right - Experiences from the trenches",
+                            "description": "",
+                            "author": "Denis Doomen"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "17:00 - 17:30",
+                            "title": "Coffee time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
+                            "time": "17:30 - 18:30",
+                            "title": "The gordian knot → Hatching Software Development Ecosystems",
+                            "description": "",
+                            "author": "Alberto Brandolini"
+                        }
+                    ]
+                },
+                {
+                    "room": "Workshop",
+                    "events": [
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "8:30 - 9:00",
+                            "title": "Check-in time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
+                            "time": "9:00 - 9:45",
+                            "title": "The one with the compiler always wins",
+                            "description": "",
+                            "author": "Ulrika Malmgren"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "9:45 - 10:15",
+                            "title": "Coffee break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/verschatse.jpg",
+                            "time": "10:00 - 13:00",
+                            "title": "Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue",
+                            "description": "",
+                            "author": "Gien Verschatse"
+                        },
+                        {
+                            "type": "lunch",
+                            "image": "",
+                            "time": "13:00 - 14:00",
+                            "title": "Lunch break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/mhuizendveld.jpg",
+                            "time": "14:00 - 15:00",
+                            "title": "Iterating on domain models",
+                            "author": "Marijn Huizendveld"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/jmartinsson.jpg",
+                            "time": "15:30 - 17:00",
+                            "title": "Rescuing legacy - from legacy to TDD",
+                            "description": "",
+                            "author": "Johan Martinsson"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "17:00 - 17:30",
+                            "title": "Coffee time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
+                            "time": "17:30 - 18:30",
+                            "title": "The gordian knot → Hatching Software Development Ecosystems",
+                            "description": "",
+                            "author": "Alberto Brandolini"
                         }
                     ]
                 }
@@ -99,7 +526,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/mverraes.jpg",
-                            "time": "9:00 - 11h00",
+                            "time": "9:00 - 11:00",
                             "title": "DDD Modelling vs Implementation",
                             "description": "some content",
                             "author": "MATHIAS VERRAES"

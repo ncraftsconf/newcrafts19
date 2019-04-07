@@ -1,35 +1,47 @@
 $(document).ready(() => {
     $.get('./schedule.json')
     .then(resp => {
+        let scheduleNav = '';
+        let scheduleContent = '';
+
         const days = resp.days;
         for (var i = 0; i < resp.days.length; i++)
         {
-            $('#schedule-nav').append(`
-                    <li>
-                        <a href='#day${i}' data-toggle='tab'${ i === 0 ? ' id="first_day"' : '' }>
-                            <h4 class='highlight'>${days[i].title}</h4>
-                            <p class='text-alt'>${days[i].date}</p>
-                        </a>
-                    </li>`);
+            scheduleNav += `
+                <li>
+                    <a href='#day${i}' data-toggle='tab'${ i === 0 ? ' id="first_day"' : '' }>
+                        <h4 class='highlight'>${days[i].title}</h4>
+                        <p class='text-alt'>${days[i].date}</p>
+                    </a>
+                </li>
+            `;
 
-            let scheduleContent = `
-                    <div id="day${i}" class='tab-pane fade in${ i === 0 ? ' active' : '' }'>
-                        <ul class="nav nav-schedule ">
+            scheduleContent += `
+                <div id="day${i}" class='tab-pane fade in'>
             `;
 
             const rooms = days[i].rooms;
 
             if (rooms.length > 1) {
+
+                scheduleContent += `
+                    <ul class="nav nav-schedule">
+                `;
+
                 for (var j = 0; j < rooms.length; j++)
                 {
-                    scheduleContent += `<li${ j === 0 ? ' class="active"' : '' }><a href='#day${i}_room${j}' data-toggle='tab'>${rooms[j].room}</a></li>`;
+                    scheduleContent += `
+                        <li${ j === 0 ? ' class="active"' : '' }>><a href='#day${i}_room${j}' data-toggle='tab'>${rooms[j].room}</a></li>
+                    `;
                 }
+
+                scheduleContent += `
+                    </ul>
+                `;
             }
                             
             scheduleContent += `
-                            </ul>
-
-                            <div class="tab-content tab-content-schedule">
+                <div class="tab-content tab-content-schedule">
             `;
             
             for (var j = 0; j < rooms.length; j++)
@@ -90,13 +102,17 @@ $(document).ready(() => {
             }
                         
             scheduleContent += `
-                        </div>
                     </div>
+                </div>
             `;
-
-            $('#schedule-content').append(scheduleContent);
         }
 
+        $('#schedule-nav').append(scheduleNav);
+        $('#schedule-content').append(scheduleContent);
+        
+        // console.log(scheduleNav);
+        // console.log(scheduleContent);
+        
         $('#first_day').click();
     });
 });

@@ -1,4 +1,13 @@
-
+.tag-cloud {
+    bottom: 20px;
+    line-height: 50px;
+}
+.tag {
+    padding: 10px;
+    background-color: rgba(60, 60, 60, 0.4);
+    border:solid 1px #494949;
+    border-radius: 5px;
+}
 .subtitle {
     padding: 0 100px;
 }

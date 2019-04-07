@@ -524,12 +524,439 @@
                     "room": "Room 1",
                     "events": [
                         {
+                            "type": "break",
+                            "image": "",
+                            "time": "8:30 - 9:00",
+                            "title": "Check-in time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mverraes.jpg",
-                            "time": "9:00 - 11:00",
-                            "title": "DDD Modelling vs Implementation",
-                            "description": "some content",
-                            "author": "MATHIAS VERRAES"
+                            "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
+                            "time": "9:00 - 9:45",
+                            "title": "Compassionate Coding",
+                            "description": "",
+                            "author": "April Wensel"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "9:45 - 10:15",
+                            "title": "Coffee break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/swlaschin.jpg",
+                            "time": "10:00 - 11:00",
+                            "title": "Four Languages from Forty Years Ago",
+                            "description": "",
+                            "author": "Scott Wlaschin"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/abeba.jpg",
+                            "time": "11:00 - 13:00",
+                            "title": "TBD",
+                            "description": "",
+                            "author": "Abeba"
+                        },
+                        {
+                            "type": "lunch",
+                            "image": "",
+                            "time": "13:00 - 14:00",
+                            "title": "Lunch break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/tpetricek.jpg",
+                            "time": "14:00 - 15:00",
+                            "title": "The search for fundamental software engineering principles",
+                            "description": "",
+                            "author": "Tomas Petricek"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/bmarick.jpg",
+                            "time": "15:00 - 16:00",
+                            "title": "FP ?",
+                            "description": "",
+                            "author": "Brian Marick"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/avidela.jpg",
+                            "time": "16:00 - 17:00",
+                            "title": "To what extend are programming languages languages ?",
+                            "description": "",
+                            "author": "Alvaro Videla"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "17:00 - 17:30",
+                            "title": "Coffee time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
+                            "time": "17:30 - 18:30",
+                            "title": "Nihilism and technology",
+                            "description": "",
+                            "author": "Nolen Gertz"
+                        }
+                    ]
+                },
+                {
+                    "room": "Room 2",
+                    "events": [
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "8:30 - 9:00",
+                            "title": "Check-in time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
+                            "time": "9:00 - 9:45",
+                            "title": "Compassionate Coding",
+                            "description": "",
+                            "author": "April Wensel"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "9:45 - 10:15",
+                            "title": "Coffee break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/mheimeshoff.jpg",
+                            "time": "10:00 - 11:00",
+                            "title": "Domain Driven UI",
+                            "description": "",
+                            "author": "Marco Heimeshoff"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/evankelle.jpg",
+                            "time": "11:00 - 13:00",
+                            "title": "Socio-technical DDD - Essential social heuristics",
+                            "description": "",
+                            "author": "Evelyn Van Kelle"
+                        },
+                        {
+                            "type": "lunch",
+                            "image": "",
+                            "time": "13:00 - 14:00",
+                            "title": "Lunch break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/cmartraire.jpg",
+                            "time": "14:00 - 15:00",
+                            "title": "Domain Modelling for Digital Transformations",
+                            "description": "",
+                            "author": "Cyrille Martraire"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ialagarsamy.jpg",
+                            "time": "15:00 - 16:00",
+                            "title": "Evolving with the changing requirements - Using DDD and Saga Message Pattern",
+                            "description": "",
+                            "author": "Indu Alagarsamy"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/kbaasschwegler.jpg",
+                            "time": "16:00 - 17:00",
+                            "title": "I got Trapped! Systems thinking traps of IT Teams",
+                            "description": "",
+                            "author": "Kenny Baas-Schwegler"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "17:00 - 17:30",
+                            "title": "Coffee time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
+                            "time": "17:30 - 18:30",
+                            "title": "Nihilism and technology",
+                            "description": "",
+                            "author": "Nolen Gertz"
+                        }
+                    ]
+                },
+                {
+                    "room": "Room 3",
+                    "events": [
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "8:30 - 9:00",
+                            "title": "Check-in time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
+                            "time": "9:00 - 9:45",
+                            "title": "Compassionate Coding",
+                            "description": "",
+                            "author": "April Wensel"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "9:45 - 10:15",
+                            "title": "Coffee break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/aschladebeck.jpg",
+                            "time": "10:00 - 11:00",
+                            "title": "Exploratory testing for everyone",
+                            "description": "",
+                            "author": "Alexandra Schladebeck & Thomas Garus"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/mnoback.jpg",
+                            "time": "11:00 - 13:00",
+                            "title": "Brutal refactoring, lying code, the Churn, and other emotional stories from Legacy Land",
+                            "description": "",
+                            "author": "Matthias Noback"
+                        },
+                        {
+                            "type": "lunch",
+                            "image": "",
+                            "time": "13:00 - 14:00",
+                            "title": "Lunch break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/svieira.jpg",
+                            "time": "14:00 - 15:00",
+                            "title": "Your brain doesn't have a fix flag",
+                            "description": "",
+                            "author": "Sara Vieira"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/apetrov.jpg",
+                            "time": "15:00 - 16:00",
+                            "title": "Storage Systems: The Old, The New, The Overlooked",
+                            "description": "",
+                            "author": "Alex Petrov"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ebache.jpg",
+                            "time": "16:00 - 17:00",
+                            "title": "Technical Leadership for Empowered Teams",
+                            "description": "",
+                            "author": "Emily Bache"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "17:00 - 17:30",
+                            "title": "Coffee time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
+                            "time": "17:30 - 18:30",
+                            "title": "Nihilism and technology",
+                            "description": "",
+                            "author": "Nolen Gertz"
+                        }
+                    ]
+                },
+                {
+                    "room": "MultiRoom",
+                    "events": [
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "8:30 - 9:00",
+                            "title": "Check-in time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
+                            "time": "9:00 - 9:45",
+                            "title": "Compassionate Coding",
+                            "description": "",
+                            "author": "April Wensel"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "9:45 - 10:15",
+                            "title": "Coffee break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/mdijk.jpg",
+                            "time": "10:00 - 11:00",
+                            "title": " Collaborating on Open Source Software; How I Started contributing to Open Source and Why You Should Too",
+                            "description": "",
+                            "author": "Marit van Dijk"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/jcadet.jpg",
+                            "time": "11:00 - 13:00",
+                            "title": "Continuous reteaming: adopt self-selection and start moving people to the work!",
+                            "description": "",
+                            "author": "Julien Lavigne du Cadet"
+                        },
+                        {
+                            "type": "lunch",
+                            "image": "",
+                            "time": "13:00 - 14:00",
+                            "title": "Lunch break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/frivain.jpg",
+                            "time": "14:00 - 14:30",
+                            "title": "From Feature Team to Mission Teams",
+                            "description": "",
+                            "author": "Frédéric Rivain"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/amichelle.jpg",
+                            "time": "14:30 - 15:00",
+                            "title": "(Quick) kata to explain D from SOLID principles",
+                            "description": "",
+                            "author": "Avomo Michelle"
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/plemerrer.jpg",
+                            "time": "15:30 - 16:30",
+                            "title": "Elm",
+                            "description": "",
+                            "author": "Pascal Le Merrer"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "17:00 - 17:30",
+                            "title": "Coffee time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
+                            "time": "17:30 - 18:30",
+                            "title": "Nihilism and technology",
+                            "description": "",
+                            "author": "Nolen Gertz"
+                        }
+                    ]
+                },
+                {
+                    "room": "Workshop",
+                    "events": [
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "8:30 - 9:00",
+                            "title": "Check-in time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
+                            "time": "9:00 - 9:45",
+                            "title": "Compassionate Coding",
+                            "description": "",
+                            "author": "April Wensel"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "9:45 - 10:15",
+                            "title": "Coffee break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ythirion.jpg",
+                            "time": "10:30 - 12:30",
+                            "title": "Xtrem Reading",
+                            "description": "",
+                            "author": "Yoan Thirion"
+                        },
+                        {
+                            "type": "lunch",
+                            "image": "",
+                            "time": "13:00 - 14:00",
+                            "title": "Lunch break",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/tbracher.jpg",
+                            "time": "14:30 - 16:00",
+                            "title": "La programmation événementielle",
+                            "author": "Thomas Bracher"
+                        },
+                        {
+                            "type": "break",
+                            "image": "",
+                            "time": "17:00 - 17:30",
+                            "title": "Coffee time",
+                            "description": "",
+                            "author": ""
+                        },
+                        {
+                            "type": "conference",
+                            "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
+                            "time": "17:30 - 18:30",
+                            "title": "Nihilism and technology",
+                            "description": "",
+                            "author": "Nolen Gertz"
                         }
                     ]
                 }

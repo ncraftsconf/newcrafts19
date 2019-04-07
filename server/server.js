@@ -6,7 +6,7 @@ const serveStatic = require('serve-static');
 const app = express();
 
 // create middleware to handle the serving the app
-app.use(serveStatic(path.join(__dirname, 'public')));
+app.use(serveStatic(path.join(__dirname, '../')));
 
 // Create default port to serve the app on
 const port = process.env.PORT || 5000;

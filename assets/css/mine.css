@@ -1,3 +1,4 @@
+
 .subtitle {
     padding: 0 100px;
 }
@@ -122,6 +123,7 @@ p {
 .workshop-speaker .name {
     font-size: 1.2em;
     font-weight: bold;
+    height: 60px;
 }
 
 .workshop-speaker a {
@@ -137,7 +139,7 @@ p {
     width: 200px;
     height: 200px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 30px;
     border: 3px #333 solid;
 }
 

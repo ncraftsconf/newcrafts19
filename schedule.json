@@ -6,7 +6,7 @@
             "title": "Workshops",
             "rooms": [
                 {
-                    "room": "Room 1",
+                    "room": "Lovelace",
                     "events": [
                         {
                             "type": "conference",
@@ -50,7 +50,7 @@
             "title": "Day 1",
             "rooms": [
                 {
-                    "room": "Room 1",
+                    "room": "Lovelace",
                     "events": [
                         {
                             "type": "break",
@@ -63,7 +63,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
@@ -143,7 +143,7 @@
                     ]
                 },
                 {
-                    "room": "Room 2",
+                    "room": "Hopper",
                     "events": [
                         {
                             "type": "break",
@@ -156,7 +156,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
@@ -236,7 +236,7 @@
                     ]
                 },
                 {
-                    "room": "Room 3",
+                    "room": "Liskov",
                     "events": [
                         {
                             "type": "break",
@@ -249,7 +249,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
@@ -329,7 +329,7 @@
                     ]
                 },
                 {
-                    "room": "MultiRoom",
+                    "room": "Kare",
                     "events": [
                         {
                             "type": "break",
@@ -342,7 +342,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
@@ -438,7 +438,7 @@
                     ]
                 },
                 {
-                    "room": "Workshop",
+                    "room": "Goldberg",
                     "events": [
                         {
                             "type": "break",
@@ -451,7 +451,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
@@ -522,7 +522,7 @@
             "title": "Day 2",
             "rooms": [
                 {
-                    "room": "Room 1",
+                    "room": "Lovelace",
                     "events": [
                         {
                             "type": "break",
@@ -535,7 +535,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
                             "author": "April Wensel"
@@ -615,7 +615,7 @@
                     ]
                 },
                 {
-                    "room": "Room 2",
+                    "room": "Hopper",
                     "events": [
                         {
                             "type": "break",
@@ -628,7 +628,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
                             "author": "April Wensel"
@@ -708,7 +708,7 @@
                     ]
                 },
                 {
-                    "room": "Room 3",
+                    "room": "Liskov",
                     "events": [
                         {
                             "type": "break",
@@ -721,7 +721,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
                             "author": "April Wensel"
@@ -801,7 +801,7 @@
                     ]
                 },
                 {
-                    "room": "MultiRoom",
+                    "room": "Kare",
                     "events": [
                         {
                             "type": "break",
@@ -814,7 +814,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
                             "author": "April Wensel"
@@ -894,7 +894,7 @@
                     ]
                 },
                 {
-                    "room": "Workshop",
+                    "room": "Goldberg",
                     "events": [
                         {
                             "type": "break",
@@ -907,7 +907,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
                             "author": "April Wensel"

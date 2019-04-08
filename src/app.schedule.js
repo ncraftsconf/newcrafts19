@@ -31,7 +31,7 @@ $(document).ready(() => {
                 for (var j = 0; j < rooms.length; j++)
                 {
                     scheduleContent += `
-                        <li${ j === 0 ? ' class="active"' : '' }>><a href='#day${i}_room${j}' data-toggle='tab'>${rooms[j].room}</a></li>
+                        <li${ j === 0 ? ' class="active"' : '' }><a href='#day${i}_room${j}' data-toggle='tab'>${rooms[j].room}</a></li>
                     `;
                 }
 

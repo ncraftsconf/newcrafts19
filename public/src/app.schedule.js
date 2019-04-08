@@ -110,8 +110,8 @@ $(document).ready(() => {
         $('#schedule-nav').append(scheduleNav);
         $('#schedule-content').append(scheduleContent);
         
-        // console.log(scheduleNav);
-        // console.log(scheduleContent);
+        console.log(scheduleNav);
+        console.log(scheduleContent);
         
         $('#first_day').click();
     });

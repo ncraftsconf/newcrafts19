@@ -6,7 +6,7 @@
             "title": "Workshops",
             "rooms": [
                 {
-                    "room": "Room 1",
+                    "room": "Lovelace",
                     "events": [
                         {
                             "type": "conference",
@@ -50,7 +50,7 @@
             "title": "Day 1",
             "rooms": [
                 {
-                    "room": "Room 1",
+                    "room": "Lovelace",
                     "events": [
                         {
                             "type": "break",
@@ -63,7 +63,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
@@ -143,7 +143,7 @@
                     ]
                 },
                 {
-                    "room": "Room 2",
+                    "room": "Hopper",
                     "events": [
                         {
                             "type": "break",
@@ -156,7 +156,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
@@ -171,10 +171,10 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/cdelagargue.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/cdelagargueNB.jpg",
                             "time": "10:00 - 11:00",
                             "title": "Application design with a stack of monads",
-                            "description": "",
+                            "description": "Functional Programming is often seen as a nice tool for small-scale\nconcerns, not as a tool for application design. \"Functional in the\nsmall, OO in the large\" is often heard and sums up this idea quite\nwell. However, functional programming comes with interesting tools\naimed at solving these boring (or deemed boring) concerns: dependency\ninversion, observability). Aspect-Oriented-Programming is often used\nfor this in the OO word.\n\nA functional solution, called a _monad stack_, allows to combine all\nthis cross-cutting concerns and behaviours with no magic (or not too\nmuch).\n\nIn this conference, we'll see what _monad transformers_ are, how they\nwork, and how to use them to structure a web application, with\nexamples in scala and haskell.",
                             "author": "Clément Delafargue"
                         },
                         {
@@ -203,10 +203,10 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/asalmi.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/asalmiNB.jpg",
                             "time": "15:00 - 16:00",
                             "title": "Railroad-Driven Programming",
-                            "description": "",
+                            "description": "Tired of if-statements cluttering up your code?\nIn this talk, you will be guided to railroad tracks - web app designed and implemented functionally using heavily Either Monads. Everything is either a Success or Error, or rather a Future of Success or Errors.\nDuring the talk, few monads are discussed, like Maybe and Either, using examples from SanctuaryJS (which is used in the app). Also some good practices that makes the domain code easy to understand.\nThe talk will be based on real code that runs in production.",
                             "author": "Aki Salmi"
                         },
                         {
@@ -236,7 +236,7 @@
                     ]
                 },
                 {
-                    "room": "Room 3",
+                    "room": "Liskov",
                     "events": [
                         {
                             "type": "break",
@@ -249,7 +249,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
@@ -264,10 +264,10 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/xdetant.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/xdetantNB.jpg",
                             "time": "10:00 - 11:00",
                             "title": "Test && commit || revert",
-                            "description": "",
+                            "description": "[Kent Beck wrote an article](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864) about a technique invented by Oddmund Str√∏mmer last september. TCR is an alternative to TDD that enforce even more extreme rules than TDD. The goal of this talk is to present the principles, pros and cons according to my experience with TCR.\nEvery point will be illustrated with examples. Finally, we'll try to adapt TCR a bit in order to mitigate the identified cons.",
                             "author": "Xavier Detant"
                         },
                         {
@@ -329,7 +329,7 @@
                     ]
                 },
                 {
-                    "room": "MultiRoom",
+                    "room": "Kare",
                     "events": [
                         {
                             "type": "break",
@@ -342,7 +342,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
@@ -357,18 +357,18 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/tgoeschel.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/tgoeschelNB.jpg",
                             "time": "10:00 - 11:00",
                             "title": "Domain Prototyping, or Design is How it Works",
-                            "description": "",
+                            "description": "When we design a system from scratch, especially complex distributed systems, with microservices and/or Big Data pipelines, we have to make a series of important tactical decisions regarding the structure and information flow within our domain. If we assume boundaries in the wrong place, or forget or omit important aspects of communication, we can end up with brittle services, performance issues, and needlessly coupled modules and components, which are painful to maintain and deploy.\nSome of those aspects are hard to discover upfront, and even with great experience, it's not unusual to get the first design at least partially wrong.\n\nOne way to minimize the consequences of those decisions, and to verify our initial assumptions, is to start implementation not with a full architecture in mind, but rather with the smallest possible footprint: A plain, but fully operational prototype of the domain model, which we can stress, observe and explore - and change easily, if we run into problems. This way, we can actually _see_ our design work, and gain valuable insights.\n\nUsing examples, I will demonstrate how combining Domain Driven Design with the practices, heuristics and principles of Software Crafting can highlight difficult or problematic choices, improve fundamental architecture decisions, and ultimately lead to better and more sustainable software systems, long before we get sidetracked by the additional complexity of host environments and deployment pipelines.",                     
                             "author": "Tobias Goeschel"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mromeu.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/mromeuNB.jpg",
                             "time": "11:00 - 13:00",
                             "title": "Bourdieu's Social Theory and our work in tech",
-                            "description": "",
+                            "description": "We know psychological safety is necessary for any working team to work But how achievable is it? I posit that due to our current blind spots our visions on that are naïve Let's dig together on why! tis time for some Sociological Theory, let's Vulgarise Bourdieu! Buckle up for a keynote on\n\nSymbolic Violence.\nSocial/Corporeal Hexis.\nCultural Capital.\nInteractions of those 3 and \"Agile\" Methods.",
                             "author": "Moura Romeu"
                         },
                         {
@@ -381,43 +381,43 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/elefevre-ardant.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/elefevre-ardantNB.jpg",
                             "time": "14:00 - 14:30",
-                            "title": "A high-level language from the 1940s",
-                            "description": "",
-                            "author": "Eric Lefevre-Ardant - Plankalk√ol"
+                            "title": "Plankalkül: a high-level language from the 1940s",
+                            "description": "At the dawn of the computer age, only Assembly languages could be used to program computers without going through the recabling process. Modern programming languages only appeared in the 1950s.\n\nStill, in the 1940s, a German inventor designed Plankalkül. Its influence has been limited, but its ideads were incredibly advanced for the times.\n\nTogether, let's rediscover the first high-level programming language in history.",
+                            "author": "Eric Lefevre-Ardant"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/elandry.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/elandryNB.jpg",
                             "time": "14:30 - 15:00",
                             "title": "How to lose your feature overload ?",
-                            "description": "",
+                            "description": "The application life cycle is a nebulous and dangerous road.\nThe complexity increases exponentially . One of the developer biggest challenges is to be able to control this complexity while adding new features.\n\nSeveral solutions exist: code rewriting or mastery of technical debt.\nThe only true solution: Remove features!\nThis talk will explain how to lose your application featural overload by understanding the difference between the essential complexity and the accidental complexity, but also by giving you keys to carry out these changes in your project teams.",
                             "author": "Estelle Landry"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/jpalies.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/jpalièsNB.jpg",
                             "time": "15:00 - 15:30",
                             "title": "How video games taught me event sourcing",
-                            "description": "",
+                            "description": "In the early 2000s, I got puzzled by the small size of replay files for video games. I then dug into them and found some food for thought!",
                             "author": "Jean Paliès"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/dbartaguiz.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/dbartaguizNB.jpg",
                             "time": "15:30 - 16:00",
                             "title": "Slim Down Diet & TDD",
-                            "description": "",
+                            "description": "You'd like to get into TDD before next summer, but you're afraid you'll never make it on time? Don't worry, you'll find out how to succeed thanks to the 5 exclusive rules of slim down diets, such as \"reduce the size of the portions\", or \"mind the calories\" among other tips to overcome the obstacles and the friction. This talk will hand you the keys to start well and get on top of new TDD habits!",
                             "author": "Dorra Bartaguiz"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ddoomen.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/ddoomenNB.jpg",
                             "time": "16:00 - 17:00",
                             "title": "Event Sourcing Done Right - Experiences from the trenches",
                             "description": "",
-                            "author": "Denis Doomen"
+                            "author": "Over the years I've spoken many times about what Event Sourcing is and shared many of the good, the bad and the ugly parts of it in blog posts and various talks. However, I've never talked about how to actually build a system based on this architecture style. I keep getting the same questions over and over again. Like when to apply Event Sourcing and at what architectural level. How to deal with transactional boundaries within and outside the domain. How to build projections that are autonomous, reliable and self-supporting. How to deal with upgrades and blue-green deployments. But also on how to handle bugs, design mistakes and crashing projections. Having made a lot of these mistakes myself over these years, it's time to share my current thoughts and opinions about this. Since the .NET space has a pretty rich set of open-source projections to support this, the examples and code will be .NET. But the concepts are universal, so don't let that scare you off."
                         },
                         {
                             "type": "break",
@@ -438,7 +438,7 @@
                     ]
                 },
                 {
-                    "room": "Workshop",
+                    "room": "Goldberg",
                     "events": [
                         {
                             "type": "break",
@@ -451,7 +451,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
                             "author": "Ulrika Malmgren"
@@ -482,17 +482,18 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mhuizendveld.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/mhuizendveldNB.jpg",
                             "time": "14:00 - 15:00",
                             "title": "Iterating on domain models",
+                            "description": "The first model a team comes up with often leads them down a particular path. That isn't much of a problem if the first model is any good. But often our first ideas aren't our best. How can you prevent bias towards your initial approach? What could you do to break free from the boundaries you first imagined?\n\nIn this hands-on you'll be working on a single problem but you'll be forced to re-imagine it multiple times with different constraints. In each round you'll be limited in such a way that you'll have to get creative and come up with vastly different models for the same problem space. At the end you'll see what the power is of an enabling constraint. The Monday after the conference you'll know that with a little digging and thinking you can come up with entirely different models for about any problem space.",
                             "author": "Marijn Huizendveld"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/jmartinsson.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/jmartinssonNB.jpg",
                             "time": "15:30 - 17:00",
                             "title": "Rescuing legacy - from legacy to TDD",
-                            "description": "",
+                            "description": "What's the main hurdle of doing TDD in our existing codebase? The difficulty of testing the untestable code of our legacy codebase so that it can be refactored into something where it is easy to add functionality using TDD.\n\nBut how is this done when I have no separation of layers, no architecture and I can't even mock the database? Well let's see the workflow through a live demonstration of how tests are put in place, how the code is refactored and then finally how tests are separated into different layers of the testing pyramid, and finally how easy it becomes to TDD the new feature!\n\nThis demonstrates not only the basic workflow of modern development with legacy code, but also how we can leverage preparatory refactoring to gain time even in the short term, thanks to testing. Additionally it illustrates how respecting the testing pyramid makes a developers life more pleasant.\n\nCode that makes no sense to unit test due to bad design is a common problem. This small example models this problem in realistic way due to its hard-coded integration with external dependencies that cannot be \"stubbed out\"",
                             "author": "Johan Martinsson"
                         },
                         {
@@ -521,7 +522,7 @@
             "title": "Day 2",
             "rooms": [
                 {
-                    "room": "Room 1",
+                    "room": "Lovelace",
                     "events": [
                         {
                             "type": "break",
@@ -534,7 +535,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
                             "author": "April Wensel"
@@ -614,7 +615,7 @@
                     ]
                 },
                 {
-                    "room": "Room 2",
+                    "room": "Hopper",
                     "events": [
                         {
                             "type": "break",
@@ -627,7 +628,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
                             "author": "April Wensel"
@@ -707,7 +708,7 @@
                     ]
                 },
                 {
-                    "room": "Room 3",
+                    "room": "Liskov",
                     "events": [
                         {
                             "type": "break",
@@ -720,7 +721,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
                             "author": "April Wensel"
@@ -767,10 +768,10 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/apetrov.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/apetrovNB.jpg",
                             "time": "15:00 - 16:00",
                             "title": "Storage Systems: The Old, The New, The Overlooked",
-                            "description": "",
+                            "description": "Material on storage systems primarily covers two types of storage: B-Trees and LSM Trees. When these two are contrasted, we hear about buffering and immutability and it almost starts looking like we can't have immutability without buffering and vice versa. However, if we dig into academic and industry works, we find a lot of useful approaches mixing and matching these properties in different ways.\n\nStarting from the classic B-Tree papers from 1979 to the first LSM Trees paper in 1996,\nand continuing into 2019, we can reproduce and see the line of thinking that have lead the industry where we are today.\n\nBy revisiting this evolution of thinking and systematising the findings, we will improve our understanding of the currently used (and some useful yet overlooked) approaches to durable storage.",
                             "author": "Alex Petrov"
                         },
                         {
@@ -800,7 +801,7 @@
                     ]
                 },
                 {
-                    "room": "MultiRoom",
+                    "room": "Kare",
                     "events": [
                         {
                             "type": "break",
@@ -813,7 +814,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
                             "author": "April Wensel"
@@ -828,18 +829,18 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mdijk.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/mvandijkNB.jpg",
                             "time": "10:00 - 11:00",
                             "title": " Collaborating on Open Source Software; How I Started contributing to Open Source and Why You Should Too",
-                            "description": "",
+                            "description": "There are several reasons you might want to contribute to open source software. For me, it was that I wanted to learn in a more useful way than doing programming challenges. So I looked into how I could contribute to open source projects that I use myself.\nAfter contributing for almost two years, I notice that I have learned a lot from my contributions (which has been useful at work), as well as have made friends and have become part of a community.\n\nIn this talk I will share my experience with contributing to Cucumber, including an early mistake (merging something that wasn't ready yet) and fixing it with the support of core contributors, and still feeling welcome!\nYou'll learn how how to find your project and contributions to start with, how to connect with the community to make sure your contributions are useful and the many types of contributions you can make.\n\nContributing to open source is a way of paying back to the community. In addition, it is a way for you to learn, collaborate and become part of a community. Getting (constructive) feedback on a pull request and collaborating to make things even better is a great feeling!",
                             "author": "Marit van Dijk"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/jcadet.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/jlavigneducadetNB.jpg",
                             "time": "11:00 - 13:00",
                             "title": "Continuous reteaming: adopt self-selection and start moving people to the work!",
-                            "description": "",
+                            "description": "What if your engineering teams didn't have to be static? What if you could form them, disband them or adapt their composition every 3 months? And people could pick what they work on?\n\nIs it a recipe for disaster? Or would it give you the flexibility to work on what has the highest business impact, increase engagement and develop your future leaders? What are the tradeoffs? How do you balance short term impact with long term ownership and platform stability?\n\nIn this talk, I'll tell you how I initially led a team of ~20 people from a static structure to something a lot more dynamic where reteaming happens quarterly, and how we are now scaling those practices to 60 people. I'll share with you:\n- How we plan our quarters and let people pick what they work on\n- How we create constraints to make sure the important work gets done while developing knowledge sharing\n- How we use OKRs to create alignment and track progress\n- How we keep in sync and engage with our stakeholders\n- How lead time is decreasing as a result\n\nI'll also share details on our journey: our mistakes, our learnings, what we still struggle with 1 year later and why we think this is strongly aligned with Agile core values!",
                             "author": "Julien Lavigne du Cadet"
                         },
                         {
@@ -852,26 +853,26 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/frivain.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/frivainNB.jpg",
                             "time": "14:00 - 14:30",
                             "title": "From Feature Team to Mission Teams",
-                            "description": "",
+                            "description": "How Dashlane decided to transform their Product & Engineering Agile Organization from feature teams to Mission teams to maximize product impact, focus and delivery. Learning what works and does not work with feature teams, we decided to evolve the concept to rally the team behind missions supported by OKRs, with a focused product vision and organization.",
                             "author": "Frédéric Rivain"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/amichelle.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/mavomoNV.jpg",
                             "time": "14:30 - 15:00",
                             "title": "(Quick) kata to explain D from SOLID principles",
-                            "description": "",
-                            "author": "Avomo Michelle"
+                            "description": "Understanding or explaining Dependency Inversion can be confusing.\n\nThe official definition of that principle gives no clue on how it works in real life. Thus, as dev we know it exists and yet, we hardly remember why it has been around for so long.\n\nThis session is about a kata that will help any developper seeing/showing Dependency Inversion Principle ( D from SOLID) in action.\n\nThis session is a  straigthforward *tip and trick* to explain The D from SOLID.",
+                            "author": "Michelle Avomo"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/plemerrer.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/plemerrerNB.jpg",
                             "time": "15:30 - 16:30",
-                            "title": "Elm",
-                            "description": "",
+                            "title": "Easy functional programming with elm",
+                            "description":"Do you want to produce front-end JS code that does not generate any errors at runtime?\n\nRefactor your Single Page Applications without introducing any bugs?\nA tooling as simple as it is efficient?\n\nDuring this workshop, discover elm, a functional language that highlights the developer experience!\n\nPrerequisites: install elm, elm-live and elm-format on your laptop.",
                             "author": "Pascal Le Merrer"
                         },
                         {
@@ -893,7 +894,7 @@
                     ]
                 },
                 {
-                    "room": "Workshop",
+                    "room": "Goldberg",
                     "events": [
                         {
                             "type": "break",
@@ -906,7 +907,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
-                            "time": "9:00 - 9:45",
+                            "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
                             "author": "April Wensel"
@@ -921,10 +922,10 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ythirion.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/ythirionNB.jpg",
                             "time": "10:30 - 12:30",
-                            "title": "Xtrem Reading",
-                            "description": "",
+                            "title": "Xtrem Reading - Read differently and cultivate your collective intelligence",
+                            "description": "Do you have any books that are dusty?\nDo you really want to read them but can't find the time?\nWe have a solution for you: \"Xtrem reading\".\n\nLearn group reading and read 2 books in 1 hour.\nOur promise to you:\n\n* Boost your collective intelligence\n* Rekindle the flame of reading\n* Plan your next readings\n* Don't read for nothing !",
                             "author": "Yoan Thirion"
                         },
                         {
@@ -937,9 +938,10 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/tbracher.jpg",
+                            "image": "http://ncrafts.io/assets/img/speakers/tbracherNB.jpg",
                             "time": "14:30 - 16:00",
-                            "title": "La programmation événementielle",
+                            "title":"Let's discover event-based programming!",
+                            "description":"What's the best way to learn how to develop event driven application than participating to its live implementation?! This session is a mix between an event storm and a live-coding conference to discover event driven programming. We will all design, discuss and decide how to solve a complex domain problem. Whatever your level in event driven systems, come to learn new things or teach others your knowledge.",
                             "author": "Thomas Bracher"
                         },
                         {

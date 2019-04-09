@@ -4,6 +4,8 @@ $(document).ready(() => {
         let scheduleNav = '';
         let scheduleContent = '';
 
+        var markdownConverter = new showdown.Converter();
+
         const days = resp.days;
         for (var i = 0; i < resp.days.length; i++)
         {
@@ -31,7 +33,7 @@ $(document).ready(() => {
                 for (var j = 0; j < rooms.length; j++)
                 {
                     scheduleContent += `
-                        <li${ j === 0 ? ' class="active"' : '' }>><a href='#day${i}_room${j}' data-toggle='tab'>${rooms[j].room}</a></li>
+                        <li${ j === 0 ? ' class="active"' : '' }><a href='#day${i}_room${j}' data-toggle='tab'>${rooms[j].room}</a></li>
                     `;
                 }
 
@@ -64,7 +66,7 @@ $(document).ready(() => {
                             </div>
                     `;
 
-                    if (events[k].description !== '') {
+                    if (events[k].description !== '' || events[k].author !== '') {
                         scheduleContent += `
                             <a data-toggle='collapse' data-parent='#day${i}_room${j}_timeline' href='#day${i}_room${j}_timeline_time${k}' class='schedule-item-toggle collapsed'>
                                 <strong class="time highlight"><i class="icon icon-office-24"></i>${events[k].time}</strong>
@@ -74,7 +76,7 @@ $(document).ready(() => {
                             <div id='day${i}_room${j}_timeline_time${k}' class='panel-collapse collapse schedule-item-body '>
                                 <article>
                                     <p class='description'>
-                                        ${events[k].description}    
+                                        ${ markdownConverter.makeHtml(events[k].description) }    
                                     </p>
                                     <strong class='highlight speaker-name'>${events[k].author}</strong>
                                 </article>
@@ -110,8 +112,8 @@ $(document).ready(() => {
         $('#schedule-nav').append(scheduleNav);
         $('#schedule-content').append(scheduleContent);
         
-        // console.log(scheduleNav);
-        // console.log(scheduleContent);
+        console.log(scheduleNav);
+        console.log(scheduleContent);
         
         $('#first_day').click();
     });

@@ -1,48 +1,53 @@
 {
-    "days": [
-        {
+    "days": [{
             "day": 1,
             "date": "15/05/2019",
             "title": "Workshops",
-            "location":"LeBoncoin office",
-            "address":"85 rue du Faubourg Saint-Martin – 75010 Paris",
-            "rooms": [
+            "location": "LeBoncoin office",
+            "address": "85 rue du Faubourg Saint-Martin – 75010 Paris",
+            "rooms": [{
+                    "room": "Room #1",
+                    "events": [{
+                        "type": "conference",
+                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/mverraes.jpg",
+                        "time": "9:00 - 17:00",
+                        "title": "DDD Modelling vs Implementation",
+                        "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
+                        "speakerName": "Mathias Verraes"
+                    }]
+                },
                 {
-                    "room": "Lovelace",
-                    "events": [
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mverraes.jpg",
-                            "time": "9:00 - 11:00",
-                            "title": "DDD Modelling vs Implementation",
-                            "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
-                            "author": "Mathias Verraes"
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/kennybrunothomas.jpg",
-                            "time": "11:45 - 12:30",
-                            "title": "EventStorming and Example Mapping From Problem Space to Solution Space",
-                            "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
-                            "author": "Kenny Baas-Schwegler, Bruno Boucard & Thomas Pierrain"
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/khenney.jpg",
-                            "time": "14:00 - 16:00",
-                            "title": "Refactoring to Immutability",
-                            "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
-                            "author": "Kevlin Henney"
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/wzuill.jpg",
-                            "time": "16:00 - 18:00",
-                            "title": "Mob Programming",
-                            "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
-                            "author": "Woody Zuill"
-                        }
-                    ]
+                    "room": "Room #2",
+                    "events": [{
+                        "type": "conference",
+                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/kennybrunothomas.jpg",
+                        "time": "9:00 - 17:00",
+                        "title": "EventStorming and Example Mapping From Problem Space to Solution Space",
+                        "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
+                        "speakerName": "Kenny Baas-Schwegler, Bruno Boucard & Thomas Pierrain"
+                    }]
+                },
+                {
+                    "room": "Room #3",
+                    "events": [{
+                        "type": "conference",
+                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/khenney.jpg",
+                        "time": "9:00 - 17:00",
+                        "title": "Refactoring to Immutability",
+                        "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
+                        "speakerName": "Kevlin Henney"
+                    }]
+                },
+                {
+                    "room": "Room #4",
+                    "events": [{
+                        "type": "conference",
+                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/wzuill.jpg",
+                        "time": "9:00 - 17:00",
+                        "title": "Mob Programming",
+                        "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
+                        "speakerName": "Woody Zuill"
+                    }]
                 }
             ]
         },
@@ -50,471 +55,539 @@
             "day": 2,
             "date": "16/05/2019",
             "title": "Day 1",
-            "location":"NEW CAP Event Center",
-            "address":"3 Quai de Grenelle – 75015 Paris",
-            "rooms": [
-                {
+            "location": "NEW CAP Event Center",
+            "address": "3 Quai de Grenelle – 75015 Paris",
+            "rooms": [{
                     "room": "Lovelace",
-                    "events": [
-                        {
+                    "events": [{
                             "type": "break",
-                            "image": "",
-                            "time": "9:00 - 9:30",
+                            "speakerPhoto": "",
+                            "time": "8:45 - 9:15",
                             "title": "Check-in time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:30 - 10:15",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
+                            "time": "9:15 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
-                            "author": "Ulrika Malmgren"
+                            "speakerName": "Ulrika Malmgren"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/stalwar.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/stalwar.jpg",
                             "time": "10:45 - 11:30",
                             "title": "Teaching a maching to code",
                             "description": "",
-                            "author": "Samir Talwar"
+                            "speakerName": "Samir Talwar"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ehost.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ehost.jpg",
                             "time": "11:45 - 12:30",
                             "title": "Escher in Elm",
                             "description": "",
-                            "author": "Einar Høst"
+                            "speakerName": "Einar Høst"
                         },
                         {
                             "type": "lunch",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/jchassaing.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/jchassaing.jpg",
                             "time": "14:00 - 14:45",
                             "title": "Applicatives IRL",
                             "description": "",
-                            "author": "Jérémie Chassaing"
+                            "speakerName": "Jérémie Chassaing"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/edamiani.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/edamiani.jpg",
                             "time": "15:00 - 15:45",
                             "title": "(DESIGN)",
                             "description": "",
-                            "author": "Emanuella Damiani"
+                            "speakerName": "Emanuella Damiani"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/hleigh.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/hleigh.jpg",
                             "time": "16:00 - 16:45",
                             "title": "Music Tech Making",
                             "description": "",
-                            "author": "Helen Leigh"
+                            "speakerName": "Helen Leigh"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
                             "time": "17:15 - 18:00",
                             "title": "The gordian knot → Hatching Software Development Ecosystems",
                             "description": "",
-                            "author": "Alberto Brandolini"
+                            "speakerName": "Alberto Brandolini"
                         }
                     ]
                 },
                 {
                     "room": "Hopper",
-                    "events": [
-                        {
-                            "type": "break",
-                            "image": "",
-                            "time": "9:00 - 9:30",
-                            "title": "Check-in time",
-                            "description": "",
-                            "author": ""
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:30 - 10:15",
+                    "events": [{
+                            "speakerId": "Ulrikama",
+                            "speakerName": "Ulrika Malmgren",
+                            "twitter": "https://twitter.com/Ulrikama",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/UlrikaMalmgrenNB.jpg",
+                            "id": "nc19-uma01",
                             "title": "The one with the compiler always wins",
-                            "description": "",
-                            "author": "Ulrika Malmgren"
+                            "type": "Talk",
+                            "description": "The programmer holds the power in the team. The UX designer, the product owner, the manager, the tester, the agile coach and others can try their best to influence outcomes but it doesn’t matter if the programmer is not on board. Only the programmer decides which if-statements get written and how long it will take. Without the programmer, there is no software. Without the software, there is no company. But as the saying goes, with great power comes great responsibility. One of those responsibilities is to acknowledge this power and use it for good. Good for the human beings working with you, good for the company, good for your own health and good for society.",
+                            "room": "Hopper",
+                            "date": "16/05/2019",
+                            "time": "09:15 - 10:15",
+                            "tags": [],
+                            "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "image": "",
-                            "time": "10:30 - 10:45",
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "twitter": "https://twitter.com/",
+                            "speakerPhoto": "",
+                            "id": "",
                             "title": "Coffee break",
-                            "description": "",
-                            "author": ""
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/cdelagargueNB.jpg",
-                            "time": "10:45 - 11:30",
-                            "title": "Application design with a stack of monads",
-                            "description": "Functional Programming is often seen as a nice tool for small-scale\nconcerns, not as a tool for application design. \"Functional in the\nsmall, OO in the large\" is often heard and sums up this idea quite\nwell. However, functional programming comes with interesting tools\naimed at solving these boring (or deemed boring) concerns: dependency\ninversion, observability). Aspect-Oriented-Programming is often used\nfor this in the OO word.\n\nA functional solution, called a _monad stack_, allows to combine all\nthis cross-cutting concerns and behaviours with no magic (or not too\nmuch).\n\nIn this conference, we'll see what _monad transformers_ are, how they\nwork, and how to use them to structure a web application, with\nexamples in scala and haskell.",
-                            "author": "Clément Delafargue"
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/gdiagram.jpg",
-                            "time": "11:45 - 12:30",
-                            "title": "",
-                            "description": "",
-                            "author": "Gwen Diagram"
-                        },
-                        {
-                            "type": "lunch",
-                            "image": "",
-                            "time": "12:30 - 14:00",
-                            "title": "Lunch break",
-                            "description": "",
-                            "author": ""
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/asavarin.jpg",
-                            "time": "14:00 - 14:45",
-                            "title": "Non-Euclidean Software Delivery",
-                            "description": "",
-                            "author": "Anna Savarin"
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/asalmiNB.jpg",
-                            "time": "15:00 - 15:45",
-                            "title": "Railroad-Driven Programming",
-                            "description": "Tired of if-statements cluttering up your code?\nIn this talk, you will be guided to railroad tracks - web app designed and implemented functionally using heavily Either Monads. Everything is either a Success or Error, or rather a Future of Success or Errors.\nDuring the talk, few monads are discussed, like Maybe and Either, using examples from SanctuaryJS (which is used in the app). Also some good practices that makes the domain code easy to understand.\nThe talk will be based on real code that runs in production.",
-                            "author": "Aki Salmi"
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/hleigh.jpg",
-                            "time": "16:00 - 16:45",
-                            "title": "Music Tech Making",
-                            "description": "",
-                            "author": "Mathias Verraes"
-                        },
-                        {
                             "type": "break",
-                            "image": "",
-                            "time": "16:45 - 17:15",
-                            "title": "Coffee time",
                             "description": "",
-                            "author": ""
+                            "room": "Hopper",
+                            "date": "16/05/2019",
+                            "time": "10:15 - 10:45",
+                            "tags": [],
+                            "cospeakers": []
                         },
                         {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
-                            "time": "17:15 - 18:00",
-                            "title": "The gordian knot → Hatching Software Development Ecosystems",
+                            "speakerId": "clementd",
+                            "speakerName": "Clément Delafargue",
+                            "twitter": "https://twitter.com/clementd",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/ClementDelafargueNB.jpg",
+                            "id": "nc19-cde01",
+                            "title": "Application design with a stack of monads",
+                            "type": "Talk",
+                            "description": "Functional Programming is often seen as a nice tool for small-scale concerns, not as a tool for application design. \"Functional in the small, OO in the large\" is often heard and sums up this idea quite well. However, functional programming comes with interesting tools aimed at solving these boring (or deemed boring) concerns: dependency inversion, observability). Aspect-Oriented-Programming is often used for this in the OO word. \n\nA functional solution, called a _monad stack_, allows to combine all this cross-cutting concerns and behaviours with no magic (or not too much). \n\nIn this conference, we'll see what _monad transformers_ are, how they work, and how to use them to structure a web application, with examples in scala and haskell.",
+                            "room": "Hopper",
+                            "date": "16/05/2019",
+                            "time": "10:45 - 11:30",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "gwendiagram",
+                            "speakerName": "Gwen Diagram",
+                            "twitter": "https://twitter.com/gwendiagram",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/GwenDiagramNB.jpg",
+                            "id": "nc19-gdi01",
+                            "title": "Security by Stealth",
+                            "type": "Talk",
+                            "description": "Security isn't very fun for development teams to think about. It's complex and something that isn't brought to mind when considering requirements. Too often, it neglected by teams and left to the end for penetration testers to consider. But, it doesn't have to be. Security can be considered early in the development cycle. How can we encourage this behaviour? How can you get development teams interested?\n\nSecurity is an important skill to possess while delivering quality software. The cost of not having security skills within teams is now more obvious than ever. Security should be in the forefront of development teams minds. Even with these risks, data leaks and denial of service attacks are in the headlines often. How do we stop our companies being another statistic?\n\nLearning should not be compulsory. Especially if you want something to become part of the culture. Beginning with a simple workshop to expanding to a security guild, people were eager to be involved. This lead to further workshops which included the basics of threat modelling using STRIDE to the complexity of automated checks. Security at Sky became not only fun but cool. Security was no longer a rarely thought about requirement but a fun, oft thought about need.",
+                            "room": "Hopper",
+                            "date": "16/05/2019",
+                            "time": "11:45 - 12:30",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "twitter": "https://twitter.com/",
+                            "speakerPhoto": "",
+                            "id": "",
+                            "title": "Lunch break",
+                            "type": "lunch",
                             "description": "",
-                            "author": "Alberto Brandolini"
+                            "room": "Hopper",
+                            "date": "16/05/2019",
+                            "time": "12:30 - 14:00",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "SavarinAnna",
+                            "speakerName": "Anna Savarin",
+                            "twitter": "https://twitter.com/SavarinAnna",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AnnaSavarinNB.jpg",
+                            "id": "nc19-asa01",
+                            "title": "Non-Euclidean Software Delivery",
+                            "type": "Talk",
+                            "description": "After some project experience, you would think software development is about feature branches and pull requests, sprints, deadlines and tardy code, brittleness and tech debt, JIRA and PMs, heroic teammates, and stress. It has to be that way as these are all byproducts of some hidden axioms.\n\nWelcome to my new world where axioms are reversed and parallel lines cross! Ever since I joined my mob team and started practicing Extreme Programming, I have been slowly tossing out of the window everything I know so far about software delivery.  Fresh, newcomer perspective is short-lived and high-value, and I would like to share my amazement at this non-Euclidean way of delivering software, before it becomes the new norm for me.",
+                            "room": "Hopper",
+                            "date": "16/05/2019",
+                            "time": "14:00 - 14:45",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "rinkkasatiainen",
+                            "speakerName": "Aki Salmi",
+                            "twitter": "https://twitter.com/rinkkasatiainen",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AkiSalmiNB.jpg",
+                            "id": "nc19-asa01",
+                            "title": "Railroad-Driven Programming",
+                            "type": "Talk",
+                            "description": "Tired of if-statements cluttering up your code?\nIn this talk, you will be guided to railroad tracks - web app designed and implemented functionally using heavily Either Monads. Everything is either a Success or Error, or rather a Future of Success or Errors. \nDuring the talk, few monads are discussed, like Maybe and Either, using examples from SanctuaryJS (which is used in the app). Also some good practices that makes the domain code easy to understand.\nThe talk will be based on real code that runs in production.",
+                            "room": "Hopper",
+                            "date": "16/05/2019",
+                            "time": "15:00 - 15:45",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "matthiasnoback",
+                            "speakerName": "Mathias Noback",
+                            "twitter": "https://twitter.com/matthiasnoback",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/MathiasNobackNB.jpg",
+                            "id": "nc19-mno01",
+                            "title": "Brutal refactoring, lying code, the Churn, and other emotional stories from Legacy Land",
+                            "type": "Talk",
+                            "description": "Working effectively with legacy code isn’t all about creating test harnesses before refactoring algorithms. The \"safety first\" strategy doesn’t always apply. Not if the code you’re looking at is LYING IN YOUR FACE anyway.\n\nIn this talk I’ll show you what brutal refactoring is. I’ll show you the red glowy eyes of the Churn. And I’ll hold up some big warning signs that should prevent you from producing legacy code today.\n\nTable flips allowed.",
+                            "room": "Hopper",
+                            "date": "16/05/2019",
+                            "time": "16:00 - 16:45",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "twitter": "https://twitter.com/",
+                            "speakerPhoto": "",
+                            "id": "",
+                            "title": "Coffee time",
+                            "type": "break",
+                            "description": "",
+                            "room": "Hopper",
+                            "date": "16/05/2019",
+                            "time": "16:45 - 17:15",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "ziobrando",
+                            "speakerName": "Alberto Brandolini",
+                            "twitter": "https://twitter.com/ziobrando",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlbertoBrandoliniNB.jpg",
+                            "id": "nc19-abr01",
+                            "title": "The gordian knot → Hatching Software Development Ecosystems",
+                            "type": "Talk",
+                            "description": "Some companies are going \"full DevOps\" and apparently releasing at the speed of light. Other companies are still struggling with estimations and slowly thinking about going microservices. Other are happy with their monolith, but struggling with recruiting.\n\nWe’re all developers, but we’re not doing the same job. The line connecting a problem to its solution is relatively straight in some organizations and incredibly convoluted in some hours.\n\nProcesses, Software architectures and Organization are not separate concerns, neither are orthogonal. Pretending to fix one thing without touching others is a losing battle.\n\nWe’re part of the problem. Our software is part of the problem. We can be part of the solution too.",
+                            "room": "Hopper",
+                            "date": "16/05/2019",
+                            "time": "17:15 - 18:00",
+                            "tags": [],
+                            "cospeakers": []
                         }
                     ]
                 },
                 {
                     "room": "Liskov",
-                    "events": [
-                        {
+                    "events": [{
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
                             "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
-                            "author": "Ulrika Malmgren"
+                            "speakerName": "Ulrika Malmgren"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/xdetantNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/xdetantNB.jpg",
                             "time": "10:45 - 11:30",
                             "title": "Test && commit || revert",
                             "description": "[Kent Beck wrote an article](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864) about a technique invented by Oddmund Str√∏mmer last september. TCR is an alternative to TDD that enforce even more extreme rules than TDD. The goal of this talk is to present the principles, pros and cons according to my experience with TCR.\nEvery point will be illustrated with examples. Finally, we'll try to adapt TCR a bit in order to mitigate the identified cons.",
-                            "author": "Xavier Detant"
+                            "speakerName": "Xavier Detant"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/pkua.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/pkua.jpg",
                             "time": "11:45 - 12:30",
                             "title": "Talkin w/ Tech Leads",
                             "description": "",
-                            "author": "Pat Kua"
+                            "speakerName": "Patrick Kua"
                         },
                         {
                             "type": "lunch",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/khenney.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/khenney.jpg",
                             "time": "14:00 - 14:45",
                             "title": "The Passions of Programming",
                             "description": "",
-                            "author": "Kevlin Henney"
+                            "speakerName": "Kevlin Henney"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/sleandro.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/sleandro.jpg",
                             "time": "15:00 - 15:45",
                             "title": "How to rewrite, a bit at a time",
                             "description": "",
-                            "author": "Sabrina Leandro"
+                            "speakerName": "Sabrina Leandro"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ssmith.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ssmith.jpg",
                             "time": "16:00 - 16:45",
                             "title": "Continuous Delivery and the Theory of Constraints",
                             "description": "",
-                            "author": "Steve Smith"
+                            "speakerName": "Steve Smith"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
                             "time": "17:15 - 18:00",
                             "title": "The gordian knot → Hatching Software Development Ecosystems",
                             "description": "",
-                            "author": "Alberto Brandolini"
+                            "speakerName": "Alberto Brandolini"
                         }
                     ]
                 },
                 {
                     "room": "Kare",
-                    "events": [
-                        {
+                    "events": [{
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
                             "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
-                            "author": "Ulrika Malmgren"
+                            "speakerName": "Ulrika Malmgren"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/tgoeschelNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/tgoeschelNB.jpg",
                             "time": "10:45 - 11:30",
                             "title": "Domain Prototyping, or Design is How it Works",
-                            "description": "When we design a system from scratch, especially complex distributed systems, with microservices and/or Big Data pipelines, we have to make a series of important tactical decisions regarding the structure and information flow within our domain. If we assume boundaries in the wrong place, or forget or omit important aspects of communication, we can end up with brittle services, performance issues, and needlessly coupled modules and components, which are painful to maintain and deploy.\nSome of those aspects are hard to discover upfront, and even with great experience, it's not unusual to get the first design at least partially wrong.\n\nOne way to minimize the consequences of those decisions, and to verify our initial assumptions, is to start implementation not with a full architecture in mind, but rather with the smallest possible footprint: A plain, but fully operational prototype of the domain model, which we can stress, observe and explore - and change easily, if we run into problems. This way, we can actually _see_ our design work, and gain valuable insights.\n\nUsing examples, I will demonstrate how combining Domain Driven Design with the practices, heuristics and principles of Software Crafting can highlight difficult or problematic choices, improve fundamental architecture decisions, and ultimately lead to better and more sustainable software systems, long before we get sidetracked by the additional complexity of host environments and deployment pipelines.",                     
-                            "author": "Tobias Goeschel"
+                            "description": "When we design a system from scratch, especially complex distributed systems, with microservices and/or Big Data pipelines, we have to make a series of important tactical decisions regarding the structure and information flow within our domain. If we assume boundaries in the wrong place, or forget or omit important aspects of communication, we can end up with brittle services, performance issues, and needlessly coupled modules and components, which are painful to maintain and deploy.\nSome of those aspects are hard to discover upfront, and even with great experience, it's not unusual to get the first design at least partially wrong.\n\nOne way to minimize the consequences of those decisions, and to verify our initial assumptions, is to start implementation not with a full architecture in mind, but rather with the smallest possible footprint: A plain, but fully operational prototype of the domain model, which we can stress, observe and explore - and change easily, if we run into problems. This way, we can actually _see_ our design work, and gain valuable insights.\n\nUsing examples, I will demonstrate how combining Domain Driven Design with the practices, heuristics and principles of Software Crafting can highlight difficult or problematic choices, improve fundamental architecture decisions, and ultimately lead to better and more sustainable software systems, long before we get sidetracked by the additional complexity of host environments and deployment pipelines.",
+                            "speakerName": "Tobias Goeschel"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mromeuNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/mromeuNB.jpg",
                             "time": "11:45 - 12:30",
                             "title": "Bourdieu's Social Theory and our work in tech",
                             "description": "We know psychological safety is necessary for any working team to work But how achievable is it? I posit that due to our current blind spots our visions on that are naïve Let's dig together on why! tis time for some Sociological Theory, let's Vulgarise Bourdieu! Buckle up for a keynote on\n\nSymbolic Violence.\nSocial/Corporeal Hexis.\nCultural Capital.\nInteractions of those 3 and \"Agile\" Methods.",
-                            "author": "Moura Romeu"
+                            "speakerName": "Romeu Moura"
                         },
                         {
                             "type": "lunch",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/elefevre-ardantNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/elefevre-ardantNB.jpg",
                             "time": "14:00 - 14:30",
                             "title": "Plankalkül: a high-level language from the 1940s",
                             "description": "At the dawn of the computer age, only Assembly languages could be used to program computers without going through the recabling process. Modern programming languages only appeared in the 1950s.\n\nStill, in the 1940s, a German inventor designed Plankalkül. Its influence has been limited, but its ideads were incredibly advanced for the times.\n\nTogether, let's rediscover the first high-level programming language in history.",
-                            "author": "Eric Lefevre-Ardant"
+                            "speakerName": "Eric Lefevre-Ardant"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/elandryNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/elandryNB.jpg",
                             "time": "14:30 - 15:00",
                             "title": "How to lose your feature overload ?",
                             "description": "The application life cycle is a nebulous and dangerous road.\nThe complexity increases exponentially . One of the developer biggest challenges is to be able to control this complexity while adding new features.\n\nSeveral solutions exist: code rewriting or mastery of technical debt.\nThe only true solution: Remove features!\nThis talk will explain how to lose your application featural overload by understanding the difference between the essential complexity and the accidental complexity, but also by giving you keys to carry out these changes in your project teams.",
-                            "author": "Estelle Landry"
+                            "speakerName": "Estelle Landry"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/jpalièsNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/jpalièsNB.jpg",
                             "time": "15:00 - 15:30",
                             "title": "How video games taught me event sourcing",
                             "description": "In the early 2000s, I got puzzled by the small size of replay files for video games. I then dug into them and found some food for thought!",
-                            "author": "Jean Paliès"
+                            "speakerName": "Jean Paliès"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/dbartaguizNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/dbartaguizNB.jpg",
                             "time": "15:30 - 16:00",
                             "title": "Slim Down Diet & TDD",
                             "description": "You'd like to get into TDD before next summer, but you're afraid you'll never make it on time? Don't worry, you'll find out how to succeed thanks to the 5 exclusive rules of slim down diets, such as \"reduce the size of the portions\", or \"mind the calories\" among other tips to overcome the obstacles and the friction. This talk will hand you the keys to start well and get on top of new TDD habits!",
-                            "author": "Dorra Bartaguiz"
+                            "speakerName": "Dorra Bartaguiz"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ddoomenNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ddoomenNB.jpg",
                             "time": "16:00 - 16:45",
                             "title": "Event Sourcing Done Right - Experiences from the trenches",
-                            "description": "",
-                            "author": "Over the years I've spoken many times about what Event Sourcing is and shared many of the good, the bad and the ugly parts of it in blog posts and various talks. However, I've never talked about how to actually build a system based on this architecture style. I keep getting the same questions over and over again. Like when to apply Event Sourcing and at what architectural level. How to deal with transactional boundaries within and outside the domain. How to build projections that are autonomous, reliable and self-supporting. How to deal with upgrades and blue-green deployments. But also on how to handle bugs, design mistakes and crashing projections. Having made a lot of these mistakes myself over these years, it's time to share my current thoughts and opinions about this. Since the .NET space has a pretty rich set of open-source projections to support this, the examples and code will be .NET. But the concepts are universal, so don't let that scare you off."
+                            "description": "Over the years I've spoken many times about what Event Sourcing is and shared many of the good, the bad and the ugly parts of it in blog posts and various talks. However, I've never talked about how to actually build a system based on this architecture style. I keep getting the same questions over and over again. Like when to apply Event Sourcing and at what architectural level. How to deal with transactional boundaries within and outside the domain. How to build projections that are autonomous, reliable and self-supporting. How to deal with upgrades and blue-green deployments. But also on how to handle bugs, design mistakes and crashing projections. Having made a lot of these mistakes myself over these years, it's time to share my current thoughts and opinions about this. Since the .NET space has a pretty rich set of open-source projections to support this, the examples and code will be .NET. But the concepts are universal, so don't let that scare you off.",
+                            "speakerName": "Dennis Doomen"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
                             "time": "17:15 - 18:00",
                             "title": "The gordian knot → Hatching Software Development Ecosystems",
                             "description": "",
-                            "author": "Alberto Brandolini"
+                            "speakerName": "Alberto Brandolini"
                         }
                     ]
                 },
                 {
                     "room": "Goldberg",
-                    "events": [
-                        {
-                            "type": "break",
-                            "image": "",
-                            "time": "9:00 - 9:30",
-                            "title": "Check-in time",
-                            "description": "",
-                            "author": ""
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/umalmgren.jpg",
-                            "time": "9:30 - 10:15",
-                            "title": "The one with the compiler always wins",
-                            "description": "",
-                            "author": "Ulrika Malmgren"
-                        },
-                        {
-                            "type": "break",
-                            "image": "",
-                            "time": "10:30 - 10:45",
+                    "events": [{
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "twitter": "https://twitter.com/",
+                            "speakerPhoto": "",
+                            "id": "",
                             "title": "Coffee break",
-                            "description": "",
-                            "author": ""
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/verschatse.jpg",
-                            "time": "10:00 - 13:00",
-                            "title": "Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue",
-                            "description": "",
-                            "author": "Gien Verschatse"
-                        },
-                        {
-                            "type": "lunch",
-                            "image": "",
-                            "time": "12:30 - 14:00",
-                            "title": "Lunch break",
-                            "description": "",
-                            "author": ""
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mhuizendveldNB.jpg",
-                            "time": "14:00 - 14:45",
-                            "title": "Iterating on domain models",
-                            "description": "The first model a team comes up with often leads them down a particular path. That isn't much of a problem if the first model is any good. But often our first ideas aren't our best. How can you prevent bias towards your initial approach? What could you do to break free from the boundaries you first imagined?\n\nIn this hands-on you'll be working on a single problem but you'll be forced to re-imagine it multiple times with different constraints. In each round you'll be limited in such a way that you'll have to get creative and come up with vastly different models for the same problem space. At the end you'll see what the power is of an enabling constraint. The Monday after the conference you'll know that with a little digging and thinking you can come up with entirely different models for about any problem space.",
-                            "author": "Marijn Huizendveld"
-                        },
-                        {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/jmartinssonNB.jpg",
-                            "time": "15:30 - 17:00",
-                            "title": "Rescuing legacy - from legacy to TDD",
-                            "description": "What's the main hurdle of doing TDD in our existing codebase? The difficulty of testing the untestable code of our legacy codebase so that it can be refactored into something where it is easy to add functionality using TDD.\n\nBut how is this done when I have no separation of layers, no architecture and I can't even mock the database? Well let's see the workflow through a live demonstration of how tests are put in place, how the code is refactored and then finally how tests are separated into different layers of the testing pyramid, and finally how easy it becomes to TDD the new feature!\n\nThis demonstrates not only the basic workflow of modern development with legacy code, but also how we can leverage preparatory refactoring to gain time even in the short term, thanks to testing. Additionally it illustrates how respecting the testing pyramid makes a developers life more pleasant.\n\nCode that makes no sense to unit test due to bad design is a common problem. This small example models this problem in realistic way due to its hard-coded integration with external dependencies that cannot be \"stubbed out\"",
-                            "author": "Johan Martinsson"
-                        },
-                        {
                             "type": "break",
-                            "image": "",
-                            "time": "16:45 - 17:15",
-                            "title": "Coffee time",
                             "description": "",
-                            "author": ""
+                            "room": "Goldberg",
+                            "date": "16/05/2019",
+                            "tags": [],
+                            "cospeakers": []
                         },
                         {
-                            "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
-                            "time": "17:15 - 18:00",
-                            "title": "The gordian knot → Hatching Software Development Ecosystems",
+                            "speakerId": "selketjah",
+                            "speakerName": "Gien Verschatse",
+                            "twitter": "https://twitter.com/selketjah",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/GienVerschatseNB.jpg",
+                            "id": "nc19-gve01",
+                            "title": "Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue",
+                            "type": "Hands-on",
+                            "description": "Coffee or tea? One sugar or two? Should we use Event Sourcing or does CRUD seem good to you?\n\nOur brains are designed for making quick decisions, but quick does not always mean good… We make thousands of decisions each day but never stop to wonder: how did we come to this conclusion? Were there more choices than we realised? Did we focus on the right thing? Did we pick the right option? Are there other methods we can use to reach a better outcome?\nIf we improved our decision making by just 1%, overall we would achieve a massive improvement in every area of our lives, from happiness with our family to success at work. Everybody should learn decision making heuristics, yet nobody does. Let’s fix that.\n\nWe’re going to take a close look at a variety of key decision-making heuristics including \"problem restatement\", \"devil’s advocate\", and \"the wizard\". Through provocative exercises, we’re going to uncover the heuristics we currently use and we’re going to teach ourselves when to apply certain decision making heuristics to improve our chances of getting the results we want.",
+                            "room": "Goldberg",
+                            "date": "16/05/2019",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "twitter": "https://twitter.com/",
+                            "speakerPhoto": "",
+                            "id": "",
+                            "title": "Lunch break",
+                            "type": "lunch",
                             "description": "",
-                            "author": "Alberto Brandolini"
+                            "room": "Goldberg",
+                            "date": "16/05/2019",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "huizendveld",
+                            "speakerName": "Marijn Huizendveld",
+                            "twitter": "https://twitter.com/huizendveld",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/MarijnHuizendveldNB.jpg",
+                            "id": "nc19-mhu01",
+                            "title": "Iterating on domain models",
+                            "type": "Hands-on",
+                            "description": "The first model a team comes up with often leads them down a particular path. That isn't much of a problem if the first model is any good. But often our first ideas aren't our best. How can you prevent bias towards your initial approach? What could you do to break free from the boundaries you first imagined?\n\nIn this hands-on you'll be working on a single problem but you'll be forced to re-imagine it multiple times with different constraints. In each round you'll be limited in such a way that you'll have to get creative and come up with vastly different models for the same problem space. At the end you'll see what the power is of an enabling constraint. The Monday after the conference you'll know that with a little digging and thinking you can come up with entirely different models for about any problem space.",
+                            "room": "Goldberg",
+                            "date": "16/05/2019",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "johan_alps",
+                            "speakerName": "Johan Martinsson",
+                            "twitter": "https://twitter.com/johan_alps",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/JohanMartinssonNB.jpg",
+                            "id": "nc19-jma01",
+                            "title": "Rescuing legacy - from legacy to TDD",
+                            "type": "Quick Hands-on",
+                            "description": "What's the main hurdle of doing TDD in our existing codebase? The difficulty of testing the untestable code of our legacy codebase so that it can be refactored into something where it is easy to add functionality using TDD.\n\nBut how is this done when I have no separation of layers, no architecture and I can't even mock the database? Well let's see the workflow through a live demonstration of how tests are put in place, how the code is refactored and then finally how tests are separated into different layers of the testing pyramid, and finally how easy it becomes to TDD the new feature!\n\nThis demonstrates not only the basic workflow of modern development with legacy code, but also how we can leverage preparatory refactoring to gain time even in the short term, thanks to testing. Additionally it illustrates how respecting the testing pyramid makes a developers life more pleasant.\n\nCode that makes no sense to unit test due to bad design is a common problem. This small example models this problem in realistic way due to its hard-coded integration with external dependencies that cannot be \"stubbed out\".",
+                            "room": "Goldberg",
+                            "date": "16/05/2019",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "twitter": "https://twitter.com/",
+                            "speakerPhoto": "",
+                            "id": "",
+                            "title": "Coffee time",
+                            "type": "break",
+                            "description": "",
+                            "room": "Goldberg",
+                            "date": "16/05/2019",
+                            "tags": [],
+                            "cospeakers": []
                         }
                     ]
                 }
@@ -524,447 +597,441 @@
             "day": 3,
             "date": "17/05/2019",
             "title": "Day 2",
-            "location":"NEW CAP Event Center",
-            "address":"3 Quai de Grenelle – 75015 Paris",
-            "rooms": [
-                {
+            "location": "NEW CAP Event Center",
+            "address": "3 Quai de Grenelle – 75015 Paris",
+            "rooms": [{
                     "room": "Lovelace",
-                    "events": [
-                        {
+                    "events": [{
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
                             "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
-                            "author": "April Wensel"
+                            "speakerName": "April Wensel"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/swlaschin.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/swlaschin.jpg",
                             "time": "10:45 - 11:30",
                             "title": "Four Languages from Forty Years Ago",
                             "description": "",
-                            "author": "Scott Wlaschin"
+                            "speakerName": "Scott Wlaschin"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/abeba.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/abeba.jpg",
                             "time": "11:45 - 12:30",
                             "title": "TBD",
                             "description": "",
-                            "author": "Abeba"
+                            "speakerName": "Abeba"
                         },
                         {
                             "type": "lunch",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/tpetricek.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/tpetricek.jpg",
                             "time": "14:00 - 14:45",
                             "title": "The search for fundamental software engineering principles",
                             "description": "",
-                            "author": "Tomas Petricek"
+                            "speakerName": "Tomas Petricek"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/bmarick.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/bmarick.jpg",
                             "time": "15:00 - 15:45",
-                            "title": "FP ?",
+                            "title": "TBD",
                             "description": "",
-                            "author": "Brian Marick"
+                            "speakerName": "Brian Marick"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/avidela.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/avidela.jpg",
                             "time": "16:00 - 16:45",
                             "title": "To what extend are programming languages languages ?",
                             "description": "",
-                            "author": "Alvaro Videla"
+                            "speakerName": "Alvaro Videla"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
                             "time": "17:15 - 18:00",
                             "title": "Nihilism and technology",
                             "description": "",
-                            "author": "Nolen Gertz"
+                            "speakerName": "Nolen Gertz"
                         }
                     ]
                 },
                 {
                     "room": "Hopper",
-                    "events": [
-                        {
+                    "events": [{
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
                             "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
-                            "author": "April Wensel"
+                            "speakerName": "April Wensel"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mheimeshoff.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/mheimeshoff.jpg",
                             "time": "10:45 - 11:30",
                             "title": "Domain Driven UI",
                             "description": "",
-                            "author": "Marco Heimeshoff"
+                            "speakerName": "Marco Heimeshoff"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/evankelle.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/evankelle.jpg",
                             "time": "11:45 - 12:30",
                             "title": "Socio-technical DDD - Essential social heuristics",
                             "description": "",
-                            "author": "Evelyn Van Kelle"
+                            "speakerName": "Evelyn Van Kelle"
                         },
                         {
                             "type": "lunch",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/cmartraire.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/cmartraire.jpg",
                             "time": "14:00 - 14:45",
                             "title": "Domain Modelling for Digital Transformations",
                             "description": "",
-                            "author": "Cyrille Martraire"
+                            "speakerName": "Cyrille Martraire"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ialagarsamy.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ialagarsamy.jpg",
                             "time": "15:00 - 15:45",
                             "title": "Evolving with the changing requirements - Using DDD and Saga Message Pattern",
                             "description": "",
-                            "author": "Indu Alagarsamy"
+                            "speakerName": "Indu Alagarsamy"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/kbaasschwegler.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/kbaasschwegler.jpg",
                             "time": "16:00 - 16:45",
                             "title": "I got Trapped! Systems thinking traps of IT Teams",
                             "description": "",
-                            "author": "Kenny Baas-Schwegler"
+                            "speakerName": "Kenny Baas-Schwegler"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
                             "time": "17:15 - 18:00",
                             "title": "Nihilism and technology",
                             "description": "",
-                            "author": "Nolen Gertz"
+                            "speakerName": "Nolen Gertz"
                         }
                     ]
                 },
                 {
                     "room": "Liskov",
-                    "events": [
-                        {
+                    "events": [{
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
                             "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
-                            "author": "April Wensel"
+                            "speakerName": "April Wensel"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/aschladebeck.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/aschladebeck.jpg",
                             "time": "10:45 - 11:30",
                             "title": "Exploratory testing for everyone",
                             "description": "",
-                            "author": "Alexandra Schladebeck & Thomas Garus"
+                            "speakerName": "Alexandra Schladebeck & Thomas Garus"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mnoback.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/mnoback.jpg",
                             "time": "11:45 - 12:30",
                             "title": "Brutal refactoring, lying code, the Churn, and other emotional stories from Legacy Land",
                             "description": "",
-                            "author": "Matthias Noback"
+                            "speakerName": "Matthias Noback"
                         },
                         {
                             "type": "lunch",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/svieira.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/svieira.jpg",
                             "time": "14:00 - 14:45",
                             "title": "Your brain doesn't have a fix flag",
                             "description": "",
-                            "author": "Sara Vieira"
+                            "speakerName": "Sara Vieira"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/apetrovNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/apetrovNB.jpg",
                             "time": "15:00 - 15:45",
                             "title": "Storage Systems: The Old, The New, The Overlooked",
                             "description": "Material on storage systems primarily covers two types of storage: B-Trees and LSM Trees. When these two are contrasted, we hear about buffering and immutability and it almost starts looking like we can't have immutability without buffering and vice versa. However, if we dig into academic and industry works, we find a lot of useful approaches mixing and matching these properties in different ways.\n\nStarting from the classic B-Tree papers from 1979 to the first LSM Trees paper in 1996,\nand continuing into 2019, we can reproduce and see the line of thinking that have lead the industry where we are today.\n\nBy revisiting this evolution of thinking and systematising the findings, we will improve our understanding of the currently used (and some useful yet overlooked) approaches to durable storage.",
-                            "author": "Alex Petrov"
+                            "speakerName": "Alex Petrov"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ebache.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ebache.jpg",
                             "time": "16:00 - 16:45",
                             "title": "Technical Leadership for Empowered Teams",
                             "description": "",
-                            "author": "Emily Bache"
+                            "speakerName": "Emily Bache"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
                             "time": "17:15 - 18:00",
                             "title": "Nihilism and technology",
                             "description": "",
-                            "author": "Nolen Gertz"
+                            "speakerName": "Nolen Gertz"
                         }
                     ]
                 },
                 {
                     "room": "Kare",
-                    "events": [
-                        {
+                    "events": [{
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
                             "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
-                            "author": "April Wensel"
+                            "speakerName": "April Wensel"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mvandijkNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/mvandijkNB.jpg",
                             "time": "10:45 - 11:30",
                             "title": " Collaborating on Open Source Software; How I Started contributing to Open Source and Why You Should Too",
                             "description": "There are several reasons you might want to contribute to open source software. For me, it was that I wanted to learn in a more useful way than doing programming challenges. So I looked into how I could contribute to open source projects that I use myself.\nAfter contributing for almost two years, I notice that I have learned a lot from my contributions (which has been useful at work), as well as have made friends and have become part of a community.\n\nIn this talk I will share my experience with contributing to Cucumber, including an early mistake (merging something that wasn't ready yet) and fixing it with the support of core contributors, and still feeling welcome!\nYou'll learn how how to find your project and contributions to start with, how to connect with the community to make sure your contributions are useful and the many types of contributions you can make.\n\nContributing to open source is a way of paying back to the community. In addition, it is a way for you to learn, collaborate and become part of a community. Getting (constructive) feedback on a pull request and collaborating to make things even better is a great feeling!",
-                            "author": "Marit van Dijk"
+                            "speakerName": "Marit van Dijk"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/jlavigneducadetNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/jlavigneducadetNB.jpg",
                             "time": "11:45 - 12:30",
                             "title": "Continuous reteaming: adopt self-selection and start moving people to the work!",
                             "description": "What if your engineering teams didn't have to be static? What if you could form them, disband them or adapt their composition every 3 months? And people could pick what they work on?\n\nIs it a recipe for disaster? Or would it give you the flexibility to work on what has the highest business impact, increase engagement and develop your future leaders? What are the tradeoffs? How do you balance short term impact with long term ownership and platform stability?\n\nIn this talk, I'll tell you how I initially led a team of ~20 people from a static structure to something a lot more dynamic where reteaming happens quarterly, and how we are now scaling those practices to 60 people. I'll share with you:\n- How we plan our quarters and let people pick what they work on\n- How we create constraints to make sure the important work gets done while developing knowledge sharing\n- How we use OKRs to create alignment and track progress\n- How we keep in sync and engage with our stakeholders\n- How lead time is decreasing as a result\n\nI'll also share details on our journey: our mistakes, our learnings, what we still struggle with 1 year later and why we think this is strongly aligned with Agile core values!",
-                            "author": "Julien Lavigne du Cadet"
+                            "speakerName": "Julien Lavigne du Cadet"
                         },
                         {
                             "type": "lunch",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/frivainNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/frivainNB.jpg",
                             "time": "14:00 - 14:30",
                             "title": "From Feature Team to Mission Teams",
                             "description": "How Dashlane decided to transform their Product & Engineering Agile Organization from feature teams to Mission teams to maximize product impact, focus and delivery. Learning what works and does not work with feature teams, we decided to evolve the concept to rally the team behind missions supported by OKRs, with a focused product vision and organization.",
-                            "author": "Frédéric Rivain"
+                            "speakerName": "Frédéric Rivain"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/mavomoNV.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/mavomoNV.jpg",
                             "time": "14:30 - 15:00",
                             "title": "(Quick) kata to explain D from SOLID principles",
                             "description": "Understanding or explaining Dependency Inversion can be confusing.\n\nThe official definition of that principle gives no clue on how it works in real life. Thus, as dev we know it exists and yet, we hardly remember why it has been around for so long.\n\nThis session is about a kata that will help any developper seeing/showing Dependency Inversion Principle ( D from SOLID) in action.\n\nThis session is a  straigthforward *tip and trick* to explain The D from SOLID.",
-                            "author": "Michelle Avomo"
+                            "speakerName": "Michelle Avomo"
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/plemerrerNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/plemerrerNB.jpg",
                             "time": "15:30 - 16:30",
                             "title": "Easy functional programming with elm",
-                            "description":"Do you want to produce front-end JS code that does not generate any errors at runtime?\n\nRefactor your Single Page Applications without introducing any bugs?\nA tooling as simple as it is efficient?\n\nDuring this workshop, discover elm, a functional language that highlights the developer experience!\n\nPrerequisites: install elm, elm-live and elm-format on your laptop.",
-                            "author": "Pascal Le Merrer"
+                            "description": "Do you want to produce front-end JS code that does not generate any errors at runtime?\n\nRefactor your Single Page Applications without introducing any bugs?\nA tooling as simple as it is efficient?\n\nDuring this workshop, discover elm, a functional language that highlights the developer experience!\n\nPrerequisites: install elm, elm-live and elm-format on your laptop.",
+                            "speakerName": "Pascal Le Merrer"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
                             "time": "17:15 - 18:00",
                             "title": "Nihilism and technology",
                             "description": "",
-                            "author": "Nolen Gertz"
+                            "speakerName": "Nolen Gertz"
                         }
                     ]
                 },
                 {
                     "room": "Goldberg",
-                    "events": [
-                        {
+                    "events": [{
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/awensel.jpg",
                             "time": "9:30 - 10:15",
                             "title": "Compassionate Coding",
                             "description": "",
-                            "author": "April Wensel"
+                            "speakerName": "April Wensel"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ythirionNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ythirionNB.jpg",
                             "time": "10:30 - 12:30",
                             "title": "Xtrem Reading - Read differently and cultivate your collective intelligence",
                             "description": "Do you have any books that are dusty?\nDo you really want to read them but can't find the time?\nWe have a solution for you: \"Xtrem reading\".\n\nLearn group reading and read 2 books in 1 hour.\nOur promise to you:\n\n* Boost your collective intelligence\n* Rekindle the flame of reading\n* Plan your next readings\n* Don't read for nothing !",
-                            "author": "Yoan Thirion"
+                            "speakerName": "Yoan Thirion"
                         },
                         {
                             "type": "lunch",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/tbracherNB.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/tbracherNB.jpg",
                             "time": "14:30 - 16:00",
-                            "title":"Let's discover event-based programming!",
-                            "description":"What's the best way to learn how to develop event driven application than participating to its live implementation?! This session is a mix between an event storm and a live-coding conference to discover event driven programming. We will all design, discuss and decide how to solve a complex domain problem. Whatever your level in event driven systems, come to learn new things or teach others your knowledge.",
-                            "author": "Thomas Bracher"
+                            "title": "Let's discover event-based programming!",
+                            "description": "What's the best way to learn how to develop event driven application than participating to its live implementation?! This session is a mix between an event storm and a live-coding conference to discover event driven programming. We will all design, discuss and decide how to solve a complex domain problem. Whatever your level in event driven systems, come to learn new things or teach others your knowledge.",
+                            "speakerName": "Thomas Bracher"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
+                            "speakerPhoto": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
                             "time": "17:15 - 18:00",
                             "title": "Nihilism and technology",
                             "description": "",
-                            "author": "Nolen Gertz"
+                            "speakerName": "Nolen Gertz"
                         }
                     ]
                 }

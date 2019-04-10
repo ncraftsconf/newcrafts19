@@ -21,7 +21,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/kennybrunothomas.jpg",
-                            "time": "11:00 - 13:00",
+                            "time": "11:45 - 12:30",
                             "title": "EventStorming and Example Mapping From Problem Space to Solution Space",
                             "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
                             "author": "Kenny Baas-Schwegler, Bruno Boucard & Thomas Pierrain"
@@ -59,7 +59,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "8:30 - 9:00",
+                            "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
@@ -75,7 +75,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:45 - 10:15",
+                            "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
                             "author": ""
@@ -83,7 +83,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/stalwar.jpg",
-                            "time": "10:00 - 11:00",
+                            "time": "10:45 - 11:30",
                             "title": "Teaching a maching to code",
                             "description": "",
                             "author": "Samir Talwar"
@@ -91,7 +91,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/ehost.jpg",
-                            "time": "11:00 - 13:00",
+                            "time": "11:45 - 12:30",
                             "title": "Escher in Elm",
                             "description": "",
                             "author": "Einar Høst"
@@ -99,7 +99,7 @@
                         {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14:00",
+                            "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
@@ -107,7 +107,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/jchassaing.jpg",
-                            "time": "14:00 - 15:00",
+                            "time": "14:00 - 14:45",
                             "title": "Applicatives IRL",
                             "description": "",
                             "author": "Jérémie Chassaing"
@@ -115,7 +115,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/edamiani.jpg",
-                            "time": "15:00 - 16:00",
+                            "time": "15:00 - 15:45",
                             "title": "(DESIGN)",
                             "description": "",
                             "author": "Emanuella Damiani"
@@ -123,7 +123,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/hleigh.jpg",
-                            "time": "16:00 - 17:00",
+                            "time": "16:00 - 16:45",
                             "title": "Music Tech Making",
                             "description": "",
                             "author": "Helen Leigh"
@@ -131,7 +131,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "17:00 - 17:30",
+                            "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
                             "author": ""
@@ -139,7 +139,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
-                            "time": "17:30 - 18:30",
+                            "time": "17:15 - 18:00",
                             "title": "The gordian knot → Hatching Software Development Ecosystems",
                             "description": "",
                             "author": "Alberto Brandolini"
@@ -152,7 +152,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "8:30 - 9:00",
+                            "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
@@ -168,7 +168,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:45 - 10:15",
+                            "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
                             "author": ""
@@ -176,7 +176,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/cdelagargueNB.jpg",
-                            "time": "10:00 - 11:00",
+                            "time": "10:45 - 11:30",
                             "title": "Application design with a stack of monads",
                             "description": "Functional Programming is often seen as a nice tool for small-scale\nconcerns, not as a tool for application design. \"Functional in the\nsmall, OO in the large\" is often heard and sums up this idea quite\nwell. However, functional programming comes with interesting tools\naimed at solving these boring (or deemed boring) concerns: dependency\ninversion, observability). Aspect-Oriented-Programming is often used\nfor this in the OO word.\n\nA functional solution, called a _monad stack_, allows to combine all\nthis cross-cutting concerns and behaviours with no magic (or not too\nmuch).\n\nIn this conference, we'll see what _monad transformers_ are, how they\nwork, and how to use them to structure a web application, with\nexamples in scala and haskell.",
                             "author": "Clément Delafargue"
@@ -184,7 +184,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/gdiagram.jpg",
-                            "time": "11:00 - 13:00",
+                            "time": "11:45 - 12:30",
                             "title": "",
                             "description": "",
                             "author": "Gwen Diagram"
@@ -192,7 +192,7 @@
                         {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14:00",
+                            "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
@@ -200,7 +200,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/asavarin.jpg",
-                            "time": "14:00 - 15:00",
+                            "time": "14:00 - 14:45",
                             "title": "Non-Euclidean Software Delivery",
                             "description": "",
                             "author": "Anna Savarin"
@@ -208,7 +208,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/asalmiNB.jpg",
-                            "time": "15:00 - 16:00",
+                            "time": "15:00 - 15:45",
                             "title": "Railroad-Driven Programming",
                             "description": "Tired of if-statements cluttering up your code?\nIn this talk, you will be guided to railroad tracks - web app designed and implemented functionally using heavily Either Monads. Everything is either a Success or Error, or rather a Future of Success or Errors.\nDuring the talk, few monads are discussed, like Maybe and Either, using examples from SanctuaryJS (which is used in the app). Also some good practices that makes the domain code easy to understand.\nThe talk will be based on real code that runs in production.",
                             "author": "Aki Salmi"
@@ -216,7 +216,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/hleigh.jpg",
-                            "time": "16:00 - 17:00",
+                            "time": "16:00 - 16:45",
                             "title": "Music Tech Making",
                             "description": "",
                             "author": "Mathias Verraes"
@@ -224,7 +224,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "17:00 - 17:30",
+                            "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
                             "author": ""
@@ -232,7 +232,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
-                            "time": "17:30 - 18:30",
+                            "time": "17:15 - 18:00",
                             "title": "The gordian knot → Hatching Software Development Ecosystems",
                             "description": "",
                             "author": "Alberto Brandolini"
@@ -245,7 +245,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "8:30 - 9:00",
+                            "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
@@ -261,7 +261,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:45 - 10:15",
+                            "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
                             "author": ""
@@ -269,7 +269,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/xdetantNB.jpg",
-                            "time": "10:00 - 11:00",
+                            "time": "10:45 - 11:30",
                             "title": "Test && commit || revert",
                             "description": "[Kent Beck wrote an article](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864) about a technique invented by Oddmund Str√∏mmer last september. TCR is an alternative to TDD that enforce even more extreme rules than TDD. The goal of this talk is to present the principles, pros and cons according to my experience with TCR.\nEvery point will be illustrated with examples. Finally, we'll try to adapt TCR a bit in order to mitigate the identified cons.",
                             "author": "Xavier Detant"
@@ -277,7 +277,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/pkua.jpg",
-                            "time": "11:00 - 13:00",
+                            "time": "11:45 - 12:30",
                             "title": "Talkin w/ Tech Leads",
                             "description": "",
                             "author": "Pat Kua"
@@ -285,7 +285,7 @@
                         {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14:00",
+                            "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
@@ -293,7 +293,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/khenney.jpg",
-                            "time": "14:00 - 15:00",
+                            "time": "14:00 - 14:45",
                             "title": "The Passions of Programming",
                             "description": "",
                             "author": "Kevlin Henney"
@@ -301,7 +301,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/sleandro.jpg",
-                            "time": "15:00 - 16:00",
+                            "time": "15:00 - 15:45",
                             "title": "How to rewrite, a bit at a time",
                             "description": "",
                             "author": "Sabrina Leandro"
@@ -309,7 +309,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/ssmith.jpg",
-                            "time": "16:00 - 17:00",
+                            "time": "16:00 - 16:45",
                             "title": "Continuous Delivery and the Theory of Constraints",
                             "description": "",
                             "author": "Steve Smith"
@@ -317,7 +317,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "17:00 - 17:30",
+                            "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
                             "author": ""
@@ -325,7 +325,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
-                            "time": "17:30 - 18:30",
+                            "time": "17:15 - 18:00",
                             "title": "The gordian knot → Hatching Software Development Ecosystems",
                             "description": "",
                             "author": "Alberto Brandolini"
@@ -338,7 +338,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "8:30 - 9:00",
+                            "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
@@ -354,7 +354,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:45 - 10:15",
+                            "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
                             "author": ""
@@ -362,7 +362,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/tgoeschelNB.jpg",
-                            "time": "10:00 - 11:00",
+                            "time": "10:45 - 11:30",
                             "title": "Domain Prototyping, or Design is How it Works",
                             "description": "When we design a system from scratch, especially complex distributed systems, with microservices and/or Big Data pipelines, we have to make a series of important tactical decisions regarding the structure and information flow within our domain. If we assume boundaries in the wrong place, or forget or omit important aspects of communication, we can end up with brittle services, performance issues, and needlessly coupled modules and components, which are painful to maintain and deploy.\nSome of those aspects are hard to discover upfront, and even with great experience, it's not unusual to get the first design at least partially wrong.\n\nOne way to minimize the consequences of those decisions, and to verify our initial assumptions, is to start implementation not with a full architecture in mind, but rather with the smallest possible footprint: A plain, but fully operational prototype of the domain model, which we can stress, observe and explore - and change easily, if we run into problems. This way, we can actually _see_ our design work, and gain valuable insights.\n\nUsing examples, I will demonstrate how combining Domain Driven Design with the practices, heuristics and principles of Software Crafting can highlight difficult or problematic choices, improve fundamental architecture decisions, and ultimately lead to better and more sustainable software systems, long before we get sidetracked by the additional complexity of host environments and deployment pipelines.",                     
                             "author": "Tobias Goeschel"
@@ -370,7 +370,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/mromeuNB.jpg",
-                            "time": "11:00 - 13:00",
+                            "time": "11:45 - 12:30",
                             "title": "Bourdieu's Social Theory and our work in tech",
                             "description": "We know psychological safety is necessary for any working team to work But how achievable is it? I posit that due to our current blind spots our visions on that are naïve Let's dig together on why! tis time for some Sociological Theory, let's Vulgarise Bourdieu! Buckle up for a keynote on\n\nSymbolic Violence.\nSocial/Corporeal Hexis.\nCultural Capital.\nInteractions of those 3 and \"Agile\" Methods.",
                             "author": "Moura Romeu"
@@ -378,7 +378,7 @@
                         {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14:00",
+                            "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
@@ -418,7 +418,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/ddoomenNB.jpg",
-                            "time": "16:00 - 17:00",
+                            "time": "16:00 - 16:45",
                             "title": "Event Sourcing Done Right - Experiences from the trenches",
                             "description": "",
                             "author": "Over the years I've spoken many times about what Event Sourcing is and shared many of the good, the bad and the ugly parts of it in blog posts and various talks. However, I've never talked about how to actually build a system based on this architecture style. I keep getting the same questions over and over again. Like when to apply Event Sourcing and at what architectural level. How to deal with transactional boundaries within and outside the domain. How to build projections that are autonomous, reliable and self-supporting. How to deal with upgrades and blue-green deployments. But also on how to handle bugs, design mistakes and crashing projections. Having made a lot of these mistakes myself over these years, it's time to share my current thoughts and opinions about this. Since the .NET space has a pretty rich set of open-source projections to support this, the examples and code will be .NET. But the concepts are universal, so don't let that scare you off."
@@ -426,7 +426,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "17:00 - 17:30",
+                            "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
                             "author": ""
@@ -434,7 +434,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
-                            "time": "17:30 - 18:30",
+                            "time": "17:15 - 18:00",
                             "title": "The gordian knot → Hatching Software Development Ecosystems",
                             "description": "",
                             "author": "Alberto Brandolini"
@@ -447,7 +447,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "8:30 - 9:00",
+                            "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
@@ -463,7 +463,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:45 - 10:15",
+                            "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
                             "author": ""
@@ -479,7 +479,7 @@
                         {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14:00",
+                            "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
@@ -487,7 +487,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/mhuizendveldNB.jpg",
-                            "time": "14:00 - 15:00",
+                            "time": "14:00 - 14:45",
                             "title": "Iterating on domain models",
                             "description": "The first model a team comes up with often leads them down a particular path. That isn't much of a problem if the first model is any good. But often our first ideas aren't our best. How can you prevent bias towards your initial approach? What could you do to break free from the boundaries you first imagined?\n\nIn this hands-on you'll be working on a single problem but you'll be forced to re-imagine it multiple times with different constraints. In each round you'll be limited in such a way that you'll have to get creative and come up with vastly different models for the same problem space. At the end you'll see what the power is of an enabling constraint. The Monday after the conference you'll know that with a little digging and thinking you can come up with entirely different models for about any problem space.",
                             "author": "Marijn Huizendveld"
@@ -503,7 +503,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "17:00 - 17:30",
+                            "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
                             "author": ""
@@ -511,7 +511,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/abrandolini.jpg",
-                            "time": "17:30 - 18:30",
+                            "time": "17:15 - 18:00",
                             "title": "The gordian knot → Hatching Software Development Ecosystems",
                             "description": "",
                             "author": "Alberto Brandolini"
@@ -533,7 +533,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "8:30 - 9:00",
+                            "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
@@ -549,7 +549,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:45 - 10:15",
+                            "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
                             "author": ""
@@ -557,7 +557,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/swlaschin.jpg",
-                            "time": "10:00 - 11:00",
+                            "time": "10:45 - 11:30",
                             "title": "Four Languages from Forty Years Ago",
                             "description": "",
                             "author": "Scott Wlaschin"
@@ -565,7 +565,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/abeba.jpg",
-                            "time": "11:00 - 13:00",
+                            "time": "11:45 - 12:30",
                             "title": "TBD",
                             "description": "",
                             "author": "Abeba"
@@ -573,7 +573,7 @@
                         {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14:00",
+                            "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
@@ -581,7 +581,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/tpetricek.jpg",
-                            "time": "14:00 - 15:00",
+                            "time": "14:00 - 14:45",
                             "title": "The search for fundamental software engineering principles",
                             "description": "",
                             "author": "Tomas Petricek"
@@ -589,7 +589,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/bmarick.jpg",
-                            "time": "15:00 - 16:00",
+                            "time": "15:00 - 15:45",
                             "title": "FP ?",
                             "description": "",
                             "author": "Brian Marick"
@@ -597,7 +597,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/avidela.jpg",
-                            "time": "16:00 - 17:00",
+                            "time": "16:00 - 16:45",
                             "title": "To what extend are programming languages languages ?",
                             "description": "",
                             "author": "Alvaro Videla"
@@ -605,7 +605,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "17:00 - 17:30",
+                            "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
                             "author": ""
@@ -613,7 +613,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
-                            "time": "17:30 - 18:30",
+                            "time": "17:15 - 18:00",
                             "title": "Nihilism and technology",
                             "description": "",
                             "author": "Nolen Gertz"
@@ -626,7 +626,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "8:30 - 9:00",
+                            "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
@@ -642,7 +642,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:45 - 10:15",
+                            "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
                             "author": ""
@@ -650,7 +650,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/mheimeshoff.jpg",
-                            "time": "10:00 - 11:00",
+                            "time": "10:45 - 11:30",
                             "title": "Domain Driven UI",
                             "description": "",
                             "author": "Marco Heimeshoff"
@@ -658,7 +658,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/evankelle.jpg",
-                            "time": "11:00 - 13:00",
+                            "time": "11:45 - 12:30",
                             "title": "Socio-technical DDD - Essential social heuristics",
                             "description": "",
                             "author": "Evelyn Van Kelle"
@@ -666,7 +666,7 @@
                         {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14:00",
+                            "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
@@ -674,7 +674,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/cmartraire.jpg",
-                            "time": "14:00 - 15:00",
+                            "time": "14:00 - 14:45",
                             "title": "Domain Modelling for Digital Transformations",
                             "description": "",
                             "author": "Cyrille Martraire"
@@ -682,7 +682,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/ialagarsamy.jpg",
-                            "time": "15:00 - 16:00",
+                            "time": "15:00 - 15:45",
                             "title": "Evolving with the changing requirements - Using DDD and Saga Message Pattern",
                             "description": "",
                             "author": "Indu Alagarsamy"
@@ -690,7 +690,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/kbaasschwegler.jpg",
-                            "time": "16:00 - 17:00",
+                            "time": "16:00 - 16:45",
                             "title": "I got Trapped! Systems thinking traps of IT Teams",
                             "description": "",
                             "author": "Kenny Baas-Schwegler"
@@ -698,7 +698,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "17:00 - 17:30",
+                            "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
                             "author": ""
@@ -706,7 +706,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
-                            "time": "17:30 - 18:30",
+                            "time": "17:15 - 18:00",
                             "title": "Nihilism and technology",
                             "description": "",
                             "author": "Nolen Gertz"
@@ -719,7 +719,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "8:30 - 9:00",
+                            "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
@@ -735,7 +735,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:45 - 10:15",
+                            "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
                             "author": ""
@@ -743,7 +743,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/aschladebeck.jpg",
-                            "time": "10:00 - 11:00",
+                            "time": "10:45 - 11:30",
                             "title": "Exploratory testing for everyone",
                             "description": "",
                             "author": "Alexandra Schladebeck & Thomas Garus"
@@ -751,7 +751,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/mnoback.jpg",
-                            "time": "11:00 - 13:00",
+                            "time": "11:45 - 12:30",
                             "title": "Brutal refactoring, lying code, the Churn, and other emotional stories from Legacy Land",
                             "description": "",
                             "author": "Matthias Noback"
@@ -759,7 +759,7 @@
                         {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14:00",
+                            "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
@@ -767,7 +767,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/svieira.jpg",
-                            "time": "14:00 - 15:00",
+                            "time": "14:00 - 14:45",
                             "title": "Your brain doesn't have a fix flag",
                             "description": "",
                             "author": "Sara Vieira"
@@ -775,7 +775,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/apetrovNB.jpg",
-                            "time": "15:00 - 16:00",
+                            "time": "15:00 - 15:45",
                             "title": "Storage Systems: The Old, The New, The Overlooked",
                             "description": "Material on storage systems primarily covers two types of storage: B-Trees and LSM Trees. When these two are contrasted, we hear about buffering and immutability and it almost starts looking like we can't have immutability without buffering and vice versa. However, if we dig into academic and industry works, we find a lot of useful approaches mixing and matching these properties in different ways.\n\nStarting from the classic B-Tree papers from 1979 to the first LSM Trees paper in 1996,\nand continuing into 2019, we can reproduce and see the line of thinking that have lead the industry where we are today.\n\nBy revisiting this evolution of thinking and systematising the findings, we will improve our understanding of the currently used (and some useful yet overlooked) approaches to durable storage.",
                             "author": "Alex Petrov"
@@ -783,7 +783,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/ebache.jpg",
-                            "time": "16:00 - 17:00",
+                            "time": "16:00 - 16:45",
                             "title": "Technical Leadership for Empowered Teams",
                             "description": "",
                             "author": "Emily Bache"
@@ -791,7 +791,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "17:00 - 17:30",
+                            "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
                             "author": ""
@@ -799,7 +799,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
-                            "time": "17:30 - 18:30",
+                            "time": "17:15 - 18:00",
                             "title": "Nihilism and technology",
                             "description": "",
                             "author": "Nolen Gertz"
@@ -812,7 +812,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "8:30 - 9:00",
+                            "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
@@ -828,7 +828,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:45 - 10:15",
+                            "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
                             "author": ""
@@ -836,7 +836,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/mvandijkNB.jpg",
-                            "time": "10:00 - 11:00",
+                            "time": "10:45 - 11:30",
                             "title": " Collaborating on Open Source Software; How I Started contributing to Open Source and Why You Should Too",
                             "description": "There are several reasons you might want to contribute to open source software. For me, it was that I wanted to learn in a more useful way than doing programming challenges. So I looked into how I could contribute to open source projects that I use myself.\nAfter contributing for almost two years, I notice that I have learned a lot from my contributions (which has been useful at work), as well as have made friends and have become part of a community.\n\nIn this talk I will share my experience with contributing to Cucumber, including an early mistake (merging something that wasn't ready yet) and fixing it with the support of core contributors, and still feeling welcome!\nYou'll learn how how to find your project and contributions to start with, how to connect with the community to make sure your contributions are useful and the many types of contributions you can make.\n\nContributing to open source is a way of paying back to the community. In addition, it is a way for you to learn, collaborate and become part of a community. Getting (constructive) feedback on a pull request and collaborating to make things even better is a great feeling!",
                             "author": "Marit van Dijk"
@@ -844,7 +844,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/jlavigneducadetNB.jpg",
-                            "time": "11:00 - 13:00",
+                            "time": "11:45 - 12:30",
                             "title": "Continuous reteaming: adopt self-selection and start moving people to the work!",
                             "description": "What if your engineering teams didn't have to be static? What if you could form them, disband them or adapt their composition every 3 months? And people could pick what they work on?\n\nIs it a recipe for disaster? Or would it give you the flexibility to work on what has the highest business impact, increase engagement and develop your future leaders? What are the tradeoffs? How do you balance short term impact with long term ownership and platform stability?\n\nIn this talk, I'll tell you how I initially led a team of ~20 people from a static structure to something a lot more dynamic where reteaming happens quarterly, and how we are now scaling those practices to 60 people. I'll share with you:\n- How we plan our quarters and let people pick what they work on\n- How we create constraints to make sure the important work gets done while developing knowledge sharing\n- How we use OKRs to create alignment and track progress\n- How we keep in sync and engage with our stakeholders\n- How lead time is decreasing as a result\n\nI'll also share details on our journey: our mistakes, our learnings, what we still struggle with 1 year later and why we think this is strongly aligned with Agile core values!",
                             "author": "Julien Lavigne du Cadet"
@@ -852,7 +852,7 @@
                         {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14:00",
+                            "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
@@ -884,7 +884,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "17:00 - 17:30",
+                            "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
                             "author": ""
@@ -892,7 +892,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
-                            "time": "17:30 - 18:30",
+                            "time": "17:15 - 18:00",
                             "title": "Nihilism and technology",
                             "description": "",
                             "author": "Nolen Gertz"
@@ -905,7 +905,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "8:30 - 9:00",
+                            "time": "9:00 - 9:30",
                             "title": "Check-in time",
                             "description": "",
                             "author": ""
@@ -921,7 +921,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "9:45 - 10:15",
+                            "time": "10:30 - 10:45",
                             "title": "Coffee break",
                             "description": "",
                             "author": ""
@@ -937,7 +937,7 @@
                         {
                             "type": "lunch",
                             "image": "",
-                            "time": "13:00 - 14:00",
+                            "time": "12:30 - 14:00",
                             "title": "Lunch break",
                             "description": "",
                             "author": ""
@@ -953,7 +953,7 @@
                         {
                             "type": "break",
                             "image": "",
-                            "time": "17:00 - 17:30",
+                            "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
                             "author": ""
@@ -961,7 +961,7 @@
                         {
                             "type": "conference",
                             "image": "http://ncrafts.io/assets/img/speakers/ngertz.jpg",
-                            "time": "17:30 - 18:30",
+                            "time": "17:15 - 18:00",
                             "title": "Nihilism and technology",
                             "description": "",
                             "author": "Nolen Gertz"

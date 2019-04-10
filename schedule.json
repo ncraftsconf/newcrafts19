@@ -4,6 +4,8 @@
             "day": 1,
             "date": "15/05/2019",
             "title": "Workshops",
+            "location":"LeBoncoin office",
+            "address":"85 rue du Faubourg Saint-Martin – 75010 Paris",
             "rooms": [
                 {
                     "room": "Lovelace",
@@ -48,6 +50,8 @@
             "day": 2,
             "date": "16/05/2019",
             "title": "Day 1",
+            "location":"NEW CAP Event Center",
+            "address":"3 Quai de Grenelle – 75015 Paris",
             "rooms": [
                 {
                     "room": "Lovelace",
@@ -520,6 +524,8 @@
             "day": 3,
             "date": "17/05/2019",
             "title": "Day 2",
+            "location":"NEW CAP Event Center",
+            "address":"3 Quai de Grenelle – 75015 Paris",
             "rooms": [
                 {
                     "room": "Lovelace",

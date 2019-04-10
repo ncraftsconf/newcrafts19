@@ -21,7 +21,7 @@
     <link rel="apple-touch-icon" sizes="256x256" href="assets/img/logo.png">
 
     <link rel="stylesheet" type="text/css" href="assets/css/custom-animations.css" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style-blue-color.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style-green-color.css" />
     <link rel="stylesheet" type="text/css" href="assets/css/mine.css" />
 
     <!--[if lt IE 9]>
@@ -72,7 +72,27 @@
                     <a href="mailto:sponsoring@ncrafts.io" target="_blank" class="btn btn-md">Sponsoring</a>
                     <a href="#wishes" target="_blank" class="btn btn-md">Tell me more</a>
                 </div>
+                
             </div>
+            <div class="container tag-cloud">
+                    <span class="tag">XP</span>
+                    <span class="tag">Agile</span>
+                    <span class="tag">Testing</span>
+                    <span class="tag">Crafting Software</span>
+                    <span class="tag">Paradigms</span>
+                    <span class="tag">History</span>
+                    <span class="tag">DevOps</span>
+                    <span class="tag">Learning</span>
+                    <span class="tag">Feedback</span>
+                    <span class="tag">Experiments</span>
+                    <span class="tag">Languages</span>
+                    <span class="tag">Design</span>
+                    <span class="tag">Psychology</span>
+                    <span class="tag">Culture</span>
+                    <span class="tag">Open Source</span>
+                    <span class="tag">DDD</span>
+                </div>
+    
         </div>
         </div>
     </section>
@@ -198,7 +218,7 @@
             <div class="col-sm-6 align-left">
                 <article style="max-width: 480px;padding:20px 15px 20px 15px">
                     <p>
-                        Created by developers for developers, NewCrafts is an independent and international event on software development held annually in Paris and Bordeaux.<br/>
+                        Created by developers for developers, NewCrafts is an independent and international event on software development held annually in Paris, Bordeaux (and more recently Toulouse with a special focus on students).<br/>
                     </p>
                     <p>
                         Because we believe it is not enough for code to work, we want to question the way we develop, how we perceive our profession and craft.<br/>
@@ -207,7 +227,7 @@
                         For the 6th edition, we've planned two days of advanced talks, hands-on labs and open-session spaces accessible all day !<br/>
                     </p>
                     <p>
-                        You might also be interested by pre-conference workshops by our renowned speakers on Wed. 15th of May. More info soon.<br/>
+                        You might also be interested by pre-conference workshops by our renowned speakers on Wed. 15th of May. <br/>
                     </p>
                 </article>
             </div>
@@ -245,7 +265,7 @@
                             <div>
                                 <img src="assets/img/speakers/mverraes.jpg" alt="Mathias Verraes">
                             </div>
-                            <div class="name">DDD Modelling vs Implementation<br/>&nbsp;</div>
+                            <div class="title">DDD Modelling vs Implementation<br/>&nbsp;</div>
         
                         </a>
                     </div>
@@ -1178,9 +1198,28 @@
             <div class="clearfix"></div>
         </div>
     </section>
+	
+	<section id="schedule" class="section align-center">
+        <div class="container">
+            <span class="icon section-icon icon-office-21"></span>
 
-<!--
-    <section id="cfp" class="section overlay overlay-clr bg-cover bg4 light-text align-center">
+            <h3>Schedule</h3>
+
+            <br>
+            <br>
+
+            <div class="col-md-10 col-md-offset-1">
+
+                <div class="row schedule">
+                    <ul id="schedule-nav" class="nav nav-schedule"></ul>
+
+                    <div id="schedule-content" class="tab-content"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cfp" class="section overlay-clr bg-cover bg4 light-text align-center">
         <div class="container">
             <span class="icon section-icon icon-seo-icons-24"></span>
             <h2>Call For Papers</h2>
@@ -1202,9 +1241,9 @@
                 Speakers selected through the call for papers will have free access both days of the conference.
             </p>
             <p>
-                <b style="color:darkblue">Speakers who need it can have their expenses covered up to 400€. They will be reimbursed after the conference on reception of their receipts.</b>
+                <b style="">Speakers who need it can have their expenses covered up to 400€. They will be reimbursed after the conference on reception of their receipts.</b>
             </p>
-            <a href="http://cfp.ncrafts.io/" class="btn btn-lg btn-outline">Submit a talk</a>
+            <a href="#" disabled class="btn btn-lg btn-outline">closed</a>
         </div>
     </section>
 -->
@@ -1359,8 +1398,6 @@
         </div>
     </section>
 
-
-
     <section id="register" class="section overlay bg-cover bg4 light-text align-center">
         <div class="container">
             <span class="icon section-icon icon-shopping-18"></span>
@@ -1371,8 +1408,6 @@
             <a href="http://register.ncrafts.io/" class="btn btn-lg btn-outline">GET YOUR TICKET</a>
         </div>
     </section>
-
-
 
     <section id="location" class="section align-center">
         <div class="container">
@@ -1594,8 +1629,12 @@
     <script type="text/javascript" src="assets/js/jquery.countTo.js"></script>
     <script type="text/javascript" src="assets/js/masonry.pkgd.min.js"></script>
     <script type="text/javascript" src="assets/js/modal-box.js"></script>
-    <script type="text/javascript" src="assets/js/ventcamp.js"></script>
+    <script type="text/javascript" src="assets/js/showdown.min.js"></script>
+    <script type="text/javascript" src="assets/js/ventcamp.core.js"></script>
     <script async type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyBLvWRkzKyZLd9-NqSH4eh2aq87gMeUFk8&callback=mapsCallback"></script>
+
+    <script type="text/javascript" src="src/app.schedule.js"></script>
+
 </body>
 
 </html>

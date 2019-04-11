@@ -1,5 +1,5 @@
 $(document).ready(() => {
-            $.get('./schedule.json')
+            $.getJSON('//raw.githubusercontent.com/ncraftsconf/newcrafts19/master/schedule.json')
                 .then(resp => {
                         let scheduleNav = '';
                         let scheduleContent = '';
@@ -67,14 +67,16 @@ $(document).ready(() => {
                             <a data-toggle='collapse' data-parent='#day${i}_room${j}_timeline' href='#day${i}_room${j}_timeline_time${k}' class='schedule-item-toggle collapsed'>
                                 <strong class="time highlight"><i class="icon icon-office-24"></i>${events[k].time}</strong>
                                 <h6 class="title">${events[k].title}<i class="icon icon-arrows-06"></i></h6>
+                                <strong class='highlight speaker-name'>${events[k].speakerName}</strong>
                             </a>
 
-                            <div id='day${i}_room${j}_timeline_time${k}' class='panel-collapse collapse schedule-item-body '>
+                            <div id='day${i}_room${j}_timeline_time${k}' class='panel-collapse collapse schedule-item-body${ events.length === 1 && k === 0 ? ' in' : '' }'>
                                 <article>
                                     <p class='description'>
                                         ${ markdownConverter.makeHtml(events[k].description) }    
                                     </p>
-                                    <strong class='highlight speaker-name'>${events[k].speakerName}</strong>
+                                    
+                                    ${ events[k].twitter && events[k].twitter !== '' ? '<strong class="highlight speaker-name"><a href="'+events[k].twitter+'" target="_blank"><span class="fa fa-twitter"></span></a></strong>' : '' }
                                 </article>
                             </div>
                         `;
@@ -108,9 +110,9 @@ $(document).ready(() => {
         $('#schedule-nav').append(scheduleNav);
         $('#schedule-content').append(scheduleContent);
         
-        console.log(scheduleNav);
-        console.log(scheduleContent);
-        
+        // console.log(scheduleNav);
+        // console.log(scheduleContent);
+        Ventcamp.tabNavToSelect();
         $('#first_day').click();
     });
 });

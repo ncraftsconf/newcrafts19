@@ -9,7 +9,7 @@
                     "room": "Room #1",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/mverraes.jpg",
+                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/MathiasVerraesNB.jpg",
                         "time": "9:00 - 17:00",
                         "title": "DDD Modelling vs Implementation",
                         "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
@@ -20,7 +20,7 @@
                     "room": "Room #2",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/kennybrunothomas.jpg",
+                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/kennybrunothomasNB.jpg",
                         "time": "9:00 - 17:00",
                         "title": "EventStorming and Example Mapping From Problem Space to Solution Space",
                         "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
@@ -31,7 +31,7 @@
                     "room": "Room #3",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/khenney.jpg",
+                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/KevlinHenneyNB.jpg",
                         "time": "9:00 - 17:00",
                         "title": "Refactoring to Immutability",
                         "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
@@ -42,7 +42,7 @@
                     "room": "Room #4",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/wzuill.jpg",
+                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/WoodyZuillNB.jpg",
                         "time": "9:00 - 17:00",
                         "title": "Mob Programming",
                         "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
@@ -208,11 +208,11 @@
                     "room": "Hopper",
                     "events": [{
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "speakerId": "Ulrikama",
@@ -687,23 +687,23 @@
                     "room": "Goldberg",
                     "events": [{
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
-                            "author": ""
+                            "speakerName": ""
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/https://ncrafts.io/assets/img/speakers/umalmgren.jpg",
+                            "speakerPhoto": "http://ncrafts.io/https://ncrafts.io/assets/img/speakers/umalmgren.jpg",
                             "time": "9:30 - 10:15",
                             "title": "The one with the compiler always wins",
                             "description": "",
-                            "author": "Ulrika Malmgren"
+                            "speakerName": "Ulrika Malmgren"
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "9:45 - 10:15",
                             "title": "Coffee break",
                             "type": "break",
@@ -788,11 +788,11 @@
                         },
                         {
                             "type": "conference",
-                            "image": "http://ncrafts.io/https://ncrafts.io/assets/img/speakers/abrandolini.jpg",
+                            "speakerPhoto": "http://ncrafts.io/https://ncrafts.io/assets/img/speakers/abrandolini.jpg",
                             "time": "17:15 - 18:00",
                             "title": "The gordian knot → Hatching Software Development Ecosystems",
                             "description": "",
-                            "author": "Alberto Brandolini"
+                            "speakerName": "Alberto Brandolini"
                         }
                     ]
                 }
@@ -1068,7 +1068,7 @@
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
@@ -1236,7 +1236,7 @@
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
@@ -1389,7 +1389,7 @@
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",
@@ -1497,7 +1497,7 @@
                         },
                         {
                             "type": "break",
-                            "image": "",
+                            "speakerPhoto": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
                             "description": "",

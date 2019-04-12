@@ -2,6 +2,8 @@ $(document).ready(() => {
             $.getJSON('./speakers.json')
                 .then(resp => {
                     let speakers = resp.speakers;
+					
+					var markdownConverter = new showdown.Converter();
 
                     for (var i = 0; i < speakers.length; i++) {
                         
@@ -15,10 +17,10 @@ $(document).ready(() => {
                                     </div>
                                     <h3 class="name">${ speaker.speakerName }</h3>
                                     <p class="text-alt">
-                                        <small>${ speaker.bioxs }</small>
+                                        <small>${ markdownConverter.makeHtml(speaker.bioxs) }</small>
                                     </p>
                                     <p class="about">
-                                        ${ speaker.bio }
+                                        ${ markdownConverter.makeHtml(speaker.bio) }
                                     </p>
                                     <ul class="speaker-socials">
                         `;

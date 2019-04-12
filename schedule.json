@@ -188,6 +188,20 @@
                             "cospeakers": []
                         },
                         {
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "speakerPhoto": "",
+                            "id": "",
+                            "title": "Coffee time",
+                            "type": "break",
+                            "description": "",
+                            "room": "Lovelace",
+                            "date": "16/05/2019",
+                            "time": "16:45 - 17:15",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
                             "speakerId": "ziobrando",
                             "speakerName": "Alberto Brandolini",
                             "twitter": "https://twitter.com/ziobrando",
@@ -492,6 +506,20 @@
                             "cospeakers": []
                         },
                         {
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "speakerPhoto": "",
+                            "id": "",
+                            "title": "Coffee time",
+                            "type": "break",
+                            "description": "",
+                            "room": "Liskov",
+                            "date": "16/05/2019",
+                            "time": "16:45 - 17:15",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
                             "speakerId": "ziobrando",
                             "speakerName": "Alberto Brandolini",
                             "twitter": "https://twitter.com/ziobrando",
@@ -663,6 +691,20 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "speakerPhoto": "",
+                            "id": "",
+                            "title": "Coffee time",
+                            "type": "break",
+                            "description": "",
+                            "room": "Kare",
+                            "date": "16/05/2019",
+                            "time": "16:45 - 17:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -940,6 +982,20 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "16:00 - 16:45",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "speakerPhoto": "",
+                            "id": "",
+                            "title": "Coffee time",
+                            "type": "break",
+                            "description": "",
+                            "room": "Lovelace",
+                            "date": "17/05/2019",
+                            "time": "16:45 - 17:15",
                             "tags": [],
                             "cospeakers": []
                         },

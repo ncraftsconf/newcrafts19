@@ -62,7 +62,7 @@
                     "events": [{
                             "type": "break",
                             "speakerPhoto": "",
-                            "time": "8:45 - 9:15",
+                            "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
                             "speakerName": ""
@@ -92,7 +92,7 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "10:15 - 10:45",
+                            "time": "10:00 - 10:30",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -107,7 +107,7 @@
                             "description": "At [Prodo.AI](http://prodo.ai/), we’re teaching machines to write code for humans. Using the latest in Deep Learning techniques, we can generate code that’s not just functional, but beautiful. Our goal is to make the computer do the heavy lifting so you can concentrate on the important things: being creative, solving problems, and having fun.We’ve tried a hundred different ways of encoding the knowledge of *how* to write code. In this talk, Samir will take you through a tour of the different techniques, architectures and optimisations we’ve tried in the process of teaching a machine to write code, using neural networks, simulations and everything in between.",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "10:45 - 11:30",
+                            "time": "10:30 - 11:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -122,7 +122,7 @@
                             "description": "his is a live coding session based on a classic 1982 paper by Peter Henderson. The paper shows the decomposition and reconstruction of Escher's woodcutting \"Square Limit\", a beautiful recursive tessellation of interleaving fish, using functional programming. We will define a set of functions that operate on pictures - transforming them and composing them into more complex pictures. With these functions implemented, we will follow in Henderson's footsteps to create a replica of Escher's Square Limit as an SVG. We will use Elm as the implementation language.",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "11:45 - 12:30",
+                            "time": "11:30 - 12:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -136,7 +136,7 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "12:30 - 14:00",
+                            "time": "12:15 - 14:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -239,7 +239,7 @@
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "10:15 - 10:45",
+                            "time": "10:00 - 10:30",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -254,7 +254,7 @@
                             "description": "Functional Programming is often seen as a nice tool for small-scale concerns, not as a tool for application design. \"Functional in the small, OO in the large\" is often heard and sums up this idea quite well. However, functional programming comes with interesting tools aimed at solving these boring (or deemed boring) concerns: dependency inversion, observability). Aspect-Oriented-Programming is often used for this in the OO word. \n\nA functional solution, called a _monad stack_, allows to combine all this cross-cutting concerns and behaviours with no magic (or not too much). \n\nIn this conference, we'll see what _monad transformers_ are, how they work, and how to use them to structure a web application, with examples in scala and haskell.",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "10:45 - 11:30",
+                            "time": "10:30 - 11:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -269,7 +269,7 @@
                             "description": "Security isn't very fun for development teams to think about. It's complex and something that isn't brought to mind when considering requirements. Too often, it neglected by teams and left to the end for penetration testers to consider. But, it doesn't have to be. Security can be considered early in the development cycle. How can we encourage this behaviour? How can you get development teams interested?\n\nSecurity is an important skill to possess while delivering quality software. The cost of not having security skills within teams is now more obvious than ever. Security should be in the forefront of development teams minds. Even with these risks, data leaks and denial of service attacks are in the headlines often. How do we stop our companies being another statistic?\n\nLearning should not be compulsory. Especially if you want something to become part of the culture. Beginning with a simple workshop to expanding to a security guild, people were eager to be involved. This lead to further workshops which included the basics of threat modelling using STRIDE to the complexity of automated checks. Security at Sky became not only fun but cool. Security was no longer a rarely thought about requirement but a fun, oft thought about need.",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "11:45 - 12:30",
+                            "time": "11:30 - 12:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -283,7 +283,7 @@
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "12:30 - 14:00",
+                            "time": "12:15 - 14:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -368,7 +368,7 @@
                     "events": [{
                             "type": "break",
                             "speakerPhoto": "",
-                            "time": "9:00 - 9:30",
+                            "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
                             "speakerName": ""
@@ -398,7 +398,7 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "10:15 - 10:45",
+                            "time": "10:00 - 10:30",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -413,7 +413,7 @@
                             "description": "[Kent Beck wrote an article](https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864) about a technique invented by Oddmund Str√∏mmer last september. TCR is an alternative to TDD that enforce even more extreme rules than TDD. The goal of this talk is to present the principles, pros and cons according to my experience with TCR.\nEvery point will be illustrated with examples. Finally, we'll try to adapt TCR a bit in order to mitigate the identified cons.",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "10:45 - 11:30",
+                            "time": "10:30 - 11:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -428,7 +428,7 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "11:45 - 12:30",
+                            "time": "11:30 - 12:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -442,7 +442,7 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "12:30 - 14:00",
+                            "time": "12:15 - 14:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -513,7 +513,7 @@
                     "events": [{
                             "type": "break",
                             "speakerPhoto": "",
-                            "time": "9:00 - 9:30",
+                            "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
                             "speakerName": ""
@@ -543,7 +543,7 @@
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
-                            "time": "10:15 - 10:45",
+                            "time": "10:00 - 10:30",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -558,7 +558,7 @@
                             "description": "When we design a system from scratch, especially complex distributed systems, with microservices and/or Big Data pipelines, we have to make a series of important tactical decisions regarding the structure and information flow within our domain. If we assume boundaries in the wrong place, or forget or omit important aspects of communication, we can end up with brittle services, performance issues, and needlessly coupled modules and components, which are painful to maintain and deploy.\nSome of those aspects are hard to discover upfront, and even with great experience, it's not unusual to get the first design at least partially wrong. \n\nOne way to minimize the consequences of those decisions, and to verify our initial assumptions, is to start implementation not with a full architecture in mind, but rather with the smallest possible footprint: A plain, but fully operational prototype of the domain model, which we can stress, observe and explore - and change easily, if we run into problems. This way, we can actually _see_ our design work, and gain valuable insights.\n\nUsing examples, I will demonstrate how combining Domain Driven Design with the practices, heuristics and principles of Software Crafting can highlight difficult or problematic choices, improve fundamental architecture decisions, and ultimately lead to better and more sustainable software systems, long before we get sidetracked by the additional complexity of host environments and deployment pipelines.",
                             "room": "Kare",
                             "date": "16/05/2019",
-                            "time": "10:45 - 11:30",
+                            "time": "10:30 - 11:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -573,7 +573,7 @@
                             "description": "We know psychological safety is necessary for any working team to work But how achievable is it? I posit that due to our current blind spots our visions on that are naïve. Let's dig together on why! tis time for some Sociological Theory, let's Vulgarise Bourdieu! Buckle up for a keynote on\n\nSymbolic Violence.\nSocial/Corporeal Hexis.\nCultural Capital.\nInteractions of those 3 and \"Agile\" Methods.",
                             "room": "Kare",
                             "date": "16/05/2019",
-                            "time": "11:45 - 12:30",
+                            "time": "11:30 - 12:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -587,7 +587,7 @@
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
-                            "time": "12:30 - 14:00",
+                            "time": "12:15 - 14:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -820,7 +820,7 @@
                     "events": [{
                             "type": "break",
                             "speakerPhoto": "",
-                            "time": "9:00 - 9:30",
+                            "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
                             "speakerName": ""
@@ -836,7 +836,7 @@
                             "description": "As developers, we might think we don't have to care about humans because we work on machines. However, nothing could be further from the truth. The only reason for us to build technology is to serve humans.\n\nTherefore, practicing compassion is essential for effective software development. Though many people think of compassion as something soft or ambiguous, you'll learn how compassion provides a practical framework for making rational decisions about our code with the goal of reducing suffering for ourselves, our collaborators, and our users.\n\nFrom understanding customer pain points all the way down to the level of choosing variable names, applying practical compassion can help us craft better code, improve people's lives, and ultimately find more satisfaction in our work!",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "09:30 - 10:15",
+                            "time": "09:15 - 10:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -850,7 +850,7 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "10:15 - 10:45",
+                            "time": "10:00 - 10:30",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -865,7 +865,7 @@
                             "description": "The 1970's were a golden age for new programming languages, but do they have any relevance to programming today? Can we still learn from them? In this talk, we'll look at four languages designed over forty years ago -- SQL, Prolog, ML, and Smalltalk -- and discuss their philosophy and approach to programming, which is very different from most popular languages today. We'll come away with some practical design principles that are still applicable to modern development.",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "10:45 - 11:30",
+                            "time": "10:30 - 11:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -880,7 +880,7 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "11:45 - 12:30",
+                            "time": "11:30 - 12:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -894,7 +894,7 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "12:30 - 14:00",
+                            "time": "12:15 - 14:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -968,10 +968,24 @@
                             "id": "",
                             "type": "break",
                             "speakerPhoto": "",
-                            "time": "9:00 - 9:30",
+                            "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
-                            "speakerName": ""
+                        },
+                        {
+                            "speakerId": "aprilwensel",
+                            "speakerName": "April Wensel",
+                            "twitter": "https://twitter.com/aprilwensel",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AprilWensel.jpg",
+                            "id": "nc19-awe01",
+                            "title": "KEYNOTE : Crafting Compassionate Code",
+                            "type": "Talk",
+                            "description": "As developers, we might think we don't have to care about humans because we work on machines. However, nothing could be further from the truth. The only reason for us to build technology is to serve humans.\n\nTherefore, practicing compassion is essential for effective software development. Though many people think of compassion as something soft or ambiguous, you'll learn how compassion provides a practical framework for making rational decisions about our code with the goal of reducing suffering for ourselves, our collaborators, and our users.\n\nFrom understanding customer pain points all the way down to the level of choosing variable names, applying practical compassion can help us craft better code, improve people's lives, and ultimately find more satisfaction in our work!",
+                            "room": "Lovelace",
+                            "date": "17/05/2019",
+                            "time": "09:15 - 10:00",
+                            "tags": [],
+                            "cospeakers": []
                         },
                         {
                             "speakerId": "",
@@ -998,7 +1012,7 @@
                             "description": "In this talk we are going to explore a bit of history of programming languages, trying to understand where the \"language\" motto comes from, and then move on to explore the Sapir-Whorf hypothesis to see what it means for natural languages, and try to understand if it applies–or not–to programming languages.",
                             "room": "Hopper",
                             "date": "17/05/2019",
-                            "time": "10:45 - 11:30",
+                            "time": "10:30 - 11:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1013,7 +1027,7 @@
                             "description": "Great teams build great products. But what makes a team ‘great’? We have a pretty good understanding of how to improve our code from a technical perspective, but how can we increase the effectiveness of the team creating that code and designs? In the end, software is a technical activity, created by human beings, so it’s crucial to understand the underlying social dynamics that affect our code and designs.\n\nWe should especially try to understand the social heuristics that we are using continuously to make sense of the world. In this talk, Evelyn van Kelle will discuss why we need a shared sense of reality and how this relates to team structure and the quality of your products. Second, she will explore two famous perspectives on sensemaking, and relate them to three social heuristics that are heavily affecting our products and decisions. \n\n- What you see is all there is (availability heuristic)\n- Beware of the experts (related to overconfidence)\n- The curse of first impressions (related to anchoring)\n\nThese heuristics have everything to do with tackling complexity at the heart of software development. In fact, they offer us ways to deal with the complexity we’re facing on a daily basis. If we know the domain, or ‘world’ that we’re operating in, and we are aware of heuristics that may affect our work, we can safely celebrate heuristics and make the best decisions of our lives. ",
                             "room": "Hopper",
                             "date": "17/05/2019",
-                            "time": "11:45 - 12:30",
+                            "time": "11:30 - 12:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1027,7 +1041,7 @@
                             "description": "",
                             "room": "Hopper",
                             "date": "17/05/2019",
-                            "time": "12:30 - 14:00",
+                            "time": "12:15 - 14:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1112,7 +1126,7 @@
                     "events": [{
                             "type": "break",
                             "speakerPhoto": "",
-                            "time": "9:00 - 9:30",
+                            "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
                             "speakerName": ""
@@ -1128,7 +1142,7 @@
                             "description": "As developers, we might think we don't have to care about humans because we work on machines. However, nothing could be further from the truth. The only reason for us to build technology is to serve humans.\n\nTherefore, practicing compassion is essential for effective software development. Though many people think of compassion as something soft or ambiguous, you'll learn how compassion provides a practical framework for making rational decisions about our code with the goal of reducing suffering for ourselves, our collaborators, and our users.\n\nFrom understanding customer pain points all the way down to the level of choosing variable names, applying practical compassion can help us craft better code, improve people's lives, and ultimately find more satisfaction in our work!",
                             "room": "Liskov",
                             "date": "17/05/2019",
-                            "time": "09:30 - 10:15",
+                            "time": "09:15 - 10:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1142,7 +1156,7 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "17/05/2019",
-                            "time": "10:15 - 10:45",
+                            "time": "10:00 - 10:30",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1157,7 +1171,7 @@
                             "description": "Exploratory testing is one of the most important tools any project member can have. Any time we “check whether something works”, “test the bug fix” or “perform tests for a new feature”, we can (and should) use exploratory testing techniques.\n\nEven though the technique is so important, it is still misunderstood. It’s thought to be “clicking around” or “unstructured testing”. In this talk, we’ll demonstrate and explain what exploratory testing is and will also provide participants with reasons why they should be using it in their teams. We’ll provide analogies to other work we do in development teams (like debugging or identifying error causes) and look at how exploratory testing can be used beyond the UI.\n\nTo round off, we’ll give hints about where, how and when to use it in your process, be it agile or traditional or a mix of both.",
                             "room": "Liskov",
                             "date": "17/05/2019",
-                            "time": "10:45 - 11:30",
+                            "time": "10:30 - 11:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1172,7 +1186,7 @@
                             "description": "Exploratory testing is one of the most important tools any project member can have. Any time we “check whether something works”, “test the bug fix” or “perform tests for a new feature”, we can (and should) use exploratory testing techniques.\n\nEven though the technique is so important, it is still misunderstood. It’s thought to be “clicking around” or “unstructured testing”. In this talk, we’ll demonstrate and explain what exploratory testing is and will also provide participants with reasons why they should be using it in their teams. We’ll provide analogies to other work we do in development teams (like debugging or identifying error causes) and look at how exploratory testing can be used beyond the UI.\n\nTo round off, we’ll give hints about where, how and when to use it in your process, be it agile or traditional or a mix of both.",
                             "room": "Liskov",
                             "date": "17/05/2019",
-                            "time": "10:45 - 11:30",
+                            "time": "10:30 - 11:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1187,7 +1201,7 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "17/05/2019",
-                            "time": "11:45 - 12:30",
+                            "time": "11:30 - 12:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1201,7 +1215,7 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "17/05/2019",
-                            "time": "12:30 - 14:00",
+                            "time": "12:15 - 14:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1221,14 +1235,14 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "ifesdjeen",
-                            "speakerName": "Alex Petrov",
-                            "twitter": "https://twitter.com/ifesdjeen",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlexPetrov.jpg",
+                            "speakerId": "",
+                            "speakerName": " ",
+                            "twitter": "",
+                            "speakerPhoto": "",
                             "id": "nc19-ape01",
-                            "title": "Storage Systems: The Old, The New, The Overlooked",
+                            "title": "",
                             "type": "Talk",
-                            "description": "Material on storage systems primarily covers two types of storage: B-Trees and LSM Trees. When these two are contrasted, we hear about buffering and immutability and it almost starts looking like we can't have immutability without buffering and vice versa. However, if we dig into academic and industry works, we find a lot of useful approaches mixing and matching these properties in different ways.\n\nStarting from the classic B-Tree papers from 1979 to the first LSM Trees paper in 1996,\nand continuing into 2019, we can reproduce and see the line of thinking that have lead the industry where we are today.\n\nBy revisiting this evolution of thinking and systematising the findings, we will improve our understanding of the currently used (and some useful yet overlooked) approaches to durable storage.",
+                            "description": "",
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "15:00 - 15:45",
@@ -1280,7 +1294,7 @@
                     "events": [{
                             "type": "break",
                             "speakerPhoto": "",
-                            "time": "9:00 - 9:30",
+                            "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
                             "speakerName": ""
@@ -1296,7 +1310,7 @@
                             "description": "As developers, we might think we don't have to care about humans because we work on machines. However, nothing could be further from the truth. The only reason for us to build technology is to serve humans.\n\nTherefore, practicing compassion is essential for effective software development. Though many people think of compassion as something soft or ambiguous, you'll learn how compassion provides a practical framework for making rational decisions about our code with the goal of reducing suffering for ourselves, our collaborators, and our users.\n\nFrom understanding customer pain points all the way down to the level of choosing variable names, applying practical compassion can help us craft better code, improve people's lives, and ultimately find more satisfaction in our work!",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "09:30 - 10:15",
+                            "time": "09:15 - 10:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1310,7 +1324,7 @@
                             "description": "",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "10:15 - 10:45",
+                            "time": "10:00 - 10:30",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1325,7 +1339,7 @@
                             "description": "There are several reasons you might want to contribute to open source software. For me, it was that I wanted to learn in a more useful way than doing programming challenges. So I looked into how I could contribute to open source projects that I use myself.\nAfter contributing for almost two years, I notice that I have learned a lot from my contributions (which has been useful at work), as well as have made friends and have become part of a community. \n\nIn this talk I will share my experience with contributing to Cucumber, including an early mistake (merging something that wasn't ready yet) and fixing it with the support of core contributors, and still feeling welcome!\nYou'll learn how how to find your project and contributions to start with, how to connect with the community to make sure your contributions are useful and the many types of contributions you can make. \n\nContributing to open source is a way of paying back to the community. In addition, it is a way for you to learn, collaborate and become part of a community. Getting (constructive) feedback on a pull request and collaborating to make things even better is a great feeling!",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "10:45 - 11:30",
+                            "time": "10:30 - 11:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1340,7 +1354,7 @@
                             "description": "What if your engineering teams didn't have to be static? What if you could form them, disband them or adapt their composition every 3 months? And people could pick what they work on?\n\nIs it a recipe for disaster? Or would it give you the flexibility to work on what has the highest business impact, increase engagement and develop your future leaders? What are the tradeoffs? How do you balance short term impact with long term ownership and platform stability?\n\nIn this talk, I'll tell you how I initially led a team of ~20 people from a static structure to something a lot more dynamic where reteaming happens quarterly, and how we are now scaling those practices to 60 people. I'll share with you:\n- How we plan our quarters and let people pick what they work on\n- How we create constraints to make sure the important work gets done while developing knowledge sharing\n- How we use OKRs to create alignment and track progress\n- How we keep in sync and engage with our stakeholders\n- How lead time is decreasing as a result\n\nI'll also share details on our journey: our mistakes, our learnings, what we still struggle with 1 year later and why we think this is strongly aligned with Agile core values!",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "11:45 - 12:30",
+                            "time": "11:30 - 12:15",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1354,7 +1368,7 @@
                             "description": "",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "12:30 - 14:00",
+                            "time": "12:15 - 14:00",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1433,7 +1447,7 @@
                     "events": [{
                             "type": "break",
                             "speakerPhoto": "",
-                            "time": "9:00 - 9:30",
+                            "time": "8:30 - 9:00",
                             "title": "Check-in time",
                             "description": "",
                             "speakerName": ""
@@ -1449,7 +1463,7 @@
                             "description": "As developers, we might think we don't have to care about humans because we work on machines. However, nothing could be further from the truth. The only reason for us to build technology is to serve humans.\n\nTherefore, practicing compassion is essential for effective software development. Though many people think of compassion as something soft or ambiguous, you'll learn how compassion provides a practical framework for making rational decisions about our code with the goal of reducing suffering for ourselves, our collaborators, and our users.\n\nFrom understanding customer pain points all the way down to the level of choosing variable names, applying practical compassion can help us craft better code, improve people's lives, and ultimately find more satisfaction in our work!",
                             "room": "Goldberg",
                             "date": "17/05/2019",
-                            "time": "09:30 - 10:15",
+                            "time": "09:15 - 10:00",
                             "tags": [],
                             "cospeakers": []
                         },

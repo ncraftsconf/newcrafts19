@@ -396,17 +396,6 @@
             "book": ""
         },
         {
-            "speakerId": "ifesdjeen",
-            "speakerName": "Alex Petrov",
-            "image": "/assets/img/speakers/AlexPetrov.jpg",
-            "bioxs": "",
-            "bio": "Algorithms. Distributed Systems. Algebras.",
-            "twitter": "https://twitter.com/ifesdjeen",
-            "git": "https://api.github.com/users/ifesdjeen",
-            "website": "",
-            "book": ""
-        },
-        {
             "speakerId": "FredericRivain",
             "speakerName": "Frédéric Rivain",
             "image": "/assets/img/speakers/FredericRivain.jpg",

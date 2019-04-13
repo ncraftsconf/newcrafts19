@@ -1,5 +1,5 @@
 $(document).ready(() => {
-            $.getJSON('./schedule.js')
+            $.getJSON('./datas/schedule.js')
                 .then(resp => {
                         let scheduleNav = '';
                         let scheduleContent = '';

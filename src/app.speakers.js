@@ -1,5 +1,5 @@
 $(document).ready(() => {
-            $.getJSON('./speakers.js')
+            $.getJSON('./datas/speakers.js')
                 .then(resp => {
                     let speakers = resp.speakers;
 					

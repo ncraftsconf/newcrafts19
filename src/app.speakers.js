@@ -1,5 +1,5 @@
 $(document).ready(() => {
-            $.getJSON('//raw.githubusercontent.com/ncraftsconf/newcrafts19/master/speakers.json')
+            $.getJSON('./speakers.js')
                 .then(resp => {
                     let speakers = resp.speakers;
 					

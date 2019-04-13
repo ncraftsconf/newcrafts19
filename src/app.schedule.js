@@ -1,5 +1,5 @@
 $(document).ready(() => {
-            $.getJSON('//raw.githubusercontent.com/ncraftsconf/newcrafts19/master/schedule.json')
+            $.getJSON('./schedule.js')
                 .then(resp => {
                         let scheduleNav = '';
                         let scheduleContent = '';

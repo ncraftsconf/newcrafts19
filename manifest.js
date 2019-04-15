@@ -4,7 +4,7 @@
     "name": "NewCrafts 2019",
     "scope": "/",
     "display": "standalone",
-    "start_url": "https://ncrafts.io/",
+    "start_url": "https://newcrafts-deploytest.azurewebsites.net/",
     "short_name": "NewCrafts Paris",
     "theme_color": "#39c8b7",
     "description": "NewCrafts Paris the 16 & 17 May, an ephemeral learning ground for professional developers who care for quality code and bettering their practices.",

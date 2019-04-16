@@ -6,10 +6,10 @@
     "display": "standalone",
     "start_url": "https://newcrafts-deploytest.azurewebsites.net/",
     "short_name": "NewCrafts Paris",
-    "theme_color": "#39c8b7",
+    "theme_color": "#262627",
     "description": "NewCrafts Paris the 16 & 17 May, an ephemeral learning ground for professional developers who care for quality code and bettering their practices.",
     "orientation": "any",
-    "background_color": "white",
+    "background_color": "#262627",
     "related_applications": [],
     "prefer_related_applications": false,
     "icons": [

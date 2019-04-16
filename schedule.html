@@ -6,13 +6,15 @@
     <!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <title>NewCrafts Paris 2019 — 16 & 17 May</title>
 
     <meta name="description" content="NewCrafts Paris the 16 & 17 May, an ephemeral learning ground for professional developers who care for quality code and bettering their practices.">
     <meta name="keywords" content="Software Craftsmanship, Software Development, Programming">
     <meta name="author" content="newCrafts">
-	<meta name="theme-color" content="#39C8B7">
+	<meta name="theme-color" content="#262627">
+	
+	<link rel="manifest" href="manifest.js"></link>
 	
     <link rel="shortcut icon" href="assets/img/favicon.ico">
     <link rel="apple-touch-icon" href="assets/img/logo.png">
@@ -30,6 +32,10 @@
 	<style>
 		body {
 			padding-top: 0;
+		}
+		
+		.section {
+			padding-top: 20px;
 		}
 	</style>
 </head>
@@ -63,7 +69,9 @@
     <script type="text/javascript" src="assets/js/showdown.min.js"></script>
     <script type="text/javascript" src="assets/js/ventcamp.core.js"></script>
     
-    <script type="text/javascript" src="src/app.schedule.js"></script>
+    <script async type="text/javascript" src="src/app.schedule.js"></script>
+	
+	<script async type="text/javascript" src="src/app.register.service-worker.js"></script>
 
 </body>
 

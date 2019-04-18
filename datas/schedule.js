@@ -1254,7 +1254,7 @@
                             "id": "nc19-mve01",
                             "title": "Temporal Modelling",
                             "type": "Talk",
-                            "description": "",
+                            "description": "Distributed systems are all about time. Traditional modelling styles, focused on things and structures, are not the primary way anymore to build modern systems that handle complexity well. Entity-centric designs tend to have an uneasy relation with events happening over time. The actual business processes, the heart of how organisations operate, end up hidden in the many calls between services.\n\nTemporal Modelling is the cure: build models and systems that make events and processes the first class building blocks of a domain model. In this talk, we’re going to look at how reasoning with time helps us better understand how to build our software.",
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",

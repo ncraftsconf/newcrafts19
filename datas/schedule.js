@@ -1535,7 +1535,7 @@
                             "date": "17/05/2019",
                             "time": "10:00 - 10:30",
                             "tags": [],
-                            "cospeakers": []
+                            "cospeakers": [] 
                         },
                         {
                             "speakerId": "yot88",

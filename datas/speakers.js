@@ -464,7 +464,7 @@
         },
         {
             "speakerId": "CedricTamavond",
-            "speakerName": "Cédric Tamavond",
+            "speakerName": "Cédric Tamavond", 
             "image": "/assets/img/speakers/CedricTamavond.jpg",
             "bioxs": "",
             "bio": "Passionnate about product management and Agile ! Blockchain enthusiast.\n\nCurious to learn and motivated to make change happen, I try to lead my clients to better perspectives.\n\nOver the last 10 years, I've been a consultant in many different digital industries worldwide including banking, insurance, industry & air transport.\n\nOutside of work I love to travel the world (40+ countries and growing!), to meet different people and cultures.\n\nLearning from our differences, let's change the world !",

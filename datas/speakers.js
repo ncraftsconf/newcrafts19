@@ -571,6 +571,17 @@
             "git": "",
             "website": "",
             "book": ""
+        },
+        {
+            "speakerId": "WoodyZuill",
+            "speakerName": "Woody Zuill",
+            "image": "/assets/img/speakers/WoodyZuill.jpg",
+            "bioxs": "",
+            "bio": "Woody Zuill is an independent Agile Guide and Coach and has been programming computers for 35+ years. He is a pioneer of the Mob Programming approach to teamwork in software development, and is one of the founders of the \"#NoEstimates\" discussion on Twitter. His passion is to work with teams to create an environment where each one of us can excel in our work and in our life. He loves working with legacy code, and believes that code must be kept simple, clean, and easy to work on so we can work just as fast tomorrow as we can today. ",
+            "twitter": "https://twitter.com/WoodyZuill",
+            "git": "",
+            "website": "http://zuill.us/WoodyZuill/",
+            "book": ""
         }
     ]
 }

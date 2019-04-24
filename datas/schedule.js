@@ -1439,7 +1439,7 @@
                             "description": "How Dashlane decided to transform their Product & Engineering Agile Organization from feature teams to Mission teams to maximize product impact, focus and delivery. Learning what works and does not work with feature teams, we decided to evolve the concept to rally the team behind missions supported by OKRs, with a focused product vision and organization.",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "14:00 - 14:30",
+                            "time": "14:00 - 14:20",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1454,7 +1454,7 @@
                             "description": "Understanding or explaining Dependency Inversion can be confusing. <br/>\n\nThe official definition of that principle gives no clue on how it works in real life. Thus, as dev we know it exists and yet, we hardly remember why it has been around for so long. <br/>\n\nThis session is about a kata that will help any developper seeing/showing Dependency Inversion Principle ( D from SOLID) in action.  <br/>\n\nThis session is a  straigthforward *tip and trick* to explain The D from SOLID.",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "14:30 - 15:00",
+                            "time": "14:25 - 14:45",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1469,7 +1469,7 @@
                             "description": "Do you want to produce front-end JS code that does not generate any errors at runtime?\n\nRefactor your Single Page Applications without introducing any bugs?\nA tooling as simple as it is efficient?\n\nDuring this workshop, discover elm, a functional language that highlights the developer experience!\n\nPrerequisites: install elm, elm-live and elm-format on your laptop.",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "15:30 - 16:30",
+                            "time": "15:00 - 16:45",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1582,6 +1582,21 @@
                             "cospeakers": []
                         },
                         {
+                            "speakerId": "WoodyZuill",
+                            "speakerName": "Woody Zuill",
+                            "twitter": "https://twitter.com/WoodyZuill",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/WoodyZuill.jpg",
+                            "id": "nc19-tbr01",
+                            "title": "Estimates or No Estimates, Let's explore the possibilities",
+                            "type": "Quick Hands-on",
+                            "description": "Let’s explore the purpose and use of estimates in the management of software development efforts, and consider possible alternatives.\nWhy do we estimate and are we making estimates that are actually useful?  We say we depend on estimates to make important decisions, and yet we’re often disappointed by the results.\nWhy are we so challenged at estimation?  Are estimates for cost, time, or effort always needed? Is it possible there are other ways to approach our work?  If we didn’t estimate, how could we still be successful at making business decisions?\nThere are a number of things to explore and many questions to ask. For example, do we really need estimates for all the things we are currently using them? Are we getting a reasonable benefit from them? Is it possible to manage software development projects without these estimates, or at least with fewer estimates?  Is there a way to prove that estimates are helping us make good decisions?\nIn this session we’ll participate in some interactive information gathering exercises to see if we can gain a shared idea of our current understanding of the purpose and use of estimates.\nWe will examine the nature of software development. Our exploration goal is to see if we can work together to come up with some ideas about eliminating or improving on the traditional approaches to using estimates.",
+                            "room": "Goldberg",
+                            "date": "17/05/2019",
+                            "time": "13:45 - 14:45",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
                             "speakerId": "sadraskol",
                             "speakerName": "Thomas Bracher",
                             "twitter": "https://twitter.com/sadraskol",
@@ -1592,7 +1607,7 @@
                             "description": "What's the best way to learn how to develop event driven application than participating to its live implementation?!\nThis session is a mix between an event storm and a live-coding conference to discover event driven programming. We will all design, discuss and decide how to solve a complex domain problem. Whatever your level in event driven systems, come to learn new things or teach others your knowledge.",
                             "room": "Goldberg",
                             "date": "17/05/2019",
-                            "time": "13:45 - 15:45",
+                            "time": "15:00 - 16:45",
                             "tags": [],
                             "cospeakers": []
                         },

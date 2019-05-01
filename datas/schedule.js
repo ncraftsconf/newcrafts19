@@ -60,11 +60,10 @@
             "rooms": [{
                     "room": "Lovelace",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -83,18 +82,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "SamirTalwar",
@@ -127,18 +121,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "thinkb4coding",
@@ -180,7 +169,7 @@
                             "id": "nc19-hle01",
                             "title": "Music tech hacking",
                             "type": "Talk",
-                            "description": "how hardware and software is being used and abused by artists, musicians and product designers in the London, Berlin and Chicago maker scenes.",
+                            "description": "Humans have always experimented with sound and instrument making. Radical innovations using state of the art technology in the 1500s brought us the ancestor of the modern violin and even classical artists such as Stravinsky and Debussy were considered avant guard in their time. This talk will explore some of the most radical and exciting music technologies and sound hacking artists of the modern age.\n\nHelen Leigh is a creative technologist specialising in sound who works in Berlin and London, home to some of the most interesting music technologies and sound artists in the world. She will take you on a whistle stop tour of several strange and beautiful creations made by herself and members of the communities she belongs to, including gesture controlled musical instruments, a pipe organ made of Furbies and live coding rave culture. You’ll be able to hear what a cello sounds like after you’ve bounced the sound off the moon and watch a live performance of a pair of singing capacitive touch circuit sculptures.\n\nWhich technologies will change our musical landscapes in the future and which will become forgotten curiosities?",
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
@@ -188,18 +177,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
                             "title": "Coffee time",
-                            "type": "break",
+                            "type": "break",                             
+                            "speakerName": "",
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "16:45 - 17:15"                            
                         },
                         {
                             "speakerId": "ziobrando",
@@ -222,10 +206,9 @@
                     "room": "Hopper",
                     "events": [{
                             "type": "break",
-                            "speakerPhoto": "",
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -244,18 +227,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
                             "type": "break",
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "clementd",
@@ -288,18 +266,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "SavarinAnna",
@@ -347,18 +320,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee time",
                             "type": "break",
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "16:45 - 17:15"
                         },
                         {
                             "speakerId": "ziobrando",
@@ -380,11 +348,10 @@
                 {
                     "room": "Liskov",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -403,18 +370,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "XDetant",
@@ -439,7 +401,7 @@
                             "id": "nc19-pku01",
                             "title": "Talking with Tech Leads",
                             "type": "Talk",
-                            "description": "",
+                            
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
@@ -447,18 +409,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "KevlinHenney",
@@ -506,18 +463,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "16:45 - 17:15"
                         },
                         {
                             "speakerId": "ziobrando",
@@ -539,11 +491,10 @@
                 {
                     "room": "Kare",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -562,18 +513,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "w3ltraumpirat",
@@ -606,18 +552,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "elefevre",
@@ -695,18 +636,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "16:45 - 17:15"
                         },
                         {
                             "speakerId": "ziobrando",
@@ -728,11 +664,10 @@
                 {
                     "room": "Goldberg",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -751,15 +686,13 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
+                            "speakerName": "",
                             "time": "9:45 - 10:15",
                             "title": "Coffee break",
-                            "description": "",
                             "room": "Goldberg",
-                            "date": "16/05/2019",
-                            "tags": [],
-                            "cospeakers": []
+                            "date": "16/05/2019"
                         },
                         {
                             "speakerId": "selketjah",
@@ -777,18 +710,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Goldberg",
                             "date": "16/05/2019",
-                            "time": "12:15 - 13:45",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 13:45"
                         },
                         {
                             "speakerId": "huizendveld",
@@ -821,18 +749,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Goldberg",
                             "date": "16/05/2019",
-                            "time": "17:00 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "17:00 - 17:15"
                         },
                         {
                             "speakerId": "ziobrando",
@@ -860,11 +783,10 @@
             "rooms": [{
                     "room": "Lovelace",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -883,18 +805,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "ScottWlachin",
@@ -927,18 +844,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "tomaspetricek",
@@ -986,18 +898,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "16:45 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "16:45 - 17:15"
                         },
                         {
                             "speakerId": "ethicistforhire",
@@ -1019,14 +926,11 @@
                 {
                     "room": "Hopper",
                     "events": [{
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "id": "",
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "speakerName": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
-                            "title": "Check-in time",
-                            "description": ""
+                            "title": "Check-in time"
                         },
                         {
                             "speakerId": "aprilwensel",
@@ -1044,18 +948,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Hopper",
                             "date": "17/05/2019",
-                            "time": "10:15 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:15 - 10:30"
                         },
                         {
                             "speakerId": "Heimeshoff",
@@ -1088,18 +987,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Hopper",
                             "date": "17/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "cyriux",
@@ -1153,11 +1047,10 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1180,11 +1073,10 @@
                 {
                     "room": "Liskov",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1203,18 +1095,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Liskov",
                             "date": "17/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "alex_schl",
@@ -1262,18 +1149,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Liskov",
                             "date": "17/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "NikkitaFTW",
@@ -1321,11 +1203,10 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1348,11 +1229,10 @@
                 {
                     "room": "Kare",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                            
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1371,18 +1251,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "MaritvanDijk77",
@@ -1415,18 +1290,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "FredericRivain",
@@ -1474,11 +1344,10 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1501,11 +1370,10 @@
                 {
                     "room": "Goldberg",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1524,18 +1392,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Goldberg",
                             "date": "17/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": [] 
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "yot88",
@@ -1568,18 +1431,14 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
+                            "speakerName": "",
                             "id": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Goldberg",
                             "date": "17/05/2019",
-                            "time": "12:15 - 13:45",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 13:45"
                         },
                         {
                             "speakerId": "WoodyZuill",
@@ -1612,11 +1471,10 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {

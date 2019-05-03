@@ -12,7 +12,7 @@
                         "speakerPhoto": "http://ncrafts.io/assets/img/speakers/MathiasVerraes.jpg",
                         "time": "9:00 - 17:00",
                         "title": "DDD Modelling vs Implementation",
-                        "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
+                        "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...\n\nApplied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.\n\nThis one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.\n\n- Why you’re underusing Value Objects\n- Seeing objects as containers of lifecycles and consistency\n* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects\n- The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries\n- How mutable software designs have distorted our perception of mutability in the domain\n- Better heuristics for understanding a complex domain, and using them to drive a more focused design\n- Reducing our dependance on service classes\n- Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs\n- ...\n\nThis workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
                         "speakerName": "Mathias Verraes"
                     }]
                 },
@@ -23,7 +23,7 @@
                         "speakerPhoto": "http://ncrafts.io/assets/img/speakers/kennybrunothomas.jpg",
                         "time": "9:00 - 17:00",
                         "title": "EventStorming and Example Mapping From Problem Space to Solution Space",
-                        "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
+                        "description": "Creating multiple models for the same problem is one of the more important lessons that Domain Driven Design teaches us. It is a lot cheaper to quickly iterate over them and throw away less useful prototypes before we even start coding. However, creating multiple models can be hard. When we begin gaining insight from our domain, we suffer a lot from cognitive biases that get in our way to gain new insights. We need these insights before we even start thinking about modelling. Tools like event storming and example mapping can help us to deliberate discover, and battle these biases. They help you quickly gain insight into the problem space. But the fallacy here is that we can get locked into the tool, and get stuck again.\n\n**What you will learn**  \nIn this workshop, you will learn the essentials of event storming and how it can help you gain the necessary insights you need to deliver quality software. With our newly acquired domain knowledge, we can then start exploring the solution space. During the exploration, we begin to design and model multiple models for the same problem with Domain Driven Design patterns. This way of visualising gives us the power to quickly iterate over the different models and figure out which model will be the best to use for now. Eventually, we start our coding journey TDD style, iterating over the model to refactor towards deeper insights while discovering how hexagonal architecture may help us to protect our domain code from the technical concerns, in the long run.  \n\n**Target Audience**  \nThis workshop is for you if you are a software architect or software developer.",
                         "speakerName": "Kenny Baas-Schwegler, Bruno Boucard & Thomas Pierrain"
                     }]
                 },
@@ -34,7 +34,7 @@
                         "speakerPhoto": "http://ncrafts.io/assets/img/speakers/KevlinHenney.jpg",
                         "time": "9:00 - 17:00",
                         "title": "Refactoring to Immutability",
-                        "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
+                        "description": "It has been said that immutability changes everything. But what does that mean in practice? What does it mean for existing code that looks more like the mutant apocalypse than an elegant application of mathematical thinking?\n\nImmutability can be an ideal that is hard to reach. Refactoring, on the other hand, is all about the art of the possible. In this hands-on workshop, we'll be looking at some tricks and tips to help reduce the mutability of code.\n\nSo bring a laptop, but don't worry about IDEs, editors, compilers and all that — just browser and WiFi! We'll be running the hands-on part using cyber-dojo.org, working with unit tests, promiscuous pairing and good humour :-)",
                         "speakerName": "Kevlin Henney"
                     }]
                 },
@@ -45,7 +45,7 @@
                         "speakerPhoto": "http://ncrafts.io/assets/img/speakers/WoodyZuill.jpg",
                         "time": "9:00 - 17:00",
                         "title": "Mob Programming",
-                        "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...<br><br>Applied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.<br><br>This one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.<br><br><ul><li>* Why you’re underusing Value Objects</li><li>* Seeing objects as containers of lifecycles and consistency</li><li>* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects</li><li>* The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries</li><li>* How mutable software designs have distorted our perception of mutability in the domain</li><li>* Better heuristics for understanding a complex domain, and using them to drive a more focused design</li><li>* Reducing our dependance on service classes</li><li>* Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs</li><li>* ...</li></ul>This workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
+                        "description": "Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.\n\nMob Programming is a cost-effective, collaborative and fun way to get work done together. It's a whole-team approach to development, where coding, designing, testing, and working with the \"customer\" (partner, Product Owner, User, etc.) is all done as a team.\n\nParticipants in this workshop experience a day of learning and doing Mob Programming. We cover the mechanics of how to work together as a Mob as well as the techniques that make this form of development so effective.\n\nWe’ll learn how a Mob performs sample project work, including user stories, prioritization, test-driven development, refactoring, and retrospectives.\n\nDesigned and facilitated by Mob Programming pioneer Woody Zuill, this workshop provides a hands-on education.",
                         "speakerName": "Woody Zuill"
                     }]
                 }
@@ -60,11 +60,10 @@
             "rooms": [{
                     "room": "Lovelace",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -83,18 +82,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "SamirTalwar",
@@ -127,18 +121,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "thinkb4coding",
@@ -180,7 +169,7 @@
                             "id": "nc19-hle01",
                             "title": "Music tech hacking",
                             "type": "Talk",
-                            "description": "how hardware and software is being used and abused by artists, musicians and product designers in the London, Berlin and Chicago maker scenes.",
+                            "description": "Humans have always experimented with sound and instrument making. Radical innovations using state of the art technology in the 1500s brought us the ancestor of the modern violin and even classical artists such as Stravinsky and Debussy were considered avant guard in their time. This talk will explore some of the most radical and exciting music technologies and sound hacking artists of the modern age.\n\nHelen Leigh is a creative technologist specialising in sound who works in Berlin and London, home to some of the most interesting music technologies and sound artists in the world. She will take you on a whistle stop tour of several strange and beautiful creations made by herself and members of the communities she belongs to, including gesture controlled musical instruments, a pipe organ made of Furbies and live coding rave culture. You’ll be able to hear what a cello sounds like after you’ve bounced the sound off the moon and watch a live performance of a pair of singing capacitive touch circuit sculptures.\n\nWhich technologies will change our musical landscapes in the future and which will become forgotten curiosities?",
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
@@ -188,18 +177,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
                             "title": "Coffee time",
-                            "type": "break",
+                            "type": "break",                             
+                            "speakerName": "",
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "16:45 - 17:15"                            
                         },
                         {
                             "speakerId": "ziobrando",
@@ -222,10 +206,9 @@
                     "room": "Hopper",
                     "events": [{
                             "type": "break",
-                            "speakerPhoto": "",
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -244,18 +227,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
                             "type": "break",
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "clementd",
@@ -288,18 +266,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "SavarinAnna",
@@ -347,18 +320,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee time",
                             "type": "break",
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "16:45 - 17:15"
                         },
                         {
                             "speakerId": "ziobrando",
@@ -380,11 +348,10 @@
                 {
                     "room": "Liskov",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -403,18 +370,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "XDetant",
@@ -439,7 +401,7 @@
                             "id": "nc19-pku01",
                             "title": "Talking with Tech Leads",
                             "type": "Talk",
-                            "description": "",
+                            
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
@@ -447,18 +409,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "KevlinHenney",
@@ -506,18 +463,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "16:45 - 17:15"
                         },
                         {
                             "speakerId": "ziobrando",
@@ -539,11 +491,10 @@
                 {
                     "room": "Kare",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -562,18 +513,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "w3ltraumpirat",
@@ -606,18 +552,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "elefevre",
@@ -695,18 +636,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "16:45 - 17:15"
                         },
                         {
                             "speakerId": "ziobrando",
@@ -728,11 +664,10 @@
                 {
                     "room": "Goldberg",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -751,15 +686,13 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
+                            "speakerName": "",
                             "time": "9:45 - 10:15",
                             "title": "Coffee break",
-                            "description": "",
                             "room": "Goldberg",
-                            "date": "16/05/2019",
-                            "tags": [],
-                            "cospeakers": []
+                            "date": "16/05/2019"
                         },
                         {
                             "speakerId": "selketjah",
@@ -777,18 +710,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Goldberg",
                             "date": "16/05/2019",
-                            "time": "12:15 - 13:45",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 13:45"
                         },
                         {
                             "speakerId": "huizendveld",
@@ -821,18 +749,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Goldberg",
                             "date": "16/05/2019",
-                            "time": "17:00 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "17:00 - 17:15"
                         },
                         {
                             "speakerId": "ziobrando",
@@ -860,11 +783,10 @@
             "rooms": [{
                     "room": "Lovelace",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -883,18 +805,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "ScottWlachin",
@@ -917,9 +834,9 @@
                             "twitter": "https://twitter.com/Abebab",
                             "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AbebaBirhane.jpg",
                             "id": "nc19-abi01",
-                            "title": "",
+                            "title": "In defence of uncertainty",
                             "type": "Talk",
-                            "description": "",
+                            "description": "Imagine a world where we are able to predict people’s behaviour with precision. A world, for example, where we can tell whether someone is going to a commit crime before they do. A lot of our problems would just disappear. The quest for absolute certainty has been at the top of Western science’s agenda. In a similar fashion, current technological developments tend to strive for generalizability and predictability. We value certainty, stability and uniformity. Whereas most of reality, instead of being orderly and stable is seething with change, disorder and process. People, far from being predictable and predetermined, are complex, social and dynamical beings that inherently exist in a web of relations. This talk discusses how absolute certainty is not only an unattainable goal so far as understanding people and the social world is concerned but also a dangerous state to aspire to.",
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
@@ -927,18 +844,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "tomaspetricek",
@@ -961,9 +873,9 @@
                             "twitter": "https://twitter.com/marick",
                             "speakerPhoto": "https://ncrafts.io/assets/img/speakers/BrianMarick.jpg",
                             "id": "nc19-bma01",
-                            "title": "",
+                            "title": "Learning from how science and philosophy progress",
                             "type": "Talk",
-                            "description": "",
+                            "description": "We know things about how to develop software, but we don’t know enough. We learn new things too slowly and too erratically. This talk will use the history of science and philosophy to make suggestions about how we can do better. These ideas aren’t abstract - \"somebody should do this thing someday\". If the talk is successful, we’ll start work on them soon, with the aim of improving the average practitioner's life in the near term.",
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "15:00 - 15:45",
@@ -986,18 +898,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
-                            "time": "16:45 - 17:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "16:45 - 17:15"
                         },
                         {
                             "speakerId": "ethicistforhire",
@@ -1019,14 +926,11 @@
                 {
                     "room": "Hopper",
                     "events": [{
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "id": "",
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "speakerName": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
-                            "title": "Check-in time",
-                            "description": ""
+                            "title": "Check-in time"
                         },
                         {
                             "speakerId": "aprilwensel",
@@ -1044,18 +948,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Hopper",
                             "date": "17/05/2019",
-                            "time": "10:15 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:15 - 10:30"
                         },
                         {
                             "speakerId": "Heimeshoff",
@@ -1088,18 +987,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Hopper",
                             "date": "17/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "cyriux",
@@ -1153,11 +1047,10 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1180,11 +1073,10 @@
                 {
                     "room": "Liskov",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1203,18 +1095,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Liskov",
                             "date": "17/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "alex_schl",
@@ -1254,7 +1141,7 @@
                             "id": "nc19-mve01",
                             "title": "Temporal Modelling",
                             "type": "Talk",
-                            "description": "",
+                            "description": "Distributed systems are all about time. Traditional modelling styles, focused on things and structures, are not the primary way anymore to build modern systems that handle complexity well. Entity-centric designs tend to have an uneasy relation with events happening over time. The actual business processes, the heart of how organisations operate, end up hidden in the many calls between services.\n\nTemporal Modelling is the cure: build models and systems that make events and processes the first class building blocks of a domain model. In this talk, we’re going to look at how reasoning with time helps us better understand how to build our software.",
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
@@ -1262,18 +1149,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Liskov",
                             "date": "17/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "NikkitaFTW",
@@ -1291,19 +1173,19 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "twitter": "",
-                            "speakerPhoto": "",
-                            "id": "nc19-ape01",
-                            "title": "",
-                            "type": "Talk",
-                            "description": "",
-                            "room": "Liskov",
-                            "date": "17/05/2019",
-                            "time": "15:00 - 15:45",
-                            "tags": [],
-                            "cospeakers": []
+                            "speakerId":"ifesdjeen",
+                            "speakerName":"Alex Petrov",
+                            "twitter":"https://twitter.com/ifesdjeen",
+                            "speakerPhoto":"https://ncrafts.io/assets/img/speakers/AlexPetrov.jpg",
+                            "id":"nc19-ape01", 
+                            "title":"Storage Systems: The Old, The New, The Overlooked",
+                            "format":"Talk",
+                            "description":"Material on storage systems primarily covers two types of storage: B-Trees and LSM Trees. When these two are contrasted, we hear about buffering and immutability and it almost starts looking like we can't have immutability without buffering and vice versa. However, if we dig into academic and industry works, we find a lot of useful approaches mixing and matching these properties in different ways.\n\nStarting from the classic B-Tree papers from 1979 to the first LSM Trees paper in 1996,\nand continuing into 2019, we can reproduce and see the line of thinking that have lead the industry where we are today.\n\nBy revisiting this evolution of thinking and systematising the findings, we will improve our understanding of the currently used (and some useful yet overlooked) approaches to durable storage.", 
+                            "room":"Liskov",
+                            "date":"17/05/2019",
+                            "time":"15:00 - 15:45",
+                            "tags":[], 
+                            "cospeakers":[]
                         },
                         {
                             "speakerId": "emilybache",
@@ -1321,11 +1203,10 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1348,11 +1229,10 @@
                 {
                     "room": "Kare",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                            
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1371,18 +1251,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "MaritvanDijk77",
@@ -1415,18 +1290,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "12:15 - 14:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "12:15 - 14:00"
                         },
                         {
                             "speakerId": "FredericRivain",
@@ -1439,7 +1309,7 @@
                             "description": "How Dashlane decided to transform their Product & Engineering Agile Organization from feature teams to Mission teams to maximize product impact, focus and delivery. Learning what works and does not work with feature teams, we decided to evolve the concept to rally the team behind missions supported by OKRs, with a focused product vision and organization.",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "14:00 - 14:30",
+                            "time": "14:00 - 14:20",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1454,7 +1324,7 @@
                             "description": "Understanding or explaining Dependency Inversion can be confusing. <br/>\n\nThe official definition of that principle gives no clue on how it works in real life. Thus, as dev we know it exists and yet, we hardly remember why it has been around for so long. <br/>\n\nThis session is about a kata that will help any developper seeing/showing Dependency Inversion Principle ( D from SOLID) in action.  <br/>\n\nThis session is a  straigthforward *tip and trick* to explain The D from SOLID.",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "14:30 - 15:00",
+                            "time": "14:25 - 14:45",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1469,16 +1339,15 @@
                             "description": "Do you want to produce front-end JS code that does not generate any errors at runtime?\n\nRefactor your Single Page Applications without introducing any bugs?\nA tooling as simple as it is efficient?\n\nDuring this workshop, discover elm, a functional language that highlights the developer experience!\n\nPrerequisites: install elm, elm-live and elm-format on your laptop.",
                             "room": "Kare",
                             "date": "17/05/2019",
-                            "time": "15:30 - 16:30",
+                            "time": "15:00 - 16:45",
                             "tags": [],
                             "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1501,11 +1370,10 @@
                 {
                     "room": "Goldberg",
                     "events": [{
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {
@@ -1524,18 +1392,13 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
-                            "id": "",
+                            "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",
+                            "type": "break",                             
                             "description": "",
                             "room": "Goldberg",
                             "date": "17/05/2019",
-                            "time": "10:00 - 10:30",
-                            "tags": [],
-                            "cospeakers": []
+                            "time": "10:00 - 10:30"
                         },
                         {
                             "speakerId": "yot88",
@@ -1553,16 +1416,42 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId": "",
-                            "speakerName": " ",
-                            "speakerPhoto": "",
+                            "speakerId": "CedricTamavond",
+                            "speakerName": "Cédric Tamavond",
+                            "twitter": "",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/CedricTamavond.jpg",
+                            "id": "nc19-cta01",
+                            "title": "Xtrem Reading - Read differently and cultivate your collective intelligence",
+                            "type": "Hands-on",
+                            "description": "Do you have any books that are dusty? \nDo you really want to read them but can't find the time? \nWe have a solution for you: \"Xtrem reading\".\n\nLearn group reading and read 2 books in 1 hour. \nOur promise to you:\n\n* Boost your collective intelligence\n* Rekindle the flame of reading\n* Plan your next readings\n* Don't read for nothing !",
+                            "room": "Goldberg",
+                            "date": "17/05/2019",
+                            "time": "10:15 - 12:15",
+                            "tags": [],
+                            "cospeakers": []
+                        },
+                        {
+                            "speakerName": "",
                             "id": "",
                             "title": "Lunch break",
-                            "type": "lunch",
+                            "type": "lunch",  
                             "description": "",
                             "room": "Goldberg",
                             "date": "17/05/2019",
-                            "time": "12:15 - 13:45",
+                            "time": "12:15 - 13:45"
+                        },
+                        {
+                            "speakerId": "WoodyZuill",
+                            "speakerName": "Woody Zuill",
+                            "twitter": "https://twitter.com/WoodyZuill",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/WoodyZuill.jpg",
+                            "id": "nc19-tbr01",
+                            "title": "Estimates or No Estimates, Let's explore the possibilities",
+                            "type": "Quick Hands-on",
+                            "description": "Let’s explore the purpose and use of estimates in the management of software development efforts, and consider possible alternatives.\nWhy do we estimate and are we making estimates that are actually useful?  We say we depend on estimates to make important decisions, and yet we’re often disappointed by the results.\nWhy are we so challenged at estimation?  Are estimates for cost, time, or effort always needed? Is it possible there are other ways to approach our work?  If we didn’t estimate, how could we still be successful at making business decisions?\nThere are a number of things to explore and many questions to ask. For example, do we really need estimates for all the things we are currently using them? Are we getting a reasonable benefit from them? Is it possible to manage software development projects without these estimates, or at least with fewer estimates?  Is there a way to prove that estimates are helping us make good decisions?\nIn this session we’ll participate in some interactive information gathering exercises to see if we can gain a shared idea of our current understanding of the purpose and use of estimates.\nWe will examine the nature of software development. Our exploration goal is to see if we can work together to come up with some ideas about eliminating or improving on the traditional approaches to using estimates.",
+                            "room": "Goldberg",
+                            "date": "17/05/2019",
+                            "time": "13:45 - 14:45",
                             "tags": [],
                             "cospeakers": []
                         },
@@ -1577,16 +1466,15 @@
                             "description": "What's the best way to learn how to develop event driven application than participating to its live implementation?!\nThis session is a mix between an event storm and a live-coding conference to discover event driven programming. We will all design, discuss and decide how to solve a complex domain problem. Whatever your level in event driven systems, come to learn new things or teach others your knowledge.",
                             "room": "Goldberg",
                             "date": "17/05/2019",
-                            "time": "13:45 - 15:45",
+                            "time": "15:00 - 16:45",
                             "tags": [],
                             "cospeakers": []
                         },
                         {
-                            "type": "break",
-                            "speakerPhoto": "",
+                            "type": "break",                             
+                            "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
-                            "description": "",
                             "speakerName": ""
                         },
                         {

@@ -60,7 +60,7 @@
             "rooms": [{
                     "room": "Lovelace",
                     "events": [{
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
@@ -84,7 +84,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
@@ -123,7 +123,7 @@
                         {
                             "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",  
+                            "type": "lunch",
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
@@ -178,12 +178,12 @@
                         },
                         {
                             "title": "Coffee time",
-                            "type": "break",                             
+                            "type": "break",
                             "speakerName": "",
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15"                            
+                            "time": "16:45 - 17:15"
                         },
                         {
                             "speakerId": "ziobrando",
@@ -268,7 +268,7 @@
                         {
                             "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",  
+                            "type": "lunch",
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
@@ -348,7 +348,7 @@
                 {
                     "room": "Liskov",
                     "events": [{
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
@@ -372,7 +372,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
@@ -401,7 +401,7 @@
                             "id": "nc19-pku01",
                             "title": "Talking with Tech Leads",
                             "type": "Talk",
-                            
+                            "description": "As a software engineer, you will have learned that \"naming things\" will remain one of the most difficult tasks in our industry. This is even more confusing when it comes to roles and responsibilities for the Tech Lead role. After interviewing many people playing technical leadership roles, establishing a European-wide Tech Lead training program in his last company, and training 100+ Tech Leads around the world, Patrick will share his lessons learned about what exactly a Tech Lead is, and what it takes to make the role successful. If you currently have or would like to take on a leadership role for an engineering team, come to this session to hear some practical tips that will make you a more successful Tech Lead.",
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
@@ -411,7 +411,7 @@
                         {
                             "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",  
+                            "type": "lunch",
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
@@ -465,7 +465,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
@@ -491,7 +491,7 @@
                 {
                     "room": "Kare",
                     "events": [{
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
@@ -515,7 +515,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
@@ -554,7 +554,7 @@
                         {
                             "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",  
+                            "type": "lunch",
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
@@ -638,7 +638,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Kare",
                             "date": "16/05/2019",
@@ -664,7 +664,7 @@
                 {
                     "room": "Goldberg",
                     "events": [{
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
@@ -686,7 +686,7 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "speakerName": "",
                             "time": "9:45 - 10:15",
@@ -712,7 +712,7 @@
                         {
                             "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",  
+                            "type": "lunch",
                             "description": "",
                             "room": "Goldberg",
                             "date": "16/05/2019",
@@ -751,7 +751,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Goldberg",
                             "date": "16/05/2019",
@@ -783,7 +783,7 @@
             "rooms": [{
                     "room": "Lovelace",
                     "events": [{
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
@@ -807,7 +807,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
@@ -846,7 +846,7 @@
                         {
                             "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",  
+                            "type": "lunch",
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
@@ -900,7 +900,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee time",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Lovelace",
                             "date": "17/05/2019",
@@ -927,7 +927,7 @@
                     "room": "Hopper",
                     "events": [{
                             "speakerName": "",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time"
@@ -950,7 +950,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Hopper",
                             "date": "17/05/2019",
@@ -989,7 +989,7 @@
                         {
                             "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",  
+                            "type": "lunch",
                             "description": "",
                             "room": "Hopper",
                             "date": "17/05/2019",
@@ -1047,7 +1047,7 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
@@ -1073,7 +1073,7 @@
                 {
                     "room": "Liskov",
                     "events": [{
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
@@ -1097,7 +1097,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Liskov",
                             "date": "17/05/2019",
@@ -1151,7 +1151,7 @@
                         {
                             "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",  
+                            "type": "lunch",
                             "description": "",
                             "room": "Liskov",
                             "date": "17/05/2019",
@@ -1173,19 +1173,19 @@
                             "cospeakers": []
                         },
                         {
-                            "speakerId":"ifesdjeen",
-                            "speakerName":"Alex Petrov",
-                            "twitter":"https://twitter.com/ifesdjeen",
-                            "speakerPhoto":"https://ncrafts.io/assets/img/speakers/AlexPetrov.jpg",
-                            "id":"nc19-ape01", 
-                            "title":"Storage Systems: The Old, The New, The Overlooked",
-                            "format":"Talk",
-                            "description":"Material on storage systems primarily covers two types of storage: B-Trees and LSM Trees. When these two are contrasted, we hear about buffering and immutability and it almost starts looking like we can't have immutability without buffering and vice versa. However, if we dig into academic and industry works, we find a lot of useful approaches mixing and matching these properties in different ways.\n\nStarting from the classic B-Tree papers from 1979 to the first LSM Trees paper in 1996,\nand continuing into 2019, we can reproduce and see the line of thinking that have lead the industry where we are today.\n\nBy revisiting this evolution of thinking and systematising the findings, we will improve our understanding of the currently used (and some useful yet overlooked) approaches to durable storage.", 
-                            "room":"Liskov",
-                            "date":"17/05/2019",
-                            "time":"15:00 - 15:45",
-                            "tags":[], 
-                            "cospeakers":[]
+                            "speakerId": "ifesdjeen",
+                            "speakerName": "Alex Petrov",
+                            "twitter": "https://twitter.com/ifesdjeen",
+                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlexPetrov.jpg",
+                            "id": "nc19-ape01",
+                            "title": "Storage Systems: The Old, The New, The Overlooked",
+                            "format": "Talk",
+                            "description": "Material on storage systems primarily covers two types of storage: B-Trees and LSM Trees. When these two are contrasted, we hear about buffering and immutability and it almost starts looking like we can't have immutability without buffering and vice versa. However, if we dig into academic and industry works, we find a lot of useful approaches mixing and matching these properties in different ways.\n\nStarting from the classic B-Tree papers from 1979 to the first LSM Trees paper in 1996,\nand continuing into 2019, we can reproduce and see the line of thinking that have lead the industry where we are today.\n\nBy revisiting this evolution of thinking and systematising the findings, we will improve our understanding of the currently used (and some useful yet overlooked) approaches to durable storage.",
+                            "room": "Liskov",
+                            "date": "17/05/2019",
+                            "time": "15:00 - 15:45",
+                            "tags": [],
+                            "cospeakers": []
                         },
                         {
                             "speakerId": "emilybache",
@@ -1203,7 +1203,7 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
@@ -1229,7 +1229,7 @@
                 {
                     "room": "Kare",
                     "events": [{
-                            "type": "break",                            
+                            "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
@@ -1253,7 +1253,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Kare",
                             "date": "17/05/2019",
@@ -1292,7 +1292,7 @@
                         {
                             "speakerName": "",
                             "title": "Lunch break",
-                            "type": "lunch",  
+                            "type": "lunch",
                             "description": "",
                             "room": "Kare",
                             "date": "17/05/2019",
@@ -1344,7 +1344,7 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",
@@ -1370,7 +1370,7 @@
                 {
                     "room": "Goldberg",
                     "events": [{
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
@@ -1394,7 +1394,7 @@
                         {
                             "speakerName": "",
                             "title": "Coffee break",
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "room": "Goldberg",
                             "date": "17/05/2019",
@@ -1434,7 +1434,7 @@
                             "speakerName": "",
                             "id": "",
                             "title": "Lunch break",
-                            "type": "lunch",  
+                            "type": "lunch",
                             "description": "",
                             "room": "Goldberg",
                             "date": "17/05/2019",
@@ -1471,7 +1471,7 @@
                             "cospeakers": []
                         },
                         {
-                            "type": "break",                             
+                            "type": "break",
                             "description": "",
                             "time": "16:45 - 17:15",
                             "title": "Coffee time",

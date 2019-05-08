@@ -9,7 +9,7 @@
                     "room": "Room #1",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/MathiasVerraes.jpg",
+                        "speakerPhoto": "/assets/img/speakers/MathiasVerraes.jpg",
                         "time": "9:00 - 17:00",
                         "title": "DDD Modelling vs Implementation",
                         "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...\n\nApplied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.\n\nThis one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.\n\n- Why you’re underusing Value Objects\n- Seeing objects as containers of lifecycles and consistency\n* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects\n- The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries\n- How mutable software designs have distorted our perception of mutability in the domain\n- Better heuristics for understanding a complex domain, and using them to drive a more focused design\n- Reducing our dependance on service classes\n- Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs\n- ...\n\nThis workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
@@ -20,7 +20,7 @@
                     "room": "Room #2",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/kennybrunothomas.jpg",
+                        "speakerPhoto": "/assets/img/speakers/kennybrunothomas.jpg",
                         "time": "9:00 - 17:00",
                         "title": "EventStorming and Example Mapping From Problem Space to Solution Space",
                         "description": "Creating multiple models for the same problem is one of the more important lessons that Domain Driven Design teaches us. It is a lot cheaper to quickly iterate over them and throw away less useful prototypes before we even start coding. However, creating multiple models can be hard. When we begin gaining insight from our domain, we suffer a lot from cognitive biases that get in our way to gain new insights. We need these insights before we even start thinking about modelling. Tools like event storming and example mapping can help us to deliberate discover, and battle these biases. They help you quickly gain insight into the problem space. But the fallacy here is that we can get locked into the tool, and get stuck again.\n\n**What you will learn**  \nIn this workshop, you will learn the essentials of event storming and how it can help you gain the necessary insights you need to deliver quality software. With our newly acquired domain knowledge, we can then start exploring the solution space. During the exploration, we begin to design and model multiple models for the same problem with Domain Driven Design patterns. This way of visualising gives us the power to quickly iterate over the different models and figure out which model will be the best to use for now. Eventually, we start our coding journey TDD style, iterating over the model to refactor towards deeper insights while discovering how hexagonal architecture may help us to protect our domain code from the technical concerns, in the long run.  \n\n**Target Audience**  \nThis workshop is for you if you are a software architect or software developer.",
@@ -31,7 +31,7 @@
                     "room": "Room #3",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/KevlinHenney.jpg",
+                        "speakerPhoto": "/assets/img/speakers/KevlinHenney.jpg",
                         "time": "9:00 - 17:00",
                         "title": "Refactoring to Immutability",
                         "description": "It has been said that immutability changes everything. But what does that mean in practice? What does it mean for existing code that looks more like the mutant apocalypse than an elegant application of mathematical thinking?\n\nImmutability can be an ideal that is hard to reach. Refactoring, on the other hand, is all about the art of the possible. In this hands-on workshop, we'll be looking at some tricks and tips to help reduce the mutability of code.\n\nSo bring a laptop, but don't worry about IDEs, editors, compilers and all that — just browser and WiFi! We'll be running the hands-on part using cyber-dojo.org, working with unit tests, promiscuous pairing and good humour :-)",
@@ -42,7 +42,7 @@
                     "room": "Room #4",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/WoodyZuill.jpg",
+                        "speakerPhoto": "/assets/img/speakers/WoodyZuill.jpg",
                         "time": "9:00 - 17:00",
                         "title": "Mob Programming",
                         "description": "Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.\n\nMob Programming is a cost-effective, collaborative and fun way to get work done together. It's a whole-team approach to development, where coding, designing, testing, and working with the \"customer\" (partner, Product Owner, User, etc.) is all done as a team.\n\nParticipants in this workshop experience a day of learning and doing Mob Programming. We cover the mechanics of how to work together as a Mob as well as the techniques that make this form of development so effective.\n\nWe’ll learn how a Mob performs sample project work, including user stories, prioritization, test-driven development, refactoring, and retrospectives.\n\nDesigned and facilitated by Mob Programming pioneer Woody Zuill, this workshop provides a hands-on education.",

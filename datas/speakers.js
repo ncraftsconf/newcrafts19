@@ -395,7 +395,7 @@
             "website": "http://tomasp.net/",
             "book": ""
         },
-        {"speakerId":"ifesdjeen","speakerName":"Alex Petrov","image":"https://ncrafts.io/assets/img/speakers/AlexPetrov.jpg","bioxs":"","bio":"Algorithms. Distributed Systems. Algebras.","twitter":"https://twitter.com/ifesdjeen","git":"https://api.github.com/users/ifesdjeen","website":"https://medium.com/databasss","book":"https://www.databass.dev/"},
+        {"speakerId":"ifesdjeen","speakerName":"Alex Petrov","image":"/assets/img/speakers/AlexPetrov.jpg","bioxs":"","bio":"Algorithms. Distributed Systems. Algebras.","twitter":"https://twitter.com/ifesdjeen","git":"https://api.github.com/users/ifesdjeen","website":"https://medium.com/databasss","book":"https://www.databass.dev/"},
         {
             "speakerId": "FredericRivain",
             "speakerName": "Frédéric Rivain",

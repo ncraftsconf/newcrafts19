@@ -45,7 +45,7 @@ function generateEventsHtml (days) {
 					+ '<div class="panel-group" id="day' + i + '_room'+j+'_timeline">';
 
 			for (var k = 0; k < events.length; k++) {
-				scheduleContent += '<div class="panel schedule-item">
+				scheduleContent += '<div class="panel schedule-item">'
 						+ '<div class="lecture-icon-wrapper" ' + (events[k].speakerPhoto !== '' ? ' style="background-image: url('+events[k].speakerPhoto+'); background-size:cover"' : '') + '>'
 							+ (events[k].type === 'conference' && events[k].speakerPhoto === '' ? '<span class="fa fa-microphone"></span>' : '')
 							+ (events[k].type === 'break' ? '<span class="fa fa-coffee"></span>' : '')
@@ -59,13 +59,13 @@ function generateEventsHtml (days) {
 							+ '<strong class="highlight speaker-name">'+events[k].speakerName+'</strong>'
 						+ '</a>'
 
-						+ '<div id="day' + i + '_room' + j + '_timeline_time' + k" class="panel-collapse collapse schedule-item-body'+ (events.length === 1 && k === 0 ? ' in' : '')+'">'
+						+ '<div id="day' + i + '_room' + j + '_timeline_time' + k +'" class="panel-collapse collapse schedule-item-body' + (events.length === 1 && k === 0 ? ' in' : '') + '">'
 							+ '<article>'
 								+ '<p class="description">' + markdownConverter.makeHtml(events[k].description) + '</p>'
 							
 								+ (events[k].twitter && events[k].twitter !== '' ? '<strong class="highlight speaker-name"><a href="'+events[k].twitter+'" target="_blank"><span class="fa fa-twitter"></span></a></strong>' : '')
 							+ '</article>'
-						+ '</div>;
+						+ '</div>';
 				}
 				else {
 					scheduleContent += '<a data-parent="#day' + i + '_room' + j + '_timeline" class="schedule-item-toggle collapsed">'

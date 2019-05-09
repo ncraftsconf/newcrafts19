@@ -41,7 +41,7 @@ function generateEventsHtml (days) {
 		for (var j = 0; j < rooms.length; j++) {
 			const events = rooms[j].events;
 
-			scheduleContent += '<div id="day' + i + '_room' + j + '" class="tab-pane fade in' (j === 0 ? ' active' : '')+">'
+			scheduleContent += '<div id="day' + i + '_room' + j + '" class="tab-pane fade in' + (j === 0 ? ' active' : '') + '">'
 					+ '<div class="panel-group" id="day' + i + '_room'+j+'_timeline">';
 
 			for (var k = 0; k < events.length; k++) {

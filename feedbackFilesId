@@ -1,0 +1,21 @@
+// Google Script function to generate an array with all feedback forms Urls and its speaker name
+
+function myFunction() {
+  var feedbackFolder = DriveApp.getFolderById('16LfyD0cfvRXOhIq-ueHvJqjg2TAkBWWp')
+  var feedbackFiles = feedbackFolder.getFiles();
+  
+  var formUrls = [];
+  
+  while (feedbackFiles.hasNext()) {
+    var file = feedbackFiles.next();
+    var fileName = file.getName();
+    var speakerName = fileName.split('Feedback for ')[1];
+    
+    var fileId = file.getId();
+    var formUrl = 'https://docs.google.com/forms/d/' + fileId + '/viewform';
+    
+    formUrls.push({ speakerName: speakerName, formUrl: formUrl });
+}
+  
+  DriveApp.createFile('feedbackFormIds.txt', JSON.stringify(formUrls))
+}

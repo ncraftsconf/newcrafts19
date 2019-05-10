@@ -234,7 +234,7 @@
             "speakerId": "patkua",
             "speakerName": "Patrick Kua",
             "image": "/assets/img/speakers/PatrickKua.jpg",
-            "bioxs": "\\#CTO of @N26 #author",
+            "bioxs": "\\#Chief Scientist at @N26, #author",
             "bio": "Patrick Kua is a keynote and frequent conference speaker, trainer and author of three books: [The Retrospective Handbook](http://thekua.io/retrobook), [Talking with Tech Leads](http://thekua.io/twtl) and most recently, [Building Evolutionary Architectures](http://thekua.io/evolarch). He is currently Chief Scientist and former CTO of the mobile bank N26 (Berlin, Germany) where he is building the engineering group that will change modern retail banking for people like you and me. Formerly a Principal Technical Consultant at ThoughtWorks for almost 14 years, he brings a balanced focus on people, organisations and technology to optimise the flow of software. You can find him blogging at [http://www.thekua.com/atwork](http://www.thekua.com/atwork) and on twitter as @patkua",
             "twitter": "https://twitter.com/patkua",
             "git": "",
@@ -395,6 +395,7 @@
             "website": "http://tomasp.net/",
             "book": ""
         },
+        {"speakerId":"ifesdjeen","speakerName":"Alex Petrov","image":"/assets/img/speakers/AlexPetrov.jpg","bioxs":"","bio":"Algorithms. Distributed Systems. Algebras.","twitter":"https://twitter.com/ifesdjeen","git":"https://api.github.com/users/ifesdjeen","website":"https://medium.com/databasss","book":"https://www.databass.dev/"},
         {
             "speakerId": "FredericRivain",
             "speakerName": "Frédéric Rivain",
@@ -461,6 +462,17 @@
             "website": "",
             "book": ""
         },
+        {
+            "speakerId": "CedricTamavond",
+            "speakerName": "Cédric Tamavond", 
+            "image": "/assets/img/speakers/CedricTamavond.jpg",
+            "bioxs": "",
+            "bio": "Passionnate about product management and Agile ! Blockchain enthusiast.\n\nCurious to learn and motivated to make change happen, I try to lead my clients to better perspectives.\n\nOver the last 10 years, I've been a consultant in many different digital industries worldwide including banking, insurance, industry & air transport.\n\nOutside of work I love to travel the world (40+ countries and growing!), to meet different people and cultures.\n\nLearning from our differences, let's change the world !",
+            "twitter": "",
+            "git": "",
+            "website": "",
+            "book": ""
+        },  
         {
             "speakerId": "yot88",
             "speakerName": "Yoan Thirion",
@@ -558,6 +570,17 @@
             "twitter": "https://twitter.com/ScottWlachin",
             "git": "",
             "website": "",
+            "book": ""
+        },
+        {
+            "speakerId": "WoodyZuill",
+            "speakerName": "Woody Zuill",
+            "image": "/assets/img/speakers/WoodyZuill.jpg",
+            "bioxs": "",
+            "bio": "Woody Zuill is an independent Agile Guide and Coach and has been programming computers for 35+ years. He is a pioneer of the Mob Programming approach to teamwork in software development, and is one of the founders of the \"#NoEstimates\" discussion on Twitter. His passion is to work with teams to create an environment where each one of us can excel in our work and in our life. He loves working with legacy code, and believes that code must be kept simple, clean, and easy to work on so we can work just as fast tomorrow as we can today. ",
+            "twitter": "https://twitter.com/WoodyZuill",
+            "git": "",
+            "website": "http://zuill.us/WoodyZuill/",
             "book": ""
         }
     ]

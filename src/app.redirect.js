@@ -5,5 +5,5 @@
 };
 
 if (isMobileDevice()) {
-  window.location.replace("https://ncrafts.herokuapp.com/");
+  window.location.replace("https://app.ncrafts.io/");
 }

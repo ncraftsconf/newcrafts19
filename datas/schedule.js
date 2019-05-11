@@ -18,7 +18,9 @@
                         "date": "15/05/2019",
                         "title": "DDD Modelling vs Implementation",
                         "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...\n\nApplied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.\n\nThis one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.\n\n- Why you’re underusing Value Objects\n- Seeing objects as containers of lifecycles and consistency\n* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects\n- The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries\n- How mutable software designs have distorted our perception of mutability in the domain\n- Better heuristics for understanding a complex domain, and using them to drive a more focused design\n- Reducing our dependance on service classes\n- Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs\n- ...\n\nThis workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
-                        "speakerName": "Mathias Verraes"
+                        "speakerName": "Mathias Verraes",
+                        "feedbackUrl":"https://docs.google.com/forms/d/1ORYsLo5LHq6L2RquFrnoDQHoAd1_NtK1OscUohr2KbA/viewform"
+                  
                     }]
                 },
                 {
@@ -35,6 +37,7 @@
                         "title": "EventStorming and Example Mapping From Problem Space to Solution Space",
                         "description": "Creating multiple models for the same problem is one of the more important lessons that Domain Driven Design teaches us. It is a lot cheaper to quickly iterate over them and throw away less useful prototypes before we even start coding. However, creating multiple models can be hard. When we begin gaining insight from our domain, we suffer a lot from cognitive biases that get in our way to gain new insights. We need these insights before we even start thinking about modelling. Tools like event storming and example mapping can help us to deliberate discover, and battle these biases. They help you quickly gain insight into the problem space. But the fallacy here is that we can get locked into the tool, and get stuck again.\n\n**What you will learn**  \nIn this workshop, you will learn the essentials of event storming and how it can help you gain the necessary insights you need to deliver quality software. With our newly acquired domain knowledge, we can then start exploring the solution space. During the exploration, we begin to design and model multiple models for the same problem with Domain Driven Design patterns. This way of visualising gives us the power to quickly iterate over the different models and figure out which model will be the best to use for now. Eventually, we start our coding journey TDD style, iterating over the model to refactor towards deeper insights while discovering how hexagonal architecture may help us to protect our domain code from the technical concerns, in the long run.  \n\n**Target Audience**  \nThis workshop is for you if you are a software architect or software developer.",
                         "speakerName": "Kenny Baas-Schwegler, Bruno Boucard & Thomas Pierrain",
+                        "feedbackUrl":"https://docs.google.com/forms/d/1Cd-lxHV0A8BifqPSN4AA9VQCK513x-suhnYw00ED4EE/viewform",
                         "cospeakers":[
                             {
                                 "Name": "Thomas Pierrain",
@@ -64,7 +67,9 @@
                         "format": "pre-conference-workshop",
                         "title": "Refactoring to Immutability",
                         "description": "It has been said that immutability changes everything. But what does that mean in practice? What does it mean for existing code that looks more like the mutant apocalypse than an elegant application of mathematical thinking?\n\nImmutability can be an ideal that is hard to reach. Refactoring, on the other hand, is all about the art of the possible. In this hands-on workshop, we'll be looking at some tricks and tips to help reduce the mutability of code.\n\nSo bring a laptop, but don't worry about IDEs, editors, compilers and all that — just browser and WiFi! We'll be running the hands-on part using cyber-dojo.org, working with unit tests, promiscuous pairing and good humour :-)",
-                        "speakerName": "Kevlin Henney"
+                        "speakerName": "Kevlin Henney",
+                        "feedbackUrl":"https://docs.google.com/forms/d/1g5He6AECnsmQkv910jBdo0s_-5NaMewjJkqUrCZG4p8/viewform"
+                     
                     }]
                 },
                 {
@@ -80,7 +85,9 @@
                         "title": "Mob Programming",
                         "format": "pre-conference-workshop",
                         "description": "Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.\n\nMob Programming is a cost-effective, collaborative and fun way to get work done together. It's a whole-team approach to development, where coding, designing, testing, and working with the \"customer\" (partner, Product Owner, User, etc.) is all done as a team.\n\nParticipants in this workshop experience a day of learning and doing Mob Programming. We cover the mechanics of how to work together as a Mob as well as the techniques that make this form of development so effective.\n\nWe’ll learn how a Mob performs sample project work, including user stories, prioritization, test-driven development, refactoring, and retrospectives.\n\nDesigned and facilitated by Mob Programming pioneer Woody Zuill, this workshop provides a hands-on education.",
-                        "speakerName": "Woody Zuill"
+                        "speakerName": "Woody Zuill",
+                        "feedbackUrl":"https://docs.google.com/forms/d/1kblDT4zFBkIDDzLCUDwIP3N2y-Wb6n6v_dJWiz1qyHY/viewform"
+                     
                     }]
                 }
             ]
@@ -98,7 +105,9 @@
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "speakerName": ""
+                            "speakerName": "",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         
                         },
                         {
                             "speakerId": "Ulrikama",
@@ -113,7 +122,9 @@
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
                             "tags": ["agile","people","practices"],
-                            "cospeakers": []
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1p8dVvdi8rXWP62X6oBWF3LawGcqyB3yPl2Mh6b1Ub6I/viewform"
+                         
                         },
                         {
                             "speakerName": "",
@@ -122,7 +133,9 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30"
+                            "time": "10:00 - 10:30",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         
                         },
                         {
                             "speakerId": "SamirTalwar",
@@ -137,7 +150,9 @@
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
                             "tags": ["learning","inovation","people"],
-                            "cospeakers": []
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1PcW47lLihJb_3EHf3nqbFDVi7j_Vudwun9NRY6AfMEU/viewform"
+                         
                         },
                         {
                             "speakerId": "einarwh",
@@ -152,7 +167,9 @@
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
                             "tags": ["functional","history"],
-                            "cospeakers": []
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Zufv6CzLfRbsBJujDWk3Ou-r2kpKwJAthMZKIL6Sx70/viewform"
+                         
                         },
                         {
                             "speakerName": "",
@@ -161,7 +178,9 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00"
+                            "time": "12:15 - 14:00",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         
                         },
                         {
                             "speakerId": "thinkb4coding",
@@ -178,7 +197,9 @@
                             "tags": [
                                 "functional","design"
                             ],
-                            "cospeakers": []
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1eO4GLx7RjX63QovONlITO3xgtoR0LJvk2xaBcS-o17U/viewform"
+                         
                         },
                         {
                             "speakerId": "brassy",
@@ -193,7 +214,9 @@
                             "date": "16/05/2019",
                             "time": "15:00 - 15:45",
                             "tags": ["design","people","agile"],
-                            "cospeakers": []
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1otsbF6JMpIqEm8T-QT2Y7r6kM9Drq3Xcy5b-Q0p1LVM/viewform"
+                         
                         },
                         {
                             "speakerId": "helenleigh",
@@ -208,8 +231,9 @@
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
                             "tags": ["perspectives","people","art"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1foot2k4f3lzR7m1Ne31kkDXIOlA5R2ki0H02UUzYn00/viewform"
+                         },
                         {
                             "title": "Coffee time",
                             "type": "break",
@@ -217,8 +241,9 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15"
-                        },
+                            "time": "16:45 - 17:15",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "ziobrando",
                             "speakerName": "Alberto Brandolini",
@@ -232,7 +257,9 @@
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
                             "tags": ["Enterprise","Agile","DDD"],
-                            "cospeakers": []
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
+                         
                         }
                     ]
                 },
@@ -243,8 +270,9 @@
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "speakerName": ""
-                        },
+                            "speakerName": "",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "Ulrikama",
                             "speakerName": "Ulrika Malmgren",
@@ -258,8 +286,9 @@
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
                             "tags": ["agile","people","practices"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1p8dVvdi8rXWP62X6oBWF3LawGcqyB3yPl2Mh6b1Ub6I/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -267,8 +296,9 @@
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30"
-                        },
+                            "time": "10:00 - 10:30",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "clementd",
                             "speakerName": "Clément Delafargue",
@@ -282,8 +312,9 @@
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
                             "tags": ["functional","design"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1sgdNos7oexybBwQV_XpU4ckKJnQ14NsAUM5d2-WF2Sw/viewform"
+                         },
                         {
                             "speakerId": "gwendiagram",
                             "speakerName": "Gwen Diagram",
@@ -297,8 +328,9 @@
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
                             "tags": ["design","security"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1V4rTSwtlmHVuLgu6Lk2RIv2f27lcBNw_3gpAGeHsZHo/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -306,8 +338,9 @@
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00"
-                        },
+                            "time": "12:15 - 14:00",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "SavarinAnna",
                             "speakerName": "Anna Savarin",
@@ -321,8 +354,9 @@
                             "date": "16/05/2019",
                             "time": "14:00 - 14:45",
                             "tags": ["people","practices","perspectives"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1e4pM-FsxrF74ElkPSRFEwAzGTz0xKd9FEaDrxWDWaMk/viewform"
+                         },
                         {
                             "speakerId": "rinkkasatiainen",
                             "speakerName": "Aki Salmi",
@@ -336,8 +370,9 @@
                             "date": "16/05/2019",
                             "time": "15:00 - 15:45",
                             "tags": ["design","functional"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/10VBKG0Rn0m1lX_ap2wZJrvW7H48bDA_IsrorWXVBeyQ/viewform"
+                         },
                         {
                             "speakerId": "matthiasnoback",
                             "speakerName": "Matthias Noback",
@@ -351,8 +386,9 @@
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
                             "tags": ["practices","crafting"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/11NTR8DGmiPisbvNb8F76IsFQv7RlLko4CQzyzVYd6Ac/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee time",
@@ -360,8 +396,9 @@
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15"
-                        },
+                            "time": "16:45 - 17:15",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "ziobrando",
                             "speakerName": "Alberto Brandolini",
@@ -375,8 +412,9 @@
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
                             "tags": ["Enterprise","Agile","DDD"],
-                            "cospeakers": []
-                        }
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
+                         }
                     ]
                 },
                 {
@@ -387,8 +425,9 @@
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "speakerName": ""
-                        },
+                            "speakerName": "",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "Ulrikama",
                             "speakerName": "Ulrika Malmgren",
@@ -402,8 +441,9 @@
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
                             "tags": ["agile","people","practices"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1p8dVvdi8rXWP62X6oBWF3LawGcqyB3yPl2Mh6b1Ub6I/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -411,8 +451,9 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30"
-                        },
+                            "time": "10:00 - 10:30",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "XDetant",
                             "speakerName": "Xavier Detant",
@@ -426,8 +467,9 @@
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
                             "tags": ["practices","design","crafting"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/18fzYDcBoZwSK9SidEk6Y9L3DN5GDgdKkRwdtOPxSKW4/viewform"
+                         },
                         {
                             "speakerId": "patkua",
                             "speakerName": "Patrick Kua",
@@ -441,8 +483,9 @@
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
                             "tags": ["people","enterprise"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Qr8EIDDOwPIgHqrEab2J71Vqy5eIeZjAuxNK9Jz79g8/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -450,8 +493,9 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00"
-                        },
+                            "time": "12:15 - 14:00",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "KevlinHenney",
                             "speakerName": "Kevlin Henney",
@@ -465,8 +509,9 @@
                             "date": "16/05/2019",
                             "time": "14:00 - 14:45",
                             "tags": ["people","history","agile","relations"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1g5He6AECnsmQkv910jBdo0s_-5NaMewjJkqUrCZG4p8/viewform"
+                         },
                         {
                             "speakerId": "saleandro",
                             "speakerName": "Sabrina Leandro",
@@ -480,8 +525,9 @@
                             "date": "16/05/2019",
                             "time": "15:00 - 15:45",
                             "tags": ["practices","crafting","design"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bS0kYVi3WWZo4X-UDN6w1lTCRRHIKYVUxX4OAmJSbXQ/viewform"
+                         },
                         {
                             "speakerId": "SteveSmithCD",
                             "speakerName": "Steve Smith",
@@ -495,8 +541,9 @@
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
                             "tags": ["practices","enterprise","perspectives"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1K4KI2F5SXbadTIge_jLANffcnEXhSAkkinK3J2oOSc4/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee time",
@@ -504,8 +551,9 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15"
-                        },
+                            "time": "16:45 - 17:15",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "ziobrando",
                             "speakerName": "Alberto Brandolini",
@@ -519,8 +567,9 @@
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
                             "tags": ["Enterprise","Agile","DDD"],
-                            "cospeakers": []
-                        }
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
+                         }
                     ]
                 },
                 {
@@ -531,8 +580,9 @@
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "speakerName": ""
-                        },
+                            "speakerName": "",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "Ulrikama",
                             "speakerName": "Ulrika Malmgren",
@@ -546,8 +596,9 @@
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
                             "tags": ["agile","people","practices"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1p8dVvdi8rXWP62X6oBWF3LawGcqyB3yPl2Mh6b1Ub6I/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -570,8 +621,9 @@
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
                             "tags": ["design","DDD"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1GU-r5p2vQnsXeUtA4lsaPWafuqEI7bzIQxbnbC_W37k/viewform"
+                         },
                         {
                             "speakerId": "malk_zameth",
                             "speakerName": "Romeu Moura",
@@ -585,8 +637,9 @@
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
                             "tags": ["social","people","enterprise","agile"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Cvf8bwiU7iIR1ARvj4G7D1XDMP1Ke-HjQDMG1m3OXQo/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -609,8 +662,9 @@
                             "date": "16/05/2019",
                             "time": "14:00 - 14:20",
                             "tags": ["history"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/19MBNsJ2NZiYgEyzx22J8zly9nRoCGSfA5fi4luHAyaQ/viewform"
+                         },
                         {
                             "speakerId": "estelandry",
                             "speakerName": "Estelle Landry",
@@ -624,7 +678,9 @@
                             "date": "16/05/2019",
                             "time": "14:25 - 14:45",
                             "tags": ["crafting","agile"],
-                            "cospeakers": []
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1TR11xiuYA8hp2N7dEnO0Adv7ZC8qLWfYjjeov7Ub-Kc/viewform"
+                         
                         },
                         {
                             "speakerId": "jpalies",
@@ -639,8 +695,9 @@
                             "date": "16/05/2019",
                             "time": "15:00 - 15:20",
                             "tags": ["DDD","design"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1_SefEeqavlpotW5yROIY7iwoZLMnNF_7s45dulLaqso/viewform"
+                         },
                         {
                             "speakerId": "dorrabartaguiz",
                             "speakerName": "Dorra Bartaguiz",
@@ -654,8 +711,9 @@
                             "date": "16/05/2019",
                             "time": "15:25 - 15:45",
                             "tags": ["crafting"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1GzkmAh8haIvsSVUHTrjc_kz7K7MS5Gjg1c0Jb09bYYk/viewform"
+                         },
                         {
                             "speakerId": "ddoomen",
                             "speakerName": "Dennis Doomen",
@@ -669,8 +727,9 @@
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
                             "tags": ["DDD","design"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1eY-7xsfCm5OokhlgRRM2Bbb4SyHwOFDw4rEP1B3yulc/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee time",
@@ -693,8 +752,9 @@
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
                             "tags": ["Enterprise","Agile","DDD"],
-                            "cospeakers": []
-                        }
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
+                         }
                     ]
                 },
                 {
@@ -720,8 +780,9 @@
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
                             "tags": ["agile","people","practices"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1p8dVvdi8rXWP62X6oBWF3LawGcqyB3yPl2Mh6b1Ub6I/viewform"
+                         },
                         {
                             "type": "break",
                             "description": "",
@@ -744,8 +805,9 @@
                             "date": "16/05/2019",
                             "time": "10:15 - 12:15",
                             "tags": ["functional","DDD"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1csYDyBAht267yxgofuhEkDxHPiEbdsk_k2J8ggbqDq4/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -768,8 +830,9 @@
                             "date": "16/05/2019",
                             "time": "13:45 - 15:45",
                             "tags": ["DDD"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1BICMa701ziuQL_e3nXwjA65aGkjL94AG-4vN1iuT7EQ/viewform"
+                         },
                         {
                             "speakerId": "johan_alps",
                             "speakerName": "Johan Martinsson",
@@ -783,7 +846,8 @@
                             "date": "16/05/2019",
                             "time": "16:00 - 17:00",
                             "tags": ["design","crafting"],
-                            "cospeakers": []
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1WXb600SwALWeIjV4n62BECb-xJnI7TzggfPZNlRQYTE/viewform"
                         },
                         {
                             "speakerName": "",
@@ -807,8 +871,9 @@
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
                             "tags": ["Enterprise","Agile","DDD"],
-                            "cospeakers": []
-                        }
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
+                         }
                     ]
                 }
             ]
@@ -839,8 +904,9 @@
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
                             "tags": ["crafting","people","relations"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bcm85ovb_1bvjPqveMe3-TnVtcD08sh9GSsJscFB_f0/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -863,8 +929,9 @@
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
                             "tags": ["history","design","languages"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1li44cHka7uv82r9rsM0RXmsq68j0PbPU9m3ra968lhA/viewform"
+                         },
                         {
                             "speakerId": "Abebab",
                             "speakerName": "Abeba Birhane",
@@ -878,8 +945,9 @@
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
                             "tags": ["design","people","security"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -902,8 +970,9 @@
                             "date": "17/05/2019",
                             "time": "14:00 - 14:45",
                             "tags": ["history","crafting","social"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1oOqPWl16c7duGEeRYjiB7nT7gEev5e8229iOM-Dh41M/viewform"
+                         },
                         {
                             "speakerId": "marick",
                             "speakerName": "Brian Marick",
@@ -917,8 +986,9 @@
                             "date": "17/05/2019",
                             "time": "15:00 - 15:45",
                             "tags": ["social","crafting","design"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1APpLBHQNMP1hstLBbOP2HD2UjEBwrRsQ56_lcPmLhaI/viewform"
+                         },
                         {
                             "speakerId": "old_sound",
                             "speakerName": "Alvaro Videla",
@@ -932,8 +1002,9 @@
                             "date": "17/05/2019",
                             "time": "16:00 - 16:45",
                             "tags": ["languages","design","social"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/10ZBJ0l8qOSYIjPPTHnApqNaUoo1dDS0j_4VUfdDzcvM/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee time",
@@ -956,8 +1027,9 @@
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
                             "tags": ["people","social"],
-                            "cospeakers": []
-                        }
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1T4tVOfIrbnnPSLWPqq9jivOhSAylHR32hzMAbScKzOo/viewform"
+                         }
                     ]
                 },
                 {
@@ -982,8 +1054,9 @@
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
                             "tags": ["crafting","people","relations"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bcm85ovb_1bvjPqveMe3-TnVtcD08sh9GSsJscFB_f0/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -1006,8 +1079,9 @@
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
                             "tags": ["DDD","design","agile"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1S6fY-sKO7R_7faL1EbFIfVld1cpwbSfmLI1xHEiXunY/viewform"
+                         },
                         {
                             "speakerId": "EvelynvanKelle",
                             "speakerName": "Eveyln Van Kelle",
@@ -1021,8 +1095,9 @@
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
                             "tags": ["DDD","people","relations"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1H8rZNRJvDqB4yP0AqKFb97QFw8OZMdE_EdQnz5mzLgg/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -1045,8 +1120,9 @@
                             "date": "17/05/2019",
                             "time": "14:00 - 14:45",
                             "tags": ["DDD","enterprise","people"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1QcGvgQ-iMZAdqhZi8xaJKQ2viCw9-OazSyy14iRuvAQ/viewform"
+                         },
                         {
                             "speakerId": "Indu_alagarsamy",
                             "speakerName": "Indu Alagarsamy",
@@ -1064,8 +1140,9 @@
                                 "Patterns",
                                 "Models"
                             ],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/17by-7xGi15Zs7TqEW_74HSretcAZ8MAJz8xg9z7HSkY/viewform"
+                         },
                         {
                             "speakerId": "kenny_baas",
                             "speakerName": "Kenny Baas-Schwegler",
@@ -1081,8 +1158,9 @@
                             "tags": [
                                 "Systems thinking"
                             ],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Cd-lxHV0A8BifqPSN4AA9VQCK513x-suhnYw00ED4EE/viewform"
+                         },
                         {
                             "type": "break",
                             "description": "",
@@ -1103,8 +1181,9 @@
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
                             "tags": ["people","social"],
-                            "cospeakers": []
-                        }
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1T4tVOfIrbnnPSLWPqq9jivOhSAylHR32hzMAbScKzOo/viewform"
+                         }
                     ]
                 },
                 {
@@ -1129,8 +1208,9 @@
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
                             "tags": ["crafting","people","relations"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bcm85ovb_1bvjPqveMe3-TnVtcD08sh9GSsJscFB_f0/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -1160,7 +1240,9 @@
                                     "Id": "ThomasG_Tester",
                                     "Photo": "/assets/img/speakers/ThomasGarus.jpg",
                                   }
-                            ]
+                            ],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Chcc51qfYUcidhsehCgcQWmhprs4EfyQQy5oNZbvhtQ/viewform"
+                         
                         },
                         {
                             "speakerId": "ThomasG_Tester",
@@ -1182,8 +1264,9 @@
                                     "Id": "alex_schl",
                                     "Photo": "/assets/img/speakers/AlexandraSchladebeck.jpg"
                                 }
-                            ]
-                        },
+                            ],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Chcc51qfYUcidhsehCgcQWmhprs4EfyQQy5oNZbvhtQ/viewform"
+                          },
                         {
                             "speakerId": "mathiasverraes",
                             "speakerName": "Mathias Verraes",
@@ -1197,8 +1280,9 @@
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
                             "tags": ["DDD","design"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1ORYsLo5LHq6L2RquFrnoDQHoAd1_NtK1OscUohr2KbA/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -1221,8 +1305,9 @@
                             "date": "17/05/2019",
                             "time": "14:00 - 14:45",
                             "tags": ["people","social"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1qZMYxQqOm2Gq4SvzySafSaNUJzVnm3W5VYzcD0JXJfA/viewform"
+                         },
                         {
                             "speakerId": "ifesdjeen",
                             "speakerName": "Alex Petrov",
@@ -1237,8 +1322,9 @@
                             "time": "15:00 - 15:45",
                             "tags": ["history","systems"],
                             "type":"Talk",
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1EVwfk3uXQiUhF3C3xODqEf10wjhI8wOMTbrwlWN5tBg/viewform"
+                         },
                         {
                             "speakerId": "emilybache",
                             "speakerName": "Emily Bache",
@@ -1252,8 +1338,9 @@
                             "date": "17/05/2019",
                             "time": "16:00 - 16:45",
                             "tags": ["enterprise","people","crafting"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1883BsALpqK4gP4dqnKzGyemiwcNL8PbYCjHX7rmtujI/viewform"
+                         },
                         {
                             "type": "break",
                             "description": "",
@@ -1274,8 +1361,9 @@
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
                             "tags": ["people","social"],
-                            "cospeakers": []
-                        }
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1T4tVOfIrbnnPSLWPqq9jivOhSAylHR32hzMAbScKzOo/viewform"
+                         }
                     ]
                 },
                 {
@@ -1300,8 +1388,9 @@
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
                             "tags": ["crafting","people","relations"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bcm85ovb_1bvjPqveMe3-TnVtcD08sh9GSsJscFB_f0/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -1324,8 +1413,9 @@
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
                             "tags": ["people","open source","crafting"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1WyJWAODxMjAxmOFeWOigFLZVwkpxYK3hpW1rh18CT5w/viewform"
+                         },
                         {
                             "speakerId": "julienlavigne",
                             "speakerName": "Julien Lavigne du Cadet",
@@ -1339,8 +1429,9 @@
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
                             "tags": ["enterprise","agile"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1IWkP0piRqwNM2WnjO1JNeFfh2rEwM7IXQ5b6V4bMrko/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -1363,8 +1454,9 @@
                             "date": "17/05/2019",
                             "time": "14:00 - 14:20",
                             "tags": ["enterprise","agile"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1daGVV2qo1KD2rcfNIiynVsi3RRloZ3NLbEJuU9Csuy0/viewform"
+                         },
                         {
                             "speakerId": "michelle_avomo",
                             "speakerName": "Michelle Avomo",
@@ -1378,8 +1470,9 @@
                             "date": "17/05/2019",
                             "time": "14:25 - 14:45",
                             "tags": ["crafting"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1EjMoHdXNLtH3dQ0ClR7nR1oVLqxei-xU_hyxrvmyu0k/viewform"
+                         },
                         {
                             "speakerId": "pascallemerrer",
                             "speakerName": "Pascal Le Merrer",
@@ -1393,8 +1486,9 @@
                             "date": "17/05/2019",
                             "time": "15:00 - 16:45",
                             "tags": ["functional","practices","perspectives"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/17j9iYLyq93VdYKkD153kEykyULbwAfsPDT4X87lBy6k/viewform"
+                         },
                         {
                             "type": "break",
                             "description": "",
@@ -1415,8 +1509,9 @@
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
                             "tags": ["people","social"],
-                            "cospeakers": []
-                        }
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1T4tVOfIrbnnPSLWPqq9jivOhSAylHR32hzMAbScKzOo/viewform"
+                         }
                     ]
                 },
                 {
@@ -1441,8 +1536,9 @@
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
                             "tags": ["crafting","people","relations"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bcm85ovb_1bvjPqveMe3-TnVtcD08sh9GSsJscFB_f0/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -1472,7 +1568,8 @@
                                     "Id": "CedricTamavond",
                                     "Photo": "/assets/img/speakers/CedricTamavond.jpg"
                                   }
-                            ]
+                            ],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1AHEYeF3sM5mz7Z_YekG2gy191oQjuy56yrigwhPQ9ZI/viewform"
                         },
                         {
                             "speakerId": "CedricTamavond",
@@ -1494,7 +1591,8 @@
                                     "Id": "yot88",
                                     "Photo": "/assets/img/speakers/YoanThirion.jpg"
                                   }
-                            ]
+                            ],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1AHEYeF3sM5mz7Z_YekG2gy191oQjuy56yrigwhPQ9ZI/viewform"
                         },
                         {
                             "speakerName": "",
@@ -1519,8 +1617,9 @@
                             "date": "17/05/2019",
                             "time": "13:45 - 14:45",
                             "tags": ["agile","practices"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kblDT4zFBkIDDzLCUDwIP3N2y-Wb6n6v_dJWiz1qyHY/viewform"
+                         },
                         {
                             "speakerId": "sadraskol",
                             "speakerName": "Thomas Bracher",
@@ -1534,8 +1633,9 @@
                             "date": "17/05/2019",
                             "time": "15:00 - 16:45",
                             "tags": ["functional","languages","design"],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1HNXqLSBMQ4--BUqq8KRxB948kAS9wrG8yU6ywgELB9I/viewform"
+                         },
                         {
                             "type": "break",
                             "description": "",
@@ -1556,8 +1656,9 @@
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
                             "tags": ["people","social"],
-                            "cospeakers": []
-                        }
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1T4tVOfIrbnnPSLWPqq9jivOhSAylHR32hzMAbScKzOo/viewform"
+                          }
                     ]
                 }
             ]

@@ -34,7 +34,21 @@
                         "format": "pre-conference-workshop",
                         "title": "EventStorming and Example Mapping From Problem Space to Solution Space",
                         "description": "Creating multiple models for the same problem is one of the more important lessons that Domain Driven Design teaches us. It is a lot cheaper to quickly iterate over them and throw away less useful prototypes before we even start coding. However, creating multiple models can be hard. When we begin gaining insight from our domain, we suffer a lot from cognitive biases that get in our way to gain new insights. We need these insights before we even start thinking about modelling. Tools like event storming and example mapping can help us to deliberate discover, and battle these biases. They help you quickly gain insight into the problem space. But the fallacy here is that we can get locked into the tool, and get stuck again.\n\n**What you will learn**  \nIn this workshop, you will learn the essentials of event storming and how it can help you gain the necessary insights you need to deliver quality software. With our newly acquired domain knowledge, we can then start exploring the solution space. During the exploration, we begin to design and model multiple models for the same problem with Domain Driven Design patterns. This way of visualising gives us the power to quickly iterate over the different models and figure out which model will be the best to use for now. Eventually, we start our coding journey TDD style, iterating over the model to refactor towards deeper insights while discovering how hexagonal architecture may help us to protect our domain code from the technical concerns, in the long run.  \n\n**Target Audience**  \nThis workshop is for you if you are a software architect or software developer.",
-                        "speakerName": "Kenny Baas-Schwegler, Bruno Boucard & Thomas Pierrain"
+                        "speakerName": "Kenny Baas-Schwegler, Bruno Boucard & Thomas Pierrain",
+                        "cospeakers":[
+                            {
+                                "Name": "Thomas Pierrain",
+                                "Link": "/speaker/tpierrain",
+                                "Id": "tpierrain",
+                                "Photo": "http://static.ncrafts.io/speakers/ThomasPierrainNB2.jpg"
+                              },
+                              {
+                                "Name": "Bruno Boucard",
+                                "Link": "/speaker/brunoboucard",
+                                "Id": "brunoboucard",
+                                "Photo": "http://static.ncrafts.io/speakers/BrunoBoucardNB.jpg"
+                              } 
+                        ]
                     }]
                 },
                 {
@@ -98,7 +112,7 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
+                            "tags": ["agile","people","practices"],
                             "cospeakers": []
                         },
                         {
@@ -122,7 +136,7 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
+                            "tags": ["learning","inovation","people"],
                             "cospeakers": []
                         },
                         {
@@ -137,7 +151,7 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
+                            "tags": ["functional","history"],
                             "cospeakers": []
                         },
                         {
@@ -162,7 +176,7 @@
                             "date": "16/05/2019",
                             "time": "14:00 - 14:45",
                             "tags": [
-                                "Functional programming"
+                                "functional","design"
                             ],
                             "cospeakers": []
                         },
@@ -178,7 +192,7 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "15:00 - 15:45",
-                            "tags": [],
+                            "tags": ["design","people","agile"],
                             "cospeakers": []
                         },
                         {
@@ -193,7 +207,7 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
+                            "tags": ["perspectives","people","art"],
                             "cospeakers": []
                         },
                         {
@@ -217,7 +231,7 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
+                            "tags": ["Enterprise","Agile","DDD"],
                             "cospeakers": []
                         }
                     ]
@@ -243,7 +257,7 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
+                            "tags": ["agile","people","practices"],
                             "cospeakers": []
                         },
                         {
@@ -267,7 +281,7 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
+                            "tags": ["functional","design"],
                             "cospeakers": []
                         },
                         {
@@ -282,7 +296,7 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
+                            "tags": ["design","security"],
                             "cospeakers": []
                         },
                         {
@@ -306,7 +320,7 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": [],
+                            "tags": ["people","practices","perspectives"],
                             "cospeakers": []
                         },
                         {
@@ -321,7 +335,7 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "15:00 - 15:45",
-                            "tags": [],
+                            "tags": ["design","functional"],
                             "cospeakers": []
                         },
                         {
@@ -336,7 +350,7 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
+                            "tags": ["practices","crafting"],
                             "cospeakers": []
                         },
                         {
@@ -360,7 +374,7 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
+                            "tags": ["Enterprise","Agile","DDD"],
                             "cospeakers": []
                         }
                     ]
@@ -387,7 +401,7 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
+                            "tags": ["agile","people","practices"],
                             "cospeakers": []
                         },
                         {
@@ -411,7 +425,7 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
+                            "tags": ["practices","design","crafting"],
                             "cospeakers": []
                         },
                         {
@@ -426,7 +440,7 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
+                            "tags": ["people","enterprise"],
                             "cospeakers": []
                         },
                         {
@@ -450,7 +464,7 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": [],
+                            "tags": ["people","history","agile","relations"],
                             "cospeakers": []
                         },
                         {
@@ -465,7 +479,7 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "15:00 - 15:45",
-                            "tags": [],
+                            "tags": ["practices","crafting","design"],
                             "cospeakers": []
                         },
                         {
@@ -480,7 +494,7 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
+                            "tags": ["practices","enterprise","perspectives"],
                             "cospeakers": []
                         },
                         {
@@ -504,7 +518,7 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
+                            "tags": ["Enterprise","Agile","DDD"],
                             "cospeakers": []
                         }
                     ]
@@ -531,7 +545,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
+                            "tags": ["agile","people","practices"],
                             "cospeakers": []
                         },
                         {
@@ -555,7 +569,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
+                            "tags": ["design","DDD"],
                             "cospeakers": []
                         },
                         {
@@ -570,7 +584,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
+                            "tags": ["social","people","enterprise","agile"],
                             "cospeakers": []
                         },
                         {
@@ -594,7 +608,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "14:00 - 14:20",
-                            "tags": [],
+                            "tags": ["history"],
                             "cospeakers": []
                         },
                         {
@@ -609,7 +623,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "14:25 - 14:45",
-                            "tags": [],
+                            "tags": ["crafting","agile"],
                             "cospeakers": []
                         },
                         {
@@ -624,7 +638,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "15:00 - 15:20",
-                            "tags": [],
+                            "tags": ["DDD","design"],
                             "cospeakers": []
                         },
                         {
@@ -639,7 +653,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "15:25 - 15:45",
-                            "tags": [],
+                            "tags": ["crafting"],
                             "cospeakers": []
                         },
                         {
@@ -654,7 +668,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
+                            "tags": ["DDD","design"],
                             "cospeakers": []
                         },
                         {
@@ -678,7 +692,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
+                            "tags": ["Enterprise","Agile","DDD"],
                             "cospeakers": []
                         }
                     ]
@@ -705,7 +719,7 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
+                            "tags": ["agile","people","practices"],
                             "cospeakers": []
                         },
                         {
@@ -729,7 +743,7 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "10:15 - 12:15",
-                            "tags": [],
+                            "tags": ["functional","DDD"],
                             "cospeakers": []
                         },
                         {
@@ -753,7 +767,7 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "13:45 - 15:45",
-                            "tags": [],
+                            "tags": ["DDD"],
                             "cospeakers": []
                         },
                         {
@@ -768,7 +782,7 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "16:00 - 17:00",
-                            "tags": [],
+                            "tags": ["design","crafting"],
                             "cospeakers": []
                         },
                         {
@@ -792,7 +806,7 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
+                            "tags": ["Enterprise","Agile","DDD"],
                             "cospeakers": []
                         }
                     ]
@@ -824,7 +838,7 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
+                            "tags": ["crafting","people","relations"],
                             "cospeakers": []
                         },
                         {
@@ -848,7 +862,7 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
+                            "tags": ["history","design","languages"],
                             "cospeakers": []
                         },
                         {
@@ -863,7 +877,7 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
+                            "tags": ["design","people","security"],
                             "cospeakers": []
                         },
                         {
@@ -887,7 +901,7 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": [],
+                            "tags": ["history","crafting","social"],
                             "cospeakers": []
                         },
                         {
@@ -902,7 +916,7 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "15:00 - 15:45",
-                            "tags": [],
+                            "tags": ["social","crafting","design"],
                             "cospeakers": []
                         },
                         {
@@ -917,7 +931,7 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
+                            "tags": ["languages","design","social"],
                             "cospeakers": []
                         },
                         {
@@ -941,7 +955,7 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
+                            "tags": ["people","social"],
                             "cospeakers": []
                         }
                     ]
@@ -967,7 +981,7 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
+                            "tags": ["crafting","people","relations"],
                             "cospeakers": []
                         },
                         {
@@ -991,7 +1005,7 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
+                            "tags": ["DDD","design","agile"],
                             "cospeakers": []
                         },
                         {
@@ -1006,7 +1020,7 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
+                            "tags": ["DDD","people","relations"],
                             "cospeakers": []
                         },
                         {
@@ -1030,7 +1044,7 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": [],
+                            "tags": ["DDD","enterprise","people"],
                             "cospeakers": []
                         },
                         {
@@ -1088,7 +1102,7 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
+                            "tags": ["people","social"],
                             "cospeakers": []
                         }
                     ]
@@ -1114,7 +1128,7 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
+                            "tags": ["crafting","people","relations"],
                             "cospeakers": []
                         },
                         {
@@ -1138,15 +1152,22 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["testing","crafting"],
+                            "cospeakers": [
+                                {
+                                    "Name": "Thomas Garus",
+                                    "Link": "/speaker/ThomasG_Tester",
+                                    "Id": "ThomasG_Tester",
+                                    "Photo": "/assets/img/speakers/ThomasGarus.jpg",
+                                  }
+                            ]
                         },
                         {
                             "speakerId": "ThomasG_Tester",
                             "speakerName": "Thomas Garus",
                             "twitter": "https://twitter.com/ThomasG_Tester",
                             "speakerPhoto": "/assets/img/speakers/ThomasGarus.jpg",
-                            "id": "nc19-tga01",
+                            "id": "nc19-asc01",
                             "title": "Exploratory testing for everyone",
                             "type": "Talk",
                             "description": "Exploratory testing is one of the most important tools any project member can have. Any time we “check whether something works”, “test the bug fix” or “perform tests for a new feature”, we can (and should) use exploratory testing techniques.\n\nEven though the technique is so important, it is still misunderstood. It’s thought to be “clicking around” or “unstructured testing”. In this talk, we’ll demonstrate and explain what exploratory testing is and will also provide participants with reasons why they should be using it in their teams. We’ll provide analogies to other work we do in development teams (like debugging or identifying error causes) and look at how exploratory testing can be used beyond the UI.\n\nTo round off, we’ll give hints about where, how and when to use it in your process, be it agile or traditional or a mix of both.",
@@ -1154,7 +1175,14 @@
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
                             "tags": [],
-                            "cospeakers": []
+                            "cospeakers": [
+                                {
+                                    "Name": "Alexandra Schladebeck",
+                                    "Link": "/speaker/alex_schl",
+                                    "Id": "alex_schl",
+                                    "Photo": "/assets/img/speakers/AlexandraSchladebeck.jpg"
+                                }
+                            ]
                         },
                         {
                             "speakerId": "mathiasverraes",
@@ -1168,7 +1196,7 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
+                            "tags": ["DDD","design"],
                             "cospeakers": []
                         },
                         {
@@ -1192,7 +1220,7 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": [],
+                            "tags": ["people","social"],
                             "cospeakers": []
                         },
                         {
@@ -1207,7 +1235,7 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "15:00 - 15:45",
-                            "tags": [],
+                            "tags": ["history","systems"],
                             "type":"Talk",
                             "cospeakers": []
                         },
@@ -1223,7 +1251,7 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
+                            "tags": ["enterprise","people","crafting"],
                             "cospeakers": []
                         },
                         {
@@ -1245,7 +1273,7 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
+                            "tags": ["people","social"],
                             "cospeakers": []
                         }
                     ]
@@ -1271,7 +1299,7 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
+                            "tags": ["crafting","people","relations"],
                             "cospeakers": []
                         },
                         {
@@ -1295,7 +1323,7 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
+                            "tags": ["people","open source","crafting"],
                             "cospeakers": []
                         },
                         {
@@ -1310,7 +1338,7 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
+                            "tags": ["enterprise","agile"],
                             "cospeakers": []
                         },
                         {
@@ -1334,7 +1362,7 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "14:00 - 14:20",
-                            "tags": [],
+                            "tags": ["enterprise","agile"],
                             "cospeakers": []
                         },
                         {
@@ -1349,7 +1377,7 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "14:25 - 14:45",
-                            "tags": [],
+                            "tags": ["crafting"],
                             "cospeakers": []
                         },
                         {
@@ -1364,7 +1392,7 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "15:00 - 16:45",
-                            "tags": [],
+                            "tags": ["functional","practices","perspectives"],
                             "cospeakers": []
                         },
                         {
@@ -1386,7 +1414,7 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
+                            "tags": ["people","social"],
                             "cospeakers": []
                         }
                     ]
@@ -1412,7 +1440,7 @@
                             "room": "Goldberg",
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
+                            "tags": ["crafting","people","relations"],
                             "cospeakers": []
                         },
                         {
@@ -1436,23 +1464,37 @@
                             "room": "Goldberg",
                             "date": "17/05/2019",
                             "time": "10:15 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["practices","people","crafting"],
+                            "cospeakers": [
+                                {
+                                    "Name": "Cédric Tamavond",
+                                    "Link": "/speaker/CedricTamavond",
+                                    "Id": "CedricTamavond",
+                                    "Photo": "/assets/img/speakers/CedricTamavond.jpg"
+                                  }
+                            ]
                         },
                         {
                             "speakerId": "CedricTamavond",
                             "speakerName": "Cédric Tamavond",
                             "twitter": "",
                             "speakerPhoto": "/assets/img/speakers/CedricTamavond.jpg",
-                            "id": "nc19-cta01",
+                            "id": "nc19-yth01",
                             "title": "Xtrem Reading - Read differently and cultivate your collective intelligence",
                             "type": "Hands-on",
                             "description": "Do you have any books that are dusty? \nDo you really want to read them but can't find the time? \nWe have a solution for you: \"Xtrem reading\".\n\nLearn group reading and read 2 books in 1 hour. \nOur promise to you:\n\n* Boost your collective intelligence\n* Rekindle the flame of reading\n* Plan your next readings\n* Don't read for nothing !",
                             "room": "Goldberg",
                             "date": "17/05/2019",
                             "time": "10:15 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["practices","people","crafting"],
+                            "cospeakers": [
+                                {
+                                    "Name": "Yoan Thirion",
+                                    "Link": "/speaker/yot88",
+                                    "Id": "yot88",
+                                    "Photo": "/assets/img/speakers/YoanThirion.jpg"
+                                  }
+                            ]
                         },
                         {
                             "speakerName": "",
@@ -1476,7 +1518,7 @@
                             "room": "Goldberg",
                             "date": "17/05/2019",
                             "time": "13:45 - 14:45",
-                            "tags": [],
+                            "tags": ["agile","practices"],
                             "cospeakers": []
                         },
                         {
@@ -1491,7 +1533,7 @@
                             "room": "Goldberg",
                             "date": "17/05/2019",
                             "time": "15:00 - 16:45",
-                            "tags": [],
+                            "tags": ["functional","languages","design"],
                             "cospeakers": []
                         },
                         {
@@ -1513,7 +1555,7 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
+                            "tags": ["people","social"],
                             "cospeakers": []
                         }
                     ]

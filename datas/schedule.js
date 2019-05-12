@@ -1238,7 +1238,7 @@
                                     "Name": "Thomas Garus",
                                     "Link": "/speaker/ThomasG_Tester",
                                     "Id": "ThomasG_Tester",
-                                    "Photo": "/assets/img/speakers/ThomasGarus.jpg",
+                                    "Photo": "/assets/img/speakers/ThomasGarus.jpg"
                                   }
                             ],
                             "feedbackUrl":"https://docs.google.com/forms/d/1Chcc51qfYUcidhsehCgcQWmhprs4EfyQQy5oNZbvhtQ/viewform"

@@ -13,7 +13,7 @@
                         "id":"nc19-mve02",
                         "format": "pre-conference-workshop",
                         "speakerPhoto": "/assets/img/speakers/MathiasVerraes.jpg",
-                        "time": "9:00 - 17:00",
+                        "time": "09:00 - 17:00",
                         "room": "Room #1",
                         "date": "15/05/2019",
                         "title": "DDD Modelling vs Implementation",
@@ -30,7 +30,7 @@
                         "speakerId": "kenny_baas",
                         "id":"nc19-kba02",
                         "speakerPhoto": "/assets/img/speakers/kennybrunothomas.jpg",
-                        "time": "9:00 - 17:00",
+                        "time": "09:00 - 17:00",
                         "room": "Room #2",
                         "date": "15/05/2019",
                         "format": "pre-conference-workshop",
@@ -61,7 +61,7 @@
                         "id":"nc19-khe02",
                         "speakerPhoto": "/assets/img/speakers/KevlinHenney.jpg",
                         "speakerId": "KevlinHenney",
-                        "time": "9:00 - 17:00",
+                        "time": "09:00 - 17:00",
                         "room": "Room #3",
                         "date": "15/05/2019",
                         "format": "pre-conference-workshop",
@@ -79,7 +79,7 @@
                         "id":"nc19-wzu02",
                         "speakerId": "WoodyZuill",
                         "speakerPhoto": "/assets/img/speakers/WoodyZuill.jpg",
-                        "time": "9:00 - 17:00",
+                        "time": "09:00 - 17:00",
                         "room": "Room #4",
                         "date": "15/05/2019",
                         "title": "Mob Programming",
@@ -103,7 +103,7 @@
                     "events": [{
                             "type": "break",
                             "description": "",
-                            "time": "8:30 - 9:00",
+                            "time": "08:30 - 09:00",
                             "title": "Check-in time",
                             "speakerName": "",
                             "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
@@ -268,7 +268,7 @@
                     "events": [{
                             "type": "break",
                             "description": "",
-                            "time": "8:30 - 9:00",
+                            "time": "08:30 - 09:00",
                             "title": "Check-in time",
                             "speakerName": "",
                             "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
@@ -423,7 +423,7 @@
                         {
                             "type": "break",
                             "description": "",
-                            "time": "8:30 - 9:00",
+                            "time": "08:30 - 09:00",
                             "title": "Check-in time",
                             "speakerName": "",
                             "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
@@ -578,7 +578,7 @@
                         {
                             "type": "break",
                             "description": "",
-                            "time": "8:30 - 9:00",
+                            "time": "08:30 - 09:00",
                             "title": "Check-in time",
                             "speakerName": "",
                             "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
@@ -763,7 +763,7 @@
                         {
                             "type": "break",
                             "description": "",
-                            "time": "8:30 - 9:00",
+                            "time": "08:30 - 09:00",
                             "title": "Check-in time",
                             "speakerName": ""
                         },
@@ -887,7 +887,7 @@
                     "events": [{
                             "type": "break",
                             "description": "",
-                            "time": "8:30 - 9:00",
+                            "time": "08:30 - 09:00",
                             "title": "Check-in time",
                             "speakerName": ""
                         },
@@ -1038,7 +1038,7 @@
                             "speakerName": "",
                             "type": "break",
                             "description": "",
-                            "time": "8:30 - 9:00",
+                            "time": "08:30 - 09:00",
                             "title": "Check-in time"
                         },
                         {
@@ -1191,7 +1191,7 @@
                     "events": [{
                             "type": "break",
                             "description": "",
-                            "time": "8:30 - 9:00",
+                            "time": "08:30 - 09:00",
                             "title": "Check-in time",
                             "speakerName": ""
                         },
@@ -1371,7 +1371,7 @@
                     "events": [{
                             "type": "break",
                             "description": "",
-                            "time": "8:30 - 9:00",
+                            "time": "08:30 - 09:00",
                             "title": "Check-in time",
                             "speakerName": ""
                         },
@@ -1519,7 +1519,7 @@
                     "events": [{
                             "type": "break",
                             "description": "",
-                            "time": "8:30 - 9:00",
+                            "time": "08:30 - 09:00",
                             "title": "Check-in time",
                             "speakerName": ""
                         },

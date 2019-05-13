@@ -4,6 +4,20 @@
   return check;
 };
 
+function navigateToMobileApplication() {
+ window.location.replace("https://app.ncrafts.io/");
+}
+
 if (isMobileDevice()) {
-  window.location.replace("https://app.ncrafts.io/");
+ let useMobile = JSON.parse(localstorage.getItem('useMobile'));
+ 
+ if (useMobile && useMobile === true) {
+  navigateToMobileApplication();
+ }
+ else {
+  if (confirm('Open mobile application ?')) {
+   navigateToMobileApplication();
+   localStorage.setItem('useMobile', true);
+  }
+ }
 }

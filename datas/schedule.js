@@ -9,44 +9,85 @@
                     "room": "Room #1",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/MathiasVerraes.jpg",
+                        "speakerId": "mathiasverraes",
+                        "id":"nc19-mve02",
+                        "format": "pre-conference-workshop",
+                        "speakerPhoto": "/assets/img/speakers/MathiasVerraes.jpg",
                         "time": "9:00 - 17:00",
+                        "room": "Room #1",
+                        "date": "15/05/2019",
                         "title": "DDD Modelling vs Implementation",
                         "description": "The design patterns from Domain-Driven Design are gradually entering the collective consciousness of software developers. But most of the information out there focuses on mechanistic implementation details of the patterns: how to make an Entity in [insert favourite programming language], how to use the Repository pattern with [insert new hot ORM], how to make immutable Value Objects in [insert legacy framework]...\n\nApplied individually, these patterns are useful, but are not giving you the full potential of Domain-Driven Design.\n\nThis one day training has a different approach. We address technical concerns in implementing the DDD patterns, but the focus is on the underlying principles and heuristics for building great domain-centric object-oriented code.\n\n- Why you’re underusing Value Objects\n- Seeing objects as containers of lifecycles and consistency\n* Discovering deeper domain concepts such as business rules, and lifting them into first class domain objects\n- The relevance of processes, behaviour, temporal modelling... for finding better Aggregate boundaries\n- How mutable software designs have distorted our perception of mutability in the domain\n- Better heuristics for understanding a complex domain, and using them to drive a more focused design\n- Reducing our dependance on service classes\n- Designing an implementation model that not only encapsulates the domain, but communicates that design to future programmers and reduces their surface area for bugs\n- ...\n\nThis workshop, aimed at programmers, is designed to give you immediate benefits when modelling and implementing the most important parts of your codebase.",
-                        "speakerName": "Mathias Verraes"
+                        "speakerName": "Mathias Verraes",
+                        "feedbackUrl":"https://docs.google.com/forms/d/1ORYsLo5LHq6L2RquFrnoDQHoAd1_NtK1OscUohr2KbA/viewform"
+                  
                     }]
                 },
                 {
                     "room": "Room #2",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/kennybrunothomas.jpg",
+                        "speakerId": "kenny_baas",
+                        "id":"nc19-kba02",
+                        "speakerPhoto": "/assets/img/speakers/kennybrunothomas.jpg",
                         "time": "9:00 - 17:00",
+                        "room": "Room #2",
+                        "date": "15/05/2019",
+                        "format": "pre-conference-workshop",
                         "title": "EventStorming and Example Mapping From Problem Space to Solution Space",
                         "description": "Creating multiple models for the same problem is one of the more important lessons that Domain Driven Design teaches us. It is a lot cheaper to quickly iterate over them and throw away less useful prototypes before we even start coding. However, creating multiple models can be hard. When we begin gaining insight from our domain, we suffer a lot from cognitive biases that get in our way to gain new insights. We need these insights before we even start thinking about modelling. Tools like event storming and example mapping can help us to deliberate discover, and battle these biases. They help you quickly gain insight into the problem space. But the fallacy here is that we can get locked into the tool, and get stuck again.\n\n**What you will learn**  \nIn this workshop, you will learn the essentials of event storming and how it can help you gain the necessary insights you need to deliver quality software. With our newly acquired domain knowledge, we can then start exploring the solution space. During the exploration, we begin to design and model multiple models for the same problem with Domain Driven Design patterns. This way of visualising gives us the power to quickly iterate over the different models and figure out which model will be the best to use for now. Eventually, we start our coding journey TDD style, iterating over the model to refactor towards deeper insights while discovering how hexagonal architecture may help us to protect our domain code from the technical concerns, in the long run.  \n\n**Target Audience**  \nThis workshop is for you if you are a software architect or software developer.",
-                        "speakerName": "Kenny Baas-Schwegler, Bruno Boucard & Thomas Pierrain"
+                        "speakerName": "Kenny Baas-Schwegler, Bruno Boucard & Thomas Pierrain",
+                        "feedbackUrl":"https://docs.google.com/forms/d/1Cd-lxHV0A8BifqPSN4AA9VQCK513x-suhnYw00ED4EE/viewform",
+                        "cospeakers":[
+                            {
+                                "Name": "Thomas Pierrain",
+                                "Link": "/speaker/tpierrain",
+                                "Id": "tpierrain",
+                                "Photo": "http://static.ncrafts.io/speakers/ThomasPierrainNB2.jpg"
+                              },
+                              {
+                                "Name": "Bruno Boucard",
+                                "Link": "/speaker/brunoboucard",
+                                "Id": "brunoboucard",
+                                "Photo": "http://static.ncrafts.io/speakers/BrunoBoucardNB.jpg"
+                              } 
+                        ]
                     }]
                 },
                 {
                     "room": "Room #3",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/KevlinHenney.jpg",
+                        "id":"nc19-khe02",
+                        "speakerPhoto": "/assets/img/speakers/KevlinHenney.jpg",
+                        "speakerId": "KevlinHenney",
                         "time": "9:00 - 17:00",
+                        "room": "Room #3",
+                        "date": "15/05/2019",
+                        "format": "pre-conference-workshop",
                         "title": "Refactoring to Immutability",
                         "description": "It has been said that immutability changes everything. But what does that mean in practice? What does it mean for existing code that looks more like the mutant apocalypse than an elegant application of mathematical thinking?\n\nImmutability can be an ideal that is hard to reach. Refactoring, on the other hand, is all about the art of the possible. In this hands-on workshop, we'll be looking at some tricks and tips to help reduce the mutability of code.\n\nSo bring a laptop, but don't worry about IDEs, editors, compilers and all that — just browser and WiFi! We'll be running the hands-on part using cyber-dojo.org, working with unit tests, promiscuous pairing and good humour :-)",
-                        "speakerName": "Kevlin Henney"
+                        "speakerName": "Kevlin Henney",
+                        "feedbackUrl":"https://docs.google.com/forms/d/1g5He6AECnsmQkv910jBdo0s_-5NaMewjJkqUrCZG4p8/viewform"
+                     
                     }]
                 },
                 {
                     "room": "Room #4",
                     "events": [{
                         "type": "conference",
-                        "speakerPhoto": "http://ncrafts.io/assets/img/speakers/WoodyZuill.jpg",
+                        "id":"nc19-wzu02",
+                        "speakerId": "WoodyZuill",
+                        "speakerPhoto": "/assets/img/speakers/WoodyZuill.jpg",
                         "time": "9:00 - 17:00",
+                        "room": "Room #4",
+                        "date": "15/05/2019",
                         "title": "Mob Programming",
+                        "format": "pre-conference-workshop",
                         "description": "Mob Programming: All the brilliant people working on the same thing, at the same time, in the same place, and on the same computer.\n\nMob Programming is a cost-effective, collaborative and fun way to get work done together. It's a whole-team approach to development, where coding, designing, testing, and working with the \"customer\" (partner, Product Owner, User, etc.) is all done as a team.\n\nParticipants in this workshop experience a day of learning and doing Mob Programming. We cover the mechanics of how to work together as a Mob as well as the techniques that make this form of development so effective.\n\nWe’ll learn how a Mob performs sample project work, including user stories, prioritization, test-driven development, refactoring, and retrospectives.\n\nDesigned and facilitated by Mob Programming pioneer Woody Zuill, this workshop provides a hands-on education.",
-                        "speakerName": "Woody Zuill"
+                        "speakerName": "Woody Zuill",
+                        "feedbackUrl":"https://docs.google.com/forms/d/1kblDT4zFBkIDDzLCUDwIP3N2y-Wb6n6v_dJWiz1qyHY/viewform"
+                     
                     }]
                 }
             ]
@@ -64,13 +105,15 @@
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "speakerName": ""
+                            "speakerName": "",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         
                         },
                         {
                             "speakerId": "Ulrikama",
                             "speakerName": "Ulrika Malmgren",
                             "twitter": "https://twitter.com/Ulrikama",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/UlrikaMalmgren.jpg",
+                            "speakerPhoto": "/assets/img/speakers/UlrikaMalmgren.jpg",
                             "id": "nc19-uma01",
                             "title": "KEYNOTE : The one with the compiler always wins",
                             "type": "Talk",
@@ -78,8 +121,10 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["agile","people","practices"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1p8dVvdi8rXWP62X6oBWF3LawGcqyB3yPl2Mh6b1Ub6I/viewform"
+                         
                         },
                         {
                             "speakerName": "",
@@ -88,13 +133,15 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30"
+                            "time": "10:00 - 10:30",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         
                         },
                         {
                             "speakerId": "SamirTalwar",
                             "speakerName": "Samir Talwar",
                             "twitter": "https://twitter.com/SamirTalwar",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/SamirTalwar.jpg",
+                            "speakerPhoto": "/assets/img/speakers/SamirTalwar.jpg",
                             "id": "nc19-sta01",
                             "title": "Teaching a machine to code",
                             "type": "Talk",
@@ -102,14 +149,16 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["learning","inovation","people"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1PcW47lLihJb_3EHf3nqbFDVi7j_Vudwun9NRY6AfMEU/viewform"
+                         
                         },
                         {
                             "speakerId": "einarwh",
                             "speakerName": "Einar Høst",
                             "twitter": "https://twitter.com/einarwh",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/EinarHost.jpg",
+                            "speakerPhoto": "/assets/img/speakers/EinarHost.jpg",
                             "id": "nc19-eho01",
                             "title": "Escher in Elm",
                             "type": "Talk",
@@ -117,8 +166,10 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["functional","history"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Zufv6CzLfRbsBJujDWk3Ou-r2kpKwJAthMZKIL6Sx70/viewform"
+                         
                         },
                         {
                             "speakerName": "",
@@ -127,13 +178,15 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00"
+                            "time": "12:15 - 14:00",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         
                         },
                         {
                             "speakerId": "thinkb4coding",
                             "speakerName": "Jérémie Chassaing",
                             "twitter": "https://twitter.com/thinkb4coding",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/JeremieChassaing.jpg",
+                            "speakerPhoto": "/assets/img/speakers/JeremieChassaing.jpg",
                             "id": "nc19-jch01",
                             "title": "Applicatives IRL",
                             "type": "Talk",
@@ -142,15 +195,17 @@
                             "date": "16/05/2019",
                             "time": "14:00 - 14:45",
                             "tags": [
-                                "Functional programming"
+                                "functional","design"
                             ],
-                            "cospeakers": []
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1eO4GLx7RjX63QovONlITO3xgtoR0LJvk2xaBcS-o17U/viewform"
+                         
                         },
                         {
                             "speakerId": "brassy",
                             "speakerName": "Emanuela Damiani",
                             "twitter": "https://twitter.com/brassy",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/EmanuelaDamiani.jpg",
+                            "speakerPhoto": "/assets/img/speakers/EmanuelaDamiani.jpg",
                             "id": "nc19-eda01",
                             "title": "Community based design",
                             "type": "Talk",
@@ -158,14 +213,16 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "15:00 - 15:45",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["design","people","agile"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1otsbF6JMpIqEm8T-QT2Y7r6kM9Drq3Xcy5b-Q0p1LVM/viewform"
+                         
                         },
                         {
                             "speakerId": "helenleigh",
                             "speakerName": "Helen Leigh",
                             "twitter": "https://twitter.com/helenleigh",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/HelenLeigh.jpg",
+                            "speakerPhoto": "/assets/img/speakers/HelenLeigh.jpg",
                             "id": "nc19-hle01",
                             "title": "Music tech hacking",
                             "type": "Talk",
@@ -173,9 +230,10 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["perspectives","people","art"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1foot2k4f3lzR7m1Ne31kkDXIOlA5R2ki0H02UUzYn00/viewform"
+                         },
                         {
                             "title": "Coffee time",
                             "type": "break",
@@ -183,13 +241,14 @@
                             "description": "",
                             "room": "Lovelace",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15"
-                        },
+                            "time": "16:45 - 17:15",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "ziobrando",
                             "speakerName": "Alberto Brandolini",
                             "twitter": "https://twitter.com/ziobrando",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlbertoBrandolini.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AlbertoBrandolini.jpg",
                             "id": "nc19-abr01",
                             "title": "KEYNOTE : The gordian knot → Hatching Software Development Ecosystems",
                             "type": "Talk",
@@ -197,8 +256,10 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["Enterprise","Agile","DDD"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
+                         
                         }
                     ]
                 },
@@ -209,13 +270,14 @@
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "speakerName": ""
-                        },
+                            "speakerName": "",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "Ulrikama",
                             "speakerName": "Ulrika Malmgren",
                             "twitter": "https://twitter.com/Ulrikama",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/UlrikaMalmgren.jpg",
+                            "speakerPhoto": "/assets/img/speakers/UlrikaMalmgren.jpg",
                             "id": "nc19-uma01",
                             "title": "KEYNOTE : The one with the compiler always wins",
                             "type": "Talk",
@@ -223,9 +285,10 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["agile","people","practices"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1p8dVvdi8rXWP62X6oBWF3LawGcqyB3yPl2Mh6b1Ub6I/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -233,13 +296,14 @@
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30"
-                        },
+                            "time": "10:00 - 10:30",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "clementd",
                             "speakerName": "Clément Delafargue",
                             "twitter": "https://twitter.com/clementd",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/ClementDelafargue.jpg",
+                            "speakerPhoto": "/assets/img/speakers/ClementDelafargue.jpg",
                             "id": "nc19-cde01",
                             "title": "Application design with a stack of monads",
                             "type": "Talk",
@@ -247,14 +311,15 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["functional","design"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1sgdNos7oexybBwQV_XpU4ckKJnQ14NsAUM5d2-WF2Sw/viewform"
+                         },
                         {
                             "speakerId": "gwendiagram",
                             "speakerName": "Gwen Diagram",
                             "twitter": "https://twitter.com/gwendiagram",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/GwenDiagram.jpg",
+                            "speakerPhoto": "/assets/img/speakers/GwenDiagram.jpg",
                             "id": "nc19-gdi01",
                             "title": "Security by Stealth",
                             "type": "Talk",
@@ -262,9 +327,10 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["design","security"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1V4rTSwtlmHVuLgu6Lk2RIv2f27lcBNw_3gpAGeHsZHo/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -272,13 +338,14 @@
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00"
-                        },
+                            "time": "12:15 - 14:00",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "SavarinAnna",
                             "speakerName": "Anna Savarin",
                             "twitter": "https://twitter.com/SavarinAnna",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AnnaSavarin.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AnnaSavarin.jpg",
                             "id": "nc19-asa01",
                             "title": "Non-Euclidean Software Delivery",
                             "type": "Talk",
@@ -286,14 +353,15 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["people","practices","perspectives"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1e4pM-FsxrF74ElkPSRFEwAzGTz0xKd9FEaDrxWDWaMk/viewform"
+                         },
                         {
                             "speakerId": "rinkkasatiainen",
                             "speakerName": "Aki Salmi",
                             "twitter": "https://twitter.com/rinkkasatiainen",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AkiSalmi.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AkiSalmi.jpg",
                             "id": "nc19-asa01",
                             "title": "Railroad-Driven Programming",
                             "type": "Talk",
@@ -301,14 +369,15 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "15:00 - 15:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["design","functional"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/10VBKG0Rn0m1lX_ap2wZJrvW7H48bDA_IsrorWXVBeyQ/viewform"
+                         },
                         {
                             "speakerId": "matthiasnoback",
                             "speakerName": "Matthias Noback",
                             "twitter": "https://twitter.com/matthiasnoback",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/MatthiasNoback.jpg",
+                            "speakerPhoto": "/assets/img/speakers/MatthiasNoback.jpg",
                             "id": "nc19-mno01",
                             "title": "Brutal refactoring, lying code, the Churn, and other emotional stories from Legacy Land",
                             "type": "Talk",
@@ -316,9 +385,10 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["practices","crafting"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/11NTR8DGmiPisbvNb8F76IsFQv7RlLko4CQzyzVYd6Ac/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee time",
@@ -326,13 +396,14 @@
                             "description": "",
                             "room": "Hopper",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15"
-                        },
+                            "time": "16:45 - 17:15",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "ziobrando",
                             "speakerName": "Alberto Brandolini",
                             "twitter": "https://twitter.com/ziobrando",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlbertoBrandolini.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AlbertoBrandolini.jpg",
                             "id": "nc19-abr01",
                             "title": "KEYNOTE : The gordian knot → Hatching Software Development Ecosystems",
                             "type": "Talk",
@@ -340,25 +411,28 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
-                            "cospeakers": []
-                        }
+                            "tags": ["Enterprise","Agile","DDD"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
+                         }
                     ]
                 },
                 {
                     "room": "Liskov",
-                    "events": [{
+                    "events": [
+                        {
                             "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "speakerName": ""
-                        },
+                            "speakerName": "",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "Ulrikama",
                             "speakerName": "Ulrika Malmgren",
                             "twitter": "https://twitter.com/Ulrikama",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/UlrikaMalmgren.jpg",
+                            "speakerPhoto": "/assets/img/speakers/UlrikaMalmgren.jpg",
                             "id": "nc19-uma01",
                             "title": "KEYNOTE : The one with the compiler always wins",
                             "type": "Talk",
@@ -366,9 +440,10 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["agile","people","practices"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1p8dVvdi8rXWP62X6oBWF3LawGcqyB3yPl2Mh6b1Ub6I/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -376,13 +451,14 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "10:00 - 10:30"
-                        },
+                            "time": "10:00 - 10:30",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "XDetant",
                             "speakerName": "Xavier Detant",
                             "twitter": "https://twitter.com/XDetant",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/XavierDetant.jpg",
+                            "speakerPhoto": "/assets/img/speakers/XavierDetant.jpg",
                             "id": "nc19-xde01",
                             "title": "Test && commit || revert",
                             "type": "Talk",
@@ -390,14 +466,15 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["practices","design","crafting"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/18fzYDcBoZwSK9SidEk6Y9L3DN5GDgdKkRwdtOPxSKW4/viewform"
+                         },
                         {
                             "speakerId": "patkua",
                             "speakerName": "Patrick Kua",
                             "twitter": "https://twitter.com/patkua",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/PatrickKua.jpg",
+                            "speakerPhoto": "/assets/img/speakers/PatrickKua.jpg",
                             "id": "nc19-pku01",
                             "title": "Talking with Tech Leads",
                             "type": "Talk",
@@ -405,9 +482,10 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["people","enterprise"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Qr8EIDDOwPIgHqrEab2J71Vqy5eIeZjAuxNK9Jz79g8/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -415,13 +493,14 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "12:15 - 14:00"
-                        },
+                            "time": "12:15 - 14:00",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "KevlinHenney",
                             "speakerName": "Kevlin Henney",
                             "twitter": "https://twitter.com/KevlinHenney",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/KevlinHenney.jpg",
+                            "speakerPhoto": "/assets/img/speakers/KevlinHenney.jpg",
                             "id": "nc19-khe01",
                             "title": "The Passions of Programming",
                             "type": "Talk",
@@ -429,14 +508,15 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["people","history","agile","relations"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1g5He6AECnsmQkv910jBdo0s_-5NaMewjJkqUrCZG4p8/viewform"
+                         },
                         {
                             "speakerId": "saleandro",
                             "speakerName": "Sabrina Leandro",
                             "twitter": "https://twitter.com/saleandro",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/SabrinaLeandro.jpg",
+                            "speakerPhoto": "/assets/img/speakers/SabrinaLeandro.jpg",
                             "id": "nc19-sle01",
                             "title": "How to rewrite, a bit at a time",
                             "type": "Talk",
@@ -444,14 +524,15 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "15:00 - 15:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["practices","crafting","design"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bS0kYVi3WWZo4X-UDN6w1lTCRRHIKYVUxX4OAmJSbXQ/viewform"
+                         },
                         {
                             "speakerId": "SteveSmithCD",
                             "speakerName": "Steve Smith",
                             "twitter": "https://twitter.com/SteveSmithCD",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/SteveSmith.jpg",
+                            "speakerPhoto": "/assets/img/speakers/SteveSmith.jpg",
                             "id": "nc19-ssm01",
                             "title": "Continuous Delivery and the Theory of Constraints",
                             "type": "Talk",
@@ -459,9 +540,10 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["practices","enterprise","perspectives"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1K4KI2F5SXbadTIge_jLANffcnEXhSAkkinK3J2oOSc4/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee time",
@@ -469,13 +551,14 @@
                             "description": "",
                             "room": "Liskov",
                             "date": "16/05/2019",
-                            "time": "16:45 - 17:15"
-                        },
+                            "time": "16:45 - 17:15",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "ziobrando",
                             "speakerName": "Alberto Brandolini",
                             "twitter": "https://twitter.com/ziobrando",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlbertoBrandolini.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AlbertoBrandolini.jpg",
                             "id": "nc19-abr01",
                             "title": "KEYNOTE : The gordian knot → Hatching Software Development Ecosystems",
                             "type": "Talk",
@@ -483,25 +566,28 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
-                            "cospeakers": []
-                        }
+                            "tags": ["Enterprise","Agile","DDD"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
+                         }
                     ]
                 },
                 {
                     "room": "Kare",
-                    "events": [{
+                    "events": [
+                        {
                             "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
                             "title": "Check-in time",
-                            "speakerName": ""
-                        },
+                            "speakerName": "",
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerId": "Ulrikama",
                             "speakerName": "Ulrika Malmgren",
                             "twitter": "https://twitter.com/Ulrikama",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/UlrikaMalmgren.jpg",
+                            "speakerPhoto": "/assets/img/speakers/UlrikaMalmgren.jpg",
                             "id": "nc19-uma01",
                             "title": "KEYNOTE : The one with the compiler always wins",
                             "type": "Talk",
@@ -509,9 +595,10 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["agile","people","practices"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1p8dVvdi8rXWP62X6oBWF3LawGcqyB3yPl2Mh6b1Ub6I/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -525,7 +612,7 @@
                             "speakerId": "w3ltraumpirat",
                             "speakerName": "Tobias Goeschel",
                             "twitter": "https://twitter.com/w3ltraumpirat",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/TobiasGoeschel.jpg",
+                            "speakerPhoto": "/assets/img/speakers/TobiasGoeschel.jpg",
                             "id": "nc19-tgo01",
                             "title": "Domain Prototyping, or Design is How it Works.",
                             "type": "Talk",
@@ -533,14 +620,15 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["design","DDD"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1GU-r5p2vQnsXeUtA4lsaPWafuqEI7bzIQxbnbC_W37k/viewform"
+                         },
                         {
                             "speakerId": "malk_zameth",
                             "speakerName": "Romeu Moura",
                             "twitter": "https://twitter.com/malk_zameth",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/RomeuMoura.jpg",
+                            "speakerPhoto": "/assets/img/speakers/RomeuMoura.jpg",
                             "id": "nc19-rmo01",
                             "title": "Bourdieu's Social theory and our work in tech",
                             "type": "Talk",
@@ -548,9 +636,10 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["social","people","enterprise","agile"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Cvf8bwiU7iIR1ARvj4G7D1XDMP1Ke-HjQDMG1m3OXQo/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -564,7 +653,7 @@
                             "speakerId": "elefevre",
                             "speakerName": "Eric Lefevre-Ardant",
                             "twitter": "https://twitter.com/elefevre",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/EricLefevre-Ardant.jpg",
+                            "speakerPhoto": "/assets/img/speakers/EricLefevre-Ardant.jpg",
                             "id": "nc19-ele01",
                             "title": "Plankalkül: a high-level language from the 1940s",
                             "type": "Lightning Talk",
@@ -572,14 +661,15 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "14:00 - 14:20",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["history"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/19MBNsJ2NZiYgEyzx22J8zly9nRoCGSfA5fi4luHAyaQ/viewform"
+                         },
                         {
                             "speakerId": "estelandry",
                             "speakerName": "Estelle Landry",
                             "twitter": "https://twitter.com/estelandry",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/EstelleLandry.jpg",
+                            "speakerPhoto": "/assets/img/speakers/EstelleLandry.jpg",
                             "id": "nc19-ela01",
                             "title": "How to lose your feature overload ?",
                             "type": "Lightning Talk",
@@ -587,14 +677,16 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "14:25 - 14:45",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["crafting","agile"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1TR11xiuYA8hp2N7dEnO0Adv7ZC8qLWfYjjeov7Ub-Kc/viewform"
+                         
                         },
                         {
                             "speakerId": "jpalies",
                             "speakerName": "Jean Paliès",
                             "twitter": "https://twitter.com/jpalies",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/JeanPalies.jpg",
+                            "speakerPhoto": "/assets/img/speakers/JeanPalies.jpg",
                             "id": "nc19-jpa01",
                             "title": "How video games taught me event sourcing",
                             "type": "Lightning Talk",
@@ -602,14 +694,15 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "15:00 - 15:20",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["DDD","design"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1_SefEeqavlpotW5yROIY7iwoZLMnNF_7s45dulLaqso/viewform"
+                         },
                         {
                             "speakerId": "dorrabartaguiz",
                             "speakerName": "Dorra Bartaguiz",
                             "twitter": "https://twitter.com/dorrabartaguiz",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/DorraBartaguiz.jpg",
+                            "speakerPhoto": "/assets/img/speakers/DorraBartaguiz.jpg",
                             "id": "nc19-dba01",
                             "title": "Slim Down Diet & TDD",
                             "type": "Lightning Talk",
@@ -617,14 +710,15 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "15:25 - 15:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["crafting"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1GzkmAh8haIvsSVUHTrjc_kz7K7MS5Gjg1c0Jb09bYYk/viewform"
+                         },
                         {
                             "speakerId": "ddoomen",
                             "speakerName": "Dennis Doomen",
                             "twitter": "https://twitter.com/ddoomen",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/DennisDoomen.jpg",
+                            "speakerPhoto": "/assets/img/speakers/DennisDoomen.jpg",
                             "id": "nc19-ddo01",
                             "title": "Event Sourcing Done Right - Experiences from the Trenches",
                             "type": "Talk",
@@ -632,9 +726,10 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["DDD","design"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1eY-7xsfCm5OokhlgRRM2Bbb4SyHwOFDw4rEP1B3yulc/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee time",
@@ -648,7 +743,7 @@
                             "speakerId": "ziobrando",
                             "speakerName": "Alberto Brandolini",
                             "twitter": "https://twitter.com/ziobrando",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlbertoBrandolini.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AlbertoBrandolini.jpg",
                             "id": "nc19-abr01",
                             "title": "KEYNOTE : The gordian knot → Hatching Software Development Ecosystems",
                             "type": "Talk",
@@ -656,14 +751,16 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
-                            "cospeakers": []
-                        }
+                            "tags": ["Enterprise","Agile","DDD"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
+                         }
                     ]
                 },
                 {
                     "room": "Goldberg",
-                    "events": [{
+                    "events": [
+                        {
                             "type": "break",
                             "description": "",
                             "time": "8:30 - 9:00",
@@ -674,7 +771,7 @@
                             "speakerId": "Ulrikama",
                             "speakerName": "Ulrika Malmgren",
                             "twitter": "https://twitter.com/Ulrikama",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/UlrikaMalmgren.jpg",
+                            "speakerPhoto": "/assets/img/speakers/UlrikaMalmgren.jpg",
                             "id": "nc19-uma01",
                             "title": "KEYNOTE : The one with the compiler always wins",
                             "type": "Talk",
@@ -682,9 +779,10 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["agile","people","practices"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1p8dVvdi8rXWP62X6oBWF3LawGcqyB3yPl2Mh6b1Ub6I/viewform"
+                         },
                         {
                             "type": "break",
                             "description": "",
@@ -698,7 +796,7 @@
                             "speakerId": "selketjah",
                             "speakerName": "Gien Verschatse",
                             "twitter": "https://twitter.com/selketjah",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/GienVerschatse.jpg",
+                            "speakerPhoto": "/assets/img/speakers/GienVerschatse.jpg",
                             "id": "nc19-gve01",
                             "title": "Devils, Wizards and Decision Making Heuristics: Magic 8 Balls to the Rescue",
                             "type": "Hands-on",
@@ -706,9 +804,10 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "10:15 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["functional","DDD"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1csYDyBAht267yxgofuhEkDxHPiEbdsk_k2J8ggbqDq4/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -722,7 +821,7 @@
                             "speakerId": "huizendveld",
                             "speakerName": "Marijn Huizendveld",
                             "twitter": "https://twitter.com/huizendveld",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/MarijnHuizendveld.jpg",
+                            "speakerPhoto": "/assets/img/speakers/MarijnHuizendveld.jpg",
                             "id": "nc19-mhu01",
                             "title": "Iterating on domain models",
                             "type": "Hands-on",
@@ -730,14 +829,15 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "13:45 - 15:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["DDD"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1BICMa701ziuQL_e3nXwjA65aGkjL94AG-4vN1iuT7EQ/viewform"
+                         },
                         {
                             "speakerId": "johan_alps",
                             "speakerName": "Johan Martinsson",
                             "twitter": "https://twitter.com/johan_alps",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/JohanMartinsson.jpg",
+                            "speakerPhoto": "/assets/img/speakers/JohanMartinsson.jpg",
                             "id": "nc19-jma01",
                             "title": "Rescuing legacy - from legacy to TDD",
                             "type": "Quick Hands-on",
@@ -745,8 +845,9 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "16:00 - 17:00",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["design","crafting"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1WXb600SwALWeIjV4n62BECb-xJnI7TzggfPZNlRQYTE/viewform"
                         },
                         {
                             "speakerName": "",
@@ -761,7 +862,7 @@
                             "speakerId": "ziobrando",
                             "speakerName": "Alberto Brandolini",
                             "twitter": "https://twitter.com/ziobrando",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlbertoBrandolini.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AlbertoBrandolini.jpg",
                             "id": "nc19-abr01",
                             "title": "KEYNOTE : The gordian knot → Hatching Software Development Ecosystems",
                             "type": "Talk",
@@ -769,9 +870,10 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
-                            "cospeakers": []
-                        }
+                            "tags": ["Enterprise","Agile","DDD"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
+                         }
                     ]
                 }
             ]
@@ -793,7 +895,7 @@
                             "speakerId": "aprilwensel",
                             "speakerName": "April Wensel",
                             "twitter": "https://twitter.com/aprilwensel",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AprilWensel.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AprilWensel.jpg",
                             "id": "nc19-awe01",
                             "title": "KEYNOTE : Crafting Compassionate Code",
                             "type": "Talk",
@@ -801,9 +903,10 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["crafting","people","relations"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bcm85ovb_1bvjPqveMe3-TnVtcD08sh9GSsJscFB_f0/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -817,7 +920,7 @@
                             "speakerId": "ScottWlachin",
                             "speakerName": "Scott Wlaschin",
                             "twitter": "https://twitter.com/ScottWlachin",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/ScottWlaschin.jpg",
+                            "speakerPhoto": "/assets/img/speakers/ScottWlaschin.jpg",
                             "id": "nc19-swl01",
                             "title": "Four Languages from Forty Years Ago",
                             "type": "Talk",
@@ -825,14 +928,15 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["history","design","languages"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1li44cHka7uv82r9rsM0RXmsq68j0PbPU9m3ra968lhA/viewform"
+                         },
                         {
                             "speakerId": "Abebab",
                             "speakerName": "Abeba Birhane",
                             "twitter": "https://twitter.com/Abebab",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AbebaBirhane.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AbebaBirhane.jpg",
                             "id": "nc19-abi01",
                             "title": "In defence of uncertainty",
                             "type": "Talk",
@@ -840,9 +944,10 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["design","people","security"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kknKM-6fIrgWr2NVlCmw4Sgdcbg13tUPAZlglTgt4b8/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -856,7 +961,7 @@
                             "speakerId": "tomaspetricek",
                             "speakerName": "Tomas Petricek",
                             "twitter": "https://twitter.com/tomaspetricek",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/TomasPetricek.jpg",
+                            "speakerPhoto": "/assets/img/speakers/TomasPetricek.jpg",
                             "id": "nc19-tpe01",
                             "title": "The Search for Fundamental Software Engineering Principles",
                             "type": "Talk",
@@ -864,14 +969,15 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["history","crafting","social"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1oOqPWl16c7duGEeRYjiB7nT7gEev5e8229iOM-Dh41M/viewform"
+                         },
                         {
                             "speakerId": "marick",
                             "speakerName": "Brian Marick",
                             "twitter": "https://twitter.com/marick",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/BrianMarick.jpg",
+                            "speakerPhoto": "/assets/img/speakers/BrianMarick.jpg",
                             "id": "nc19-bma01",
                             "title": "Learning from how science and philosophy progress",
                             "type": "Talk",
@@ -879,14 +985,15 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "15:00 - 15:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["social","crafting","design"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1APpLBHQNMP1hstLBbOP2HD2UjEBwrRsQ56_lcPmLhaI/viewform"
+                         },
                         {
                             "speakerId": "old_sound",
                             "speakerName": "Alvaro Videla",
                             "twitter": "https://twitter.com/old_sound",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlvaroVidela.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AlvaroVidela.jpg",
                             "id": "nc19-avi01",
                             "title": "Are Programming Languages Languages?",
                             "type": "Talk",
@@ -894,9 +1001,10 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["languages","design","social"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/10ZBJ0l8qOSYIjPPTHnApqNaUoo1dDS0j_4VUfdDzcvM/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee time",
@@ -910,7 +1018,7 @@
                             "speakerId": "ethicistforhire",
                             "speakerName": "Nolen Gertz",
                             "twitter": "https://twitter.com/ethicistforhire",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/NolenGertz.jpg",
+                            "speakerPhoto": "/assets/img/speakers/NolenGertz.jpg",
                             "id": "nc19-nge01",
                             "title": "KEYNOTE : Nihilism and Technology",
                             "type": "Talk",
@@ -918,9 +1026,10 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
-                            "cospeakers": []
-                        }
+                            "tags": ["people","social"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1T4tVOfIrbnnPSLWPqq9jivOhSAylHR32hzMAbScKzOo/viewform"
+                         }
                     ]
                 },
                 {
@@ -936,7 +1045,7 @@
                             "speakerId": "aprilwensel",
                             "speakerName": "April Wensel",
                             "twitter": "https://twitter.com/aprilwensel",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AprilWensel.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AprilWensel.jpg",
                             "id": "nc19-awe01",
                             "title": "KEYNOTE : Crafting Compassionate Code",
                             "type": "Talk",
@@ -944,9 +1053,10 @@
                             "room": "Lovelace",
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["crafting","people","relations"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bcm85ovb_1bvjPqveMe3-TnVtcD08sh9GSsJscFB_f0/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -960,7 +1070,7 @@
                             "speakerId": "Heimeshoff",
                             "speakerName": "Marco Heimeshoff",
                             "twitter": "https://twitter.com/Heimeshoff",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/MarcoHeimeshoff.jpg",
+                            "speakerPhoto": "/assets/img/speakers/MarcoHeimeshoff.jpg",
                             "id": "nc19-mhe01",
                             "title": "Domain Driven UI",
                             "type": "Talk",
@@ -968,14 +1078,15 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["DDD","design","agile"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1S6fY-sKO7R_7faL1EbFIfVld1cpwbSfmLI1xHEiXunY/viewform"
+                         },
                         {
                             "speakerId": "EvelynvanKelle",
                             "speakerName": "Eveyln Van Kelle",
                             "twitter": "https://twitter.com/EvelynvanKelle",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/EvelynVanKelle.jpg",
+                            "speakerPhoto": "/assets/img/speakers/EvelynVanKelle.jpg",
                             "id": "nc19-eva01",
                             "title": "Socio-technical DDD - Essential social heuristics",
                             "type": "Talk",
@@ -983,9 +1094,10 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["DDD","people","relations"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1H8rZNRJvDqB4yP0AqKFb97QFw8OZMdE_EdQnz5mzLgg/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -999,7 +1111,7 @@
                             "speakerId": "cyriux",
                             "speakerName": "Cyrille Martraire",
                             "twitter": "https://twitter.com/cyriux",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/CyrilleMartraire.jpg",
+                            "speakerPhoto": "/assets/img/speakers/CyrilleMartraire.jpg",
                             "id": "nc19-cma01",
                             "title": "Domain Modelling for Digital Transformations",
                             "type": "Talk",
@@ -1007,14 +1119,15 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["DDD","enterprise","people"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1QcGvgQ-iMZAdqhZi8xaJKQ2viCw9-OazSyy14iRuvAQ/viewform"
+                         },
                         {
                             "speakerId": "Indu_alagarsamy",
                             "speakerName": "Indu Alagarsamy",
                             "twitter": "https://twitter.com/Indu_alagarsamy",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/InduAlagarsamy.jpg",
+                            "speakerPhoto": "/assets/img/speakers/InduAlagarsamy.jpg",
                             "id": "nc19-ial01",
                             "title": "Evolving with the changing requirements - Using DDD and Saga Message Pattern",
                             "type": "Talk",
@@ -1027,13 +1140,14 @@
                                 "Patterns",
                                 "Models"
                             ],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/17by-7xGi15Zs7TqEW_74HSretcAZ8MAJz8xg9z7HSkY/viewform"
+                         },
                         {
                             "speakerId": "kenny_baas",
                             "speakerName": "Kenny Baas-Schwegler",
                             "twitter": "https://twitter.com/kenny_baas",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/KennyBaas-Schwegler.jpg",
+                            "speakerPhoto": "/assets/img/speakers/KennyBaas-Schwegler.jpg",
                             "id": "nc19-kba01",
                             "title": "I got Trapped! Systems thinking traps of IT Teams and how to battle them",
                             "type": "Talk",
@@ -1044,8 +1158,9 @@
                             "tags": [
                                 "Systems thinking"
                             ],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Cd-lxHV0A8BifqPSN4AA9VQCK513x-suhnYw00ED4EE/viewform"
+                         },
                         {
                             "type": "break",
                             "description": "",
@@ -1057,7 +1172,7 @@
                             "speakerId": "ethicistforhire",
                             "speakerName": "Nolen Gertz",
                             "twitter": "https://twitter.com/ethicistforhire",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/NolenGertz.jpg",
+                            "speakerPhoto": "/assets/img/speakers/NolenGertz.jpg",
                             "id": "nc19-nge01",
                             "title": "KEYNOTE : Nihilism and Technology",
                             "type": "Talk",
@@ -1065,9 +1180,10 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
-                            "cospeakers": []
-                        }
+                            "tags": ["people","social"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1T4tVOfIrbnnPSLWPqq9jivOhSAylHR32hzMAbScKzOo/viewform"
+                         }
                     ]
                 },
                 {
@@ -1083,7 +1199,7 @@
                             "speakerId": "aprilwensel",
                             "speakerName": "April Wensel",
                             "twitter": "https://twitter.com/aprilwensel",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AprilWensel.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AprilWensel.jpg",
                             "id": "nc19-awe01",
                             "title": "KEYNOTE : Crafting Compassionate Code",
                             "type": "Talk",
@@ -1091,9 +1207,10 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["crafting","people","relations"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bcm85ovb_1bvjPqveMe3-TnVtcD08sh9GSsJscFB_f0/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -1107,7 +1224,31 @@
                             "speakerId": "alex_schl",
                             "speakerName": "Alexandra Schladebeck",
                             "twitter": "https://twitter.com/alex_schl",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlexandraSchladebeck.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AlexandraSchladebeck.jpg",
+                            "id": "nc19-asc01",
+                            "title": "Exploratory testing for everyone",
+                            "type": "Talk",
+                            "description": "Exploratory testing is one of the most important tools any project member can have. Any time we “check whether something works”, “test the bug fix” or “perform tests for a new feature”, we can (and should) use exploratory testing techniques.\n\nEven though the technique is so important, it is still misunderstood. It’s thought to be “clicking around” or “unstructured testing”. In this talk, we’ll demonstrate and explain what exploratory testing is and will also provide participants with reasons why they should be using it in their teams. We’ll provide analogies to other work we do in development teams (like debugging or identifying error causes) and look at how exploratory testing can be used beyond the UI.\n\nTo round off, we’ll give hints about where, how and when to use it in your process, be it agile or traditional or a mix of both.",
+                            "room": "Liskov",
+                            "date": "17/05/2019",
+                            "time": "10:30 - 11:15",
+                            "tags": ["testing","crafting"],
+                            "cospeakers": [
+                                {
+                                    "Name": "Thomas Garus",
+                                    "Link": "/speaker/ThomasG_Tester",
+                                    "Id": "ThomasG_Tester",
+                                    "Photo": "/assets/img/speakers/ThomasGarus.jpg"
+                                  }
+                            ],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Chcc51qfYUcidhsehCgcQWmhprs4EfyQQy5oNZbvhtQ/viewform"
+                         
+                        },
+                        {
+                            "speakerId": "ThomasG_Tester",
+                            "speakerName": "Thomas Garus",
+                            "twitter": "https://twitter.com/ThomasG_Tester",
+                            "speakerPhoto": "/assets/img/speakers/ThomasGarus.jpg",
                             "id": "nc19-asc01",
                             "title": "Exploratory testing for everyone",
                             "type": "Talk",
@@ -1116,28 +1257,21 @@
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
                             "tags": [],
-                            "cospeakers": []
-                        },
-                        {
-                            "speakerId": "ThomasG_Tester",
-                            "speakerName": "Thomas Garus",
-                            "twitter": "https://twitter.com/ThomasG_Tester",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/ThomasGarus.jpg",
-                            "id": "nc19-tga01",
-                            "title": "Exploratory testing for everyone",
-                            "type": "Talk",
-                            "description": "Exploratory testing is one of the most important tools any project member can have. Any time we “check whether something works”, “test the bug fix” or “perform tests for a new feature”, we can (and should) use exploratory testing techniques.\n\nEven though the technique is so important, it is still misunderstood. It’s thought to be “clicking around” or “unstructured testing”. In this talk, we’ll demonstrate and explain what exploratory testing is and will also provide participants with reasons why they should be using it in their teams. We’ll provide analogies to other work we do in development teams (like debugging or identifying error causes) and look at how exploratory testing can be used beyond the UI.\n\nTo round off, we’ll give hints about where, how and when to use it in your process, be it agile or traditional or a mix of both.",
-                            "room": "Liskov",
-                            "date": "17/05/2019",
-                            "time": "10:30 - 11:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "cospeakers": [
+                                {
+                                    "Name": "Alexandra Schladebeck",
+                                    "Link": "/speaker/alex_schl",
+                                    "Id": "alex_schl",
+                                    "Photo": "/assets/img/speakers/AlexandraSchladebeck.jpg"
+                                }
+                            ],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1Chcc51qfYUcidhsehCgcQWmhprs4EfyQQy5oNZbvhtQ/viewform"
+                          },
                         {
                             "speakerId": "mathiasverraes",
                             "speakerName": "Mathias Verraes",
                             "twitter": "https://twitter.com/mathiasverraes",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/MathiasVerraes.jpg",
+                            "speakerPhoto": "/assets/img/speakers/MathiasVerraes.jpg",
                             "id": "nc19-mve01",
                             "title": "Temporal Modelling",
                             "type": "Talk",
@@ -1145,9 +1279,10 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["DDD","design"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1ORYsLo5LHq6L2RquFrnoDQHoAd1_NtK1OscUohr2KbA/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -1161,7 +1296,7 @@
                             "speakerId": "NikkitaFTW",
                             "speakerName": "Sara Vieira",
                             "twitter": "https://twitter.com/NikkitaFTW",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/SaraVieira.jpg",
+                            "speakerPhoto": "/assets/img/speakers/SaraVieira.jpg",
                             "id": "nc19-svi01",
                             "title": "Your Brain doesn't have a Fix Flag",
                             "type": "Talk",
@@ -1169,14 +1304,15 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["people","social"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1qZMYxQqOm2Gq4SvzySafSaNUJzVnm3W5VYzcD0JXJfA/viewform"
+                         },
                         {
                             "speakerId": "ifesdjeen",
                             "speakerName": "Alex Petrov",
                             "twitter": "https://twitter.com/ifesdjeen",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AlexPetrov.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AlexPetrov.jpg",
                             "id": "nc19-ape01",
                             "title": "Storage Systems: The Old, The New, The Overlooked",
                             "format": "Talk",
@@ -1184,14 +1320,16 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "15:00 - 15:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["history","systems"],
+                            "type":"Talk",
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1EVwfk3uXQiUhF3C3xODqEf10wjhI8wOMTbrwlWN5tBg/viewform"
+                         },
                         {
                             "speakerId": "emilybache",
                             "speakerName": "Emily Bache",
                             "twitter": "https://twitter.com/emilybache",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/EmilyBache.jpg",
+                            "speakerPhoto": "/assets/img/speakers/EmilyBache.jpg",
                             "id": "nc19-eba01",
                             "title": "Technical Leadership for Empowered Teams",
                             "type": "Talk",
@@ -1199,9 +1337,10 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["enterprise","people","crafting"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1883BsALpqK4gP4dqnKzGyemiwcNL8PbYCjHX7rmtujI/viewform"
+                         },
                         {
                             "type": "break",
                             "description": "",
@@ -1213,7 +1352,7 @@
                             "speakerId": "ethicistforhire",
                             "speakerName": "Nolen Gertz",
                             "twitter": "https://twitter.com/ethicistforhire",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/NolenGertz.jpg",
+                            "speakerPhoto": "/assets/img/speakers/NolenGertz.jpg",
                             "id": "nc19-nge01",
                             "title": "KEYNOTE : Nihilism and Technology",
                             "type": "Talk",
@@ -1221,9 +1360,10 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
-                            "cospeakers": []
-                        }
+                            "tags": ["people","social"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1T4tVOfIrbnnPSLWPqq9jivOhSAylHR32hzMAbScKzOo/viewform"
+                         }
                     ]
                 },
                 {
@@ -1239,7 +1379,7 @@
                             "speakerId": "aprilwensel",
                             "speakerName": "April Wensel",
                             "twitter": "https://twitter.com/aprilwensel",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AprilWensel.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AprilWensel.jpg",
                             "id": "nc19-awe01",
                             "title": "KEYNOTE : Crafting Compassionate Code",
                             "type": "Talk",
@@ -1247,9 +1387,10 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["crafting","people","relations"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bcm85ovb_1bvjPqveMe3-TnVtcD08sh9GSsJscFB_f0/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -1263,7 +1404,7 @@
                             "speakerId": "MaritvanDijk77",
                             "speakerName": "Marit van Dijk",
                             "twitter": "https://twitter.com/MaritvanDijk77",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/MaritvanDijk.jpg",
+                            "speakerPhoto": "/assets/img/speakers/MaritvanDijk.jpg",
                             "id": "nc19-mva01",
                             "title": "Collaborating on Open Source Software; How I Started contributing to Open Source and Why You Should Too",
                             "type": "Talk",
@@ -1271,14 +1412,15 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["people","open source","crafting"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1WyJWAODxMjAxmOFeWOigFLZVwkpxYK3hpW1rh18CT5w/viewform"
+                         },
                         {
                             "speakerId": "julienlavigne",
                             "speakerName": "Julien Lavigne du Cadet",
                             "twitter": "https://twitter.com/julienlavigne",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/JulienLavigneduCadet.jpg",
+                            "speakerPhoto": "/assets/img/speakers/JulienLavigneduCadet.jpg",
                             "id": "nc19-jla01",
                             "title": "Continuous reteaming: adopt self-selection and start moving people to the work!",
                             "type": "Talk",
@@ -1286,9 +1428,10 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["enterprise","agile"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1IWkP0piRqwNM2WnjO1JNeFfh2rEwM7IXQ5b6V4bMrko/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Lunch break",
@@ -1302,7 +1445,7 @@
                             "speakerId": "FredericRivain",
                             "speakerName": "Frédéric Rivain",
                             "twitter": "https://twitter.com/FredericRivain",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/FredericRivain.jpg",
+                            "speakerPhoto": "/assets/img/speakers/FredericRivain.jpg",
                             "id": "nc19-fri01",
                             "title": "From Feature Team to Mission Teams",
                             "type": "Lightning Talk",
@@ -1310,14 +1453,15 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "14:00 - 14:20",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["enterprise","agile"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1daGVV2qo1KD2rcfNIiynVsi3RRloZ3NLbEJuU9Csuy0/viewform"
+                         },
                         {
                             "speakerId": "michelle_avomo",
                             "speakerName": "Michelle Avomo",
                             "twitter": "https://twitter.com/michelle_avomo",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/MichelleAvomo.jpg",
+                            "speakerPhoto": "/assets/img/speakers/MichelleAvomo.jpg",
                             "id": "nc19-mav01",
                             "title": "(Quick) kata to explain D from SOLID principles",
                             "type": "Lightning Talk",
@@ -1325,14 +1469,15 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "14:25 - 14:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["crafting"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1EjMoHdXNLtH3dQ0ClR7nR1oVLqxei-xU_hyxrvmyu0k/viewform"
+                         },
                         {
                             "speakerId": "pascallemerrer",
                             "speakerName": "Pascal Le Merrer",
                             "twitter": "https://twitter.com/pascallemerrer",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/PascalLeMerrer.jpg",
+                            "speakerPhoto": "/assets/img/speakers/PascalLeMerrer.jpg",
                             "id": "nc19-ple01",
                             "title": "Easy functional programming with elm",
                             "type": "Hands-on",
@@ -1340,9 +1485,10 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "15:00 - 16:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["functional","practices","perspectives"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/17j9iYLyq93VdYKkD153kEykyULbwAfsPDT4X87lBy6k/viewform"
+                         },
                         {
                             "type": "break",
                             "description": "",
@@ -1354,7 +1500,7 @@
                             "speakerId": "ethicistforhire",
                             "speakerName": "Nolen Gertz",
                             "twitter": "https://twitter.com/ethicistforhire",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/NolenGertz.jpg",
+                            "speakerPhoto": "/assets/img/speakers/NolenGertz.jpg",
                             "id": "nc19-nge01",
                             "title": "KEYNOTE : Nihilism and Technology",
                             "type": "Talk",
@@ -1362,9 +1508,10 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
-                            "cospeakers": []
-                        }
+                            "tags": ["people","social"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1T4tVOfIrbnnPSLWPqq9jivOhSAylHR32hzMAbScKzOo/viewform"
+                         }
                     ]
                 },
                 {
@@ -1380,7 +1527,7 @@
                             "speakerId": "aprilwensel",
                             "speakerName": "April Wensel",
                             "twitter": "https://twitter.com/aprilwensel",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/AprilWensel.jpg",
+                            "speakerPhoto": "/assets/img/speakers/AprilWensel.jpg",
                             "id": "nc19-awe01",
                             "title": "KEYNOTE : Crafting Compassionate Code",
                             "type": "Talk",
@@ -1388,9 +1535,10 @@
                             "room": "Goldberg",
                             "date": "17/05/2019",
                             "time": "09:15 - 10:00",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["crafting","people","relations"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1bcm85ovb_1bvjPqveMe3-TnVtcD08sh9GSsJscFB_f0/viewform"
+                         },
                         {
                             "speakerName": "",
                             "title": "Coffee break",
@@ -1404,7 +1552,7 @@
                             "speakerId": "yot88",
                             "speakerName": "Yoan Thirion",
                             "twitter": "https://twitter.com/yot88",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/YoanThirion.jpg",
+                            "speakerPhoto": "/assets/img/speakers/YoanThirion.jpg",
                             "id": "nc19-yth01",
                             "title": "Xtrem Reading - Read differently and cultivate your collective intelligence",
                             "type": "Hands-on",
@@ -1412,23 +1560,39 @@
                             "room": "Goldberg",
                             "date": "17/05/2019",
                             "time": "10:15 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["practices","people","crafting"],
+                            "cospeakers": [
+                                {
+                                    "Name": "Cédric Tamavond",
+                                    "Link": "/speaker/CedricTamavond",
+                                    "Id": "CedricTamavond",
+                                    "Photo": "/assets/img/speakers/CedricTamavond.jpg"
+                                  }
+                            ],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1AHEYeF3sM5mz7Z_YekG2gy191oQjuy56yrigwhPQ9ZI/viewform"
                         },
                         {
                             "speakerId": "CedricTamavond",
                             "speakerName": "Cédric Tamavond",
                             "twitter": "",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/CedricTamavond.jpg",
-                            "id": "nc19-cta01",
+                            "speakerPhoto": "/assets/img/speakers/CedricTamavond.jpg",
+                            "id": "nc19-yth01",
                             "title": "Xtrem Reading - Read differently and cultivate your collective intelligence",
                             "type": "Hands-on",
                             "description": "Do you have any books that are dusty? \nDo you really want to read them but can't find the time? \nWe have a solution for you: \"Xtrem reading\".\n\nLearn group reading and read 2 books in 1 hour. \nOur promise to you:\n\n* Boost your collective intelligence\n* Rekindle the flame of reading\n* Plan your next readings\n* Don't read for nothing !",
                             "room": "Goldberg",
                             "date": "17/05/2019",
                             "time": "10:15 - 12:15",
-                            "tags": [],
-                            "cospeakers": []
+                            "tags": ["practices","people","crafting"],
+                            "cospeakers": [
+                                {
+                                    "Name": "Yoan Thirion",
+                                    "Link": "/speaker/yot88",
+                                    "Id": "yot88",
+                                    "Photo": "/assets/img/speakers/YoanThirion.jpg"
+                                  }
+                            ],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1AHEYeF3sM5mz7Z_YekG2gy191oQjuy56yrigwhPQ9ZI/viewform"
                         },
                         {
                             "speakerName": "",
@@ -1444,7 +1608,7 @@
                             "speakerId": "WoodyZuill",
                             "speakerName": "Woody Zuill",
                             "twitter": "https://twitter.com/WoodyZuill",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/WoodyZuill.jpg",
+                            "speakerPhoto": "/assets/img/speakers/WoodyZuill.jpg",
                             "id": "nc19-tbr01",
                             "title": "Estimates or No Estimates, Let's explore the possibilities",
                             "type": "Quick Hands-on",
@@ -1452,14 +1616,15 @@
                             "room": "Goldberg",
                             "date": "17/05/2019",
                             "time": "13:45 - 14:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["agile","practices"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1kblDT4zFBkIDDzLCUDwIP3N2y-Wb6n6v_dJWiz1qyHY/viewform"
+                         },
                         {
                             "speakerId": "sadraskol",
                             "speakerName": "Thomas Bracher",
                             "twitter": "https://twitter.com/sadraskol",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/ThomasBracher.jpg",
+                            "speakerPhoto": "/assets/img/speakers/ThomasBracher.jpg",
                             "id": "nc19-tbr01",
                             "title": "Let's discover event-based programming!",
                             "type": "Hands-on",
@@ -1467,9 +1632,10 @@
                             "room": "Goldberg",
                             "date": "17/05/2019",
                             "time": "15:00 - 16:45",
-                            "tags": [],
-                            "cospeakers": []
-                        },
+                            "tags": ["functional","languages","design"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1HNXqLSBMQ4--BUqq8KRxB948kAS9wrG8yU6ywgELB9I/viewform"
+                         },
                         {
                             "type": "break",
                             "description": "",
@@ -1481,7 +1647,7 @@
                             "speakerId": "ethicistforhire",
                             "speakerName": "Nolen Gertz",
                             "twitter": "https://twitter.com/ethicistforhire",
-                            "speakerPhoto": "https://ncrafts.io/assets/img/speakers/NolenGertz.jpg",
+                            "speakerPhoto": "/assets/img/speakers/NolenGertz.jpg",
                             "id": "nc19-nge01",
                             "title": "KEYNOTE : Nihilism and Technology",
                             "type": "Talk",
@@ -1489,9 +1655,10 @@
                             "room": "Kare",
                             "date": "17/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": [],
-                            "cospeakers": []
-                        }
+                            "tags": ["people","social"],
+                            "cospeakers": [],
+                            "feedbackUrl":"https://docs.google.com/forms/d/1T4tVOfIrbnnPSLWPqq9jivOhSAylHR32hzMAbScKzOo/viewform"
+                          }
                     ]
                 }
             ]

@@ -359,7 +359,7 @@ Ventcamp = {
     },
 
     // Tabs view
-    tabNavToSelect: function(deferred = false) {
+    tabNavToSelect: function() {
         $nav = $('.nav');
 
         var _this = this;

@@ -149,7 +149,7 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": ["learning","inovation","people"],
+                            "tags": ["learning","innovation","people"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1PcW47lLihJb_3EHf3nqbFDVi7j_Vudwun9NRY6AfMEU/viewform"
                          
@@ -163,7 +163,7 @@
                             "title": "Escher in Elm",
                             "type": "Talk",
                             "description": "his is a live coding session based on a classic 1982 paper by Peter Henderson. The paper shows the decomposition and reconstruction of Escher's woodcutting \"Square Limit\", a beautiful recursive tessellation of interleaving fish, using functional programming. We will define a set of functions that operate on pictures - transforming them and composing them into more complex pictures. With these functions implemented, we will follow in Henderson's footsteps to create a replica of Escher's Square Limit as an SVG. We will use Elm as the implementation language.",
-                            "room": "Lovelace",
+                            "room": "Kare",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
                             "tags": ["functional","history"],
@@ -230,7 +230,7 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": ["perspectives","people","art"],
+                            "tags": ["innovation", "people", "music"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1foot2k4f3lzR7m1Ne31kkDXIOlA5R2ki0H02UUzYn00/viewform"
                          },
@@ -256,7 +256,7 @@
                             "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": ["Enterprise","Agile","DDD"],
+                            "tags": ["enterprise","agile","ddd"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
                          
@@ -411,7 +411,7 @@
                             "room": "Hopper",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": ["Enterprise","Agile","DDD"],
+                            "tags": ["enterprise","agile","ddd"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
                          }
@@ -566,7 +566,7 @@
                             "room": "Liskov",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": ["Enterprise","Agile","DDD"],
+                            "tags": ["enterprise","agile","ddd"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
                          }
@@ -620,7 +620,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": ["design","DDD"],
+                            "tags": ["design","ddd"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1GU-r5p2vQnsXeUtA4lsaPWafuqEI7bzIQxbnbC_W37k/viewform"
                          },
@@ -633,10 +633,10 @@
                             "title": "Bourdieu's Social theory and our work in tech",
                             "type": "Talk",
                             "description": "We know psychological safety is necessary for any working team to work But how achievable is it? I posit that due to our current blind spots our visions on that are naïve. Let's dig together on why! tis time for some Sociological Theory, let's Vulgarise Bourdieu! Buckle up for a keynote on\n\nSymbolic Violence.\nSocial/Corporeal Hexis.\nCultural Capital.\nInteractions of those 3 and \"Agile\" Methods.",
-                            "room": "Kare",
+                            "room": "Lovelace",
                             "date": "16/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": ["social","people","enterprise","agile"],
+                            "tags": ["people","enterprise","agile"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1Cvf8bwiU7iIR1ARvj4G7D1XDMP1Ke-HjQDMG1m3OXQo/viewform"
                          },
@@ -661,7 +661,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "14:00 - 14:20",
-                            "tags": ["history"],
+                            "tags": ["languages", "history"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/19MBNsJ2NZiYgEyzx22J8zly9nRoCGSfA5fi4luHAyaQ/viewform"
                          },
@@ -694,7 +694,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "15:00 - 15:20",
-                            "tags": ["DDD","design"],
+                            "tags": ["ddd","design"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1_SefEeqavlpotW5yROIY7iwoZLMnNF_7s45dulLaqso/viewform"
                          },
@@ -710,7 +710,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "15:25 - 15:45",
-                            "tags": ["crafting"],
+                            "tags": ["crafting", "practices"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1GzkmAh8haIvsSVUHTrjc_kz7K7MS5Gjg1c0Jb09bYYk/viewform"
                          },
@@ -726,7 +726,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "16:00 - 16:45",
-                            "tags": ["DDD","design"],
+                            "tags": ["ddd","design"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1eY-7xsfCm5OokhlgRRM2Bbb4SyHwOFDw4rEP1B3yulc/viewform"
                          },
@@ -751,7 +751,7 @@
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": ["Enterprise","Agile","DDD"],
+                            "tags": ["enterprise","agile","ddd"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
                          }
@@ -804,7 +804,7 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "10:15 - 12:15",
-                            "tags": ["functional","DDD"],
+                            "tags": ["functional","ddd"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1csYDyBAht267yxgofuhEkDxHPiEbdsk_k2J8ggbqDq4/viewform"
                          },
@@ -829,7 +829,7 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "13:45 - 15:45",
-                            "tags": ["DDD"],
+                            "tags": ["ddd"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1BICMa701ziuQL_e3nXwjA65aGkjL94AG-4vN1iuT7EQ/viewform"
                          },
@@ -870,7 +870,7 @@
                             "room": "Goldberg",
                             "date": "16/05/2019",
                             "time": "17:15 - 18:00",
-                            "tags": ["Enterprise","Agile","DDD"],
+                            "tags": ["enterprise","agile","ddd"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1mO2X2J6neYLhm9WyX2v_Tk7wXwnc2Gxd3mAb1-wqS_s/viewform"
                          }
@@ -1078,7 +1078,7 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "10:30 - 11:15",
-                            "tags": ["DDD","design","agile"],
+                            "tags": ["ddd","design","agile"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1S6fY-sKO7R_7faL1EbFIfVld1cpwbSfmLI1xHEiXunY/viewform"
                          },
@@ -1094,7 +1094,7 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": ["DDD","people","relations"],
+                            "tags": ["ddd","people","relations"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1H8rZNRJvDqB4yP0AqKFb97QFw8OZMdE_EdQnz5mzLgg/viewform"
                          },
@@ -1119,7 +1119,7 @@
                             "room": "Hopper",
                             "date": "17/05/2019",
                             "time": "14:00 - 14:45",
-                            "tags": ["DDD","enterprise","people"],
+                            "tags": ["ddd","enterprise","people"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1QcGvgQ-iMZAdqhZi8xaJKQ2viCw9-OazSyy14iRuvAQ/viewform"
                          },
@@ -1136,9 +1136,9 @@
                             "date": "17/05/2019",
                             "time": "15:00 - 15:45",
                             "tags": [
-                                "DDD",
-                                "Patterns",
-                                "Models"
+                                "ddd",
+                                "patterns",
+                                "design"
                             ],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/17by-7xGi15Zs7TqEW_74HSretcAZ8MAJz8xg9z7HSkY/viewform"
@@ -1156,7 +1156,7 @@
                             "date": "17/05/2019",
                             "time": "16:00 - 16:45",
                             "tags": [
-                                "Systems thinking"
+                                "systems thinking"
                             ],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1Cd-lxHV0A8BifqPSN4AA9VQCK513x-suhnYw00ED4EE/viewform"
@@ -1279,7 +1279,7 @@
                             "room": "Liskov",
                             "date": "17/05/2019",
                             "time": "11:30 - 12:15",
-                            "tags": ["DDD","design"],
+                            "tags": ["ddd","design"],
                             "cospeakers": [],
                             "feedbackUrl":"https://docs.google.com/forms/d/1ORYsLo5LHq6L2RquFrnoDQHoAd1_NtK1OscUohr2KbA/viewform"
                          },

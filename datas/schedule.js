@@ -658,7 +658,7 @@
                             "id": "nc19-ele01",
                             "title": "Plankalkül: a high-level language from the 1940s",
                             "type": "Lightning Talk",
-                            "description": "At the dawn of the computer age, only Assembly languages could be used to program computers without going through the recabling process. Modern programming languages only appeared in the 1950s.\n\nStill, in the 1940s, a German inventor designed Plankalkül. Its influence has been limited, but its ideads were incredibly advanced for the times.\n\nTogether, let's rediscover the first high-level programming language in history.",
+                            "description": "At the dawn of the computer age, only Assembly languages could be used to program computers without going through the recabling process. Modern programming languages only appeared in the 1950s.\n\nStill, in the 1940s, a German inventor designed Plankalkül. Its influence has been limited, but its ideas were incredibly advanced for the times.\n\nTogether, let's rediscover the first high-level programming language in history.",
                             "room": "Kare",
                             "date": "16/05/2019",
                             "time": "14:00 - 14:20",

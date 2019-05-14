@@ -1085,7 +1085,7 @@
                          },
                         {
                             "speakerId": "EvelynvanKelle",
-                            "speakerName": "Eveyln Van Kelle",
+                            "speakerName": "Evelyn Van Kelle",
                             "twitter": "https://twitter.com/EvelynvanKelle",
                             "speakerPhoto": "/assets/img/speakers/EvelynVanKelle.jpg",
                             "id": "nc19-eva01",

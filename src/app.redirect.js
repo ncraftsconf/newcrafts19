@@ -9,7 +9,7 @@ function navigateToMobileApplication() {
 }
 
 if (isMobileDevice()) {
- let useMobile = JSON.parse(localstorage.getItem('useMobile'));
+ let useMobile = JSON.parse(localStorage.getItem('useMobile'));
  
  if (useMobile && useMobile === true) {
   navigateToMobileApplication();

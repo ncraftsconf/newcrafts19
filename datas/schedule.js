@@ -507,7 +507,7 @@
                             "time": "14:00 - 14:45",
                             "tags": ["people", "history", "agile", "relations"],
                             "cospeakers": [],
-                            "feedbackUrl": "https://docs.google.com/forms/d/1g5He6AECnsmQkv910jBdo0s_-5NaMewjJkqUrCZG4p8/viewform"
+                            "feedbackUrl": "https://docs.google.com/forms/d/1wZV3TYSC67FSE8HU5XC4cdpOIOpRu9azfNmYBwahNAc/viewform"
                         },
                         {
                             "speakerId": "saleandro",

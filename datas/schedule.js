@@ -1160,7 +1160,7 @@
                                 "systems thinking"
                             ],
                             "cospeakers": [],
-                            "feedbackUrl": "https://docs.google.com/forms/d/1Cd-lxHV0A8BifqPSN4AA9VQCK513x-suhnYw00ED4EE/viewform"
+                            "feedbackUrl": "https://docs.google.com/forms/d/1bW_q_ybxqDF_Zgjb5rTe1UdP1nYzlylHCJzyAjuemIw/viewform"
                         },
                         {
                             "type": "break",
@@ -1278,7 +1278,7 @@
                             "time": "11:30 - 12:15",
                             "tags": ["ddd", "design"],
                             "cospeakers": [],
-                            "feedbackUrl": "https://docs.google.com/forms/d/1ORYsLo5LHq6L2RquFrnoDQHoAd1_NtK1OscUohr2KbA/viewform"
+                            "feedbackUrl": "https://docs.google.com/forms/d/14l6c0yf8bkSCZCRfThIx_V5_9M5RW2xxrIhW2rfjg08/viewform"
                         },
                         {
                             "speakerName": "",
@@ -1610,7 +1610,7 @@
                             "time": "13:45 - 14:45",
                             "tags": ["agile", "practices"],
                             "cospeakers": [],
-                            "feedbackUrl": "https://docs.google.com/forms/d/1kblDT4zFBkIDDzLCUDwIP3N2y-Wb6n6v_dJWiz1qyHY/viewform"
+                            "feedbackUrl": "https://docs.google.com/forms/d/1C8c9X4Yn7fYNMO1A6Kp1PAo3fg3G9f8y2JeoDBJXBXM/viewform"
                         },
                         {
                             "speakerId": "sadraskol",
